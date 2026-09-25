@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="referrer" content="no-referrer">
+  <title>Live Voice · 配置二维码</title>
+  <link rel="icon" href="/logo.png">
+  <link rel="stylesheet" href="/styles.css">
+  <script type="module" src="/app.mjs"></script>
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="/" aria-label="Live Voice"><img src="/logo.png" alt="" width="42" height="42"><span>Live Voice<span class="brand-note" data-i18n="brandNote">设备配置</span></span></a>
+    <div class="toolbar"><button id="language" type="button" class="quiet">EN</button><label class="theme-label"><span class="sr-only" data-i18n="appearance">外观</span><select id="theme" aria-label="外观"><option value="system" data-i18n="system">跟随系统</option><option value="light" data-i18n="light">浅色</option><option value="dark" data-i18n="dark">深色</option></select></label></div>
+  </header>
+  <main>
+    <div class="intro"><div class="eyebrow" data-i18n="eyebrow">从电脑到手机</div><h1 data-i18n="title">扫码，让对话开始。</h1><p data-i18n="intro">填好连接信息，用一段口令加密，再交给你的手机。</p></div>
+    <div class="milestone"><span class="dot"></span><span data-i18n="milestone">Android 0.2.0 及以上版本：打开“设置 → 扫码导入连接”，扫描后输入口令。</span></div>
+    <div class="workspace">
+      <form id="config-form" autocomplete="off" novalidate>
+        <section class="card"><div class="section-heading"><span class="step">01</span><div><h2 data-i18n="connections">选择连接配置</h2><p data-i18n="connectionHint">可单独配置，也可一次带上两组。</p></div></div>
+          <div class="connection-tabs"><label><input id="include-voice" type="checkbox" checked><span data-i18n="voice">语音模型</span></label><label><input id="include-backend" type="checkbox"><span data-i18n="backend">后端模型</span></label></div>
+          <fieldset id="voice-fields"><legend data-i18n="voice">语音模型</legend>
+            <label><span data-i18n="endpoint">服务地址 · Endpoint</span><input id="voice-endpoint" type="url" inputmode="url" placeholder="https://voice.example.invalid/v1" maxlength="512" spellcheck="false" autocapitalize="none"></label>
+            <div class="field-grid"><label><span data-i18n="model">模型 / 部署名称</span><input id="voice-model" value="gpt-live-1" maxlength="256" spellcheck="false" autocapitalize="none"></label><label><span data-i18n="auth">鉴权方式</span><select id="voice-auth"><option value="api-key">api-key</option><option value="bearer">Bearer</option></select></label></div>
+            <label><span>API key</span><input id="voice-key" type="password" maxlength="4096" autocomplete="new-password" spellcheck="false" autocapitalize="none" data-secret></label><p id="voice-key-mask" class="key-mask"></p>
+            <div class="probe-row"><button id="test-voice" type="button" class="quiet" data-i18n="testVoice">测试语音连接</button><span id="voice-test-result" class="probe-result" role="status" aria-live="polite"></span></div>
+          </fieldset>
+          <fieldset id="backend-fields" hidden disabled><legend data-i18n="backend">后端模型</legend>
+            <label><span data-i18n="endpoint">服务地址 · Endpoint</span><input id="backend-endpoint" type="url" inputmode="url" placeholder="https://backend.example.invalid/v1" maxlength="512" spellcheck="false" autocapitalize="none"></label>
+            <div class="field-grid"><label><span data-i18n="model">模型 / 部署名称</span><input id="backend-model" placeholder="model-name" maxlength="256" spellcheck="false" autocapitalize="none"></label><label><span data-i18n="auth">鉴权方式</span><select id="backend-auth"><option value="bearer">Bearer</option><option value="api-key">api-key</option></select></label></div>
+            <label><span>API key</span><input id="backend-key" type="password" maxlength="4096" autocomplete="new-password" spellcheck="false" autocapitalize="none" data-secret></label><p id="backend-key-mask" class="key-mask"></p>
+            <div class="probe-row"><button id="test-backend" type="button" class="quiet" data-i18n="testBackend">测试后端连接</button><span id="backend-test-result" class="probe-result" role="status" aria-live="polite"></span></div>
+          </fieldset>
+          <p class="hint" data-i18n="endpointHint">填写完整 HTTPS API 基础地址；鉴权方式按服务商要求选择。生成二维码不会测试或访问这些地址。</p>
+          <p class="hint probe-notice" data-i18n="probeNotice">点击测试后，本机程序会携带当前 API key 请求所填服务，可能产生少量用量。语音测试不录音；配置不保存。</p>
+        </section>
+        <section class="card"><div class="section-heading"><span class="step">02</span><div><h2 data-i18n="passwordTitle">设置导入口令</h2><p data-i18n="passwordHint">手机导入时输入同一段口令。</p></div></div>
+          <div class="field-grid"><label><span data-i18n="password">导入口令</span><input id="passphrase" type="password" maxlength="256" autocomplete="new-password" data-secret></label><label><span data-i18n="confirm">再输入一次</span><input id="confirm-passphrase" type="password" maxlength="256" autocomplete="new-password" data-secret></label></div>
+          <p class="hint" data-i18n="strength">口令至少 4 个字符。请将口令与二维码分开保管。</p>
+          <p id="short-passphrase" class="warning" hidden data-i18n="shortPassword">请至少输入 4 个字符。</p>
+          <div class="form-actions"><button id="generate" class="primary" type="submit" data-i18n="generate">生成加密二维码</button><button id="clear" type="button" class="quiet" data-i18n="clear">全部清空</button></div>
+          <p id="status" role="status" aria-live="polite"></p>
+        </section>
+        <button id="example" type="button" class="example" data-i18n="example">没有配置？填入一组虚构示例试试</button>
+      </form>
+      <aside class="preview card" aria-label="二维码预览"><div class="preview-heading"><span class="step">03</span><h2 data-i18n="scanTitle">交给你的手机</h2><span class="badge" data-i18n="local">仅在本机加密</span></div>
+        <div class="qr-stage"><div id="placeholder"><div class="placeholder-symbol" aria-hidden="true">⌑</div><strong data-i18n="emptyTitle">二维码将在这里出现</strong><p data-i18n="emptyHint">填写左侧配置后，点击生成。</p></div><canvas id="qr" hidden role="img" aria-label="加密连接配置二维码"></canvas></div>
+        <div id="result" hidden><p id="result-summary"></p><button id="download" type="button" class="primary full" data-i18n="download">保存二维码 PNG</button><button id="hide-qr" type="button" class="quiet full" data-i18n="hideQr">隐藏并清除二维码</button></div>
+        <ol class="steps"><li data-i18n="step1">生成二维码，留在电脑屏幕上。</li><li data-i18n="step2">在 Android 0.2.0 及以上版本中，打开“设置 → 扫码导入连接”。</li><li data-i18n="step3">输入口令，核对地址，再测试并保存。</li></ol>
+        <div class="privacy"><strong data-i18n="privacyTitle">配置不作持久保存</strong><p data-i18n="privacy">生成二维码只在浏览器内完成。仅点击测试时，连接配置临时交给本机程序并请求所填服务，不记录密钥。清空或关闭页面会丢弃填写内容；下载文件需自行保管。</p><p data-i18n="revoke">二维码可重复导入；撤销访问请在服务商处更换或停用 API key。</p></div>
+      </aside>
+    </div>
+    <footer><span>Live Voice</span><span data-i18n="footer">手机直连模型服务 · 电脑无需保持运行</span></footer>
+  </main>
+</body>
+</html>

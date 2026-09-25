@@ -1,0 +1,13 @@
+import {build} from 'esbuild';
+import {copyFile,mkdir,readFile,writeFile} from 'node:fs/promises';
+import {fileURLToPath} from 'node:url';
+const root = new URL('../',import.meta.url);
+const abs = path => fileURLToPath(new URL(path,root));
+await mkdir(abs('dist/renderer'),{recursive:true});
+await build({entryPoints:[abs('main.mjs')],outfile:abs('dist/main.cjs'),bundle:true,platform:'node',format:'cjs',target:'node22',external:['electron','bufferutil','utf-8-validate'],logLevel:'warning'});
+await build({entryPoints:[abs('renderer/app.mjs')],outfile:abs('dist/renderer/app.js'),bundle:true,platform:'browser',format:'esm',target:'chrome140',logLevel:'warning'});
+await copyFile(abs('preload.cjs'),abs('dist/preload.cjs'));
+await copyFile(abs('renderer/styles.css'),abs('dist/renderer/styles.css'));
+await writeFile(abs('dist/renderer/index.html'),(await readFile(abs('renderer/index.html'),'utf8')).replaceAll('app.mjs','app.js'));
+await copyFile(abs('../design/logo-v1-icon.png'),abs('dist/renderer/logo.png'));
+console.log('Desktop main, preload and renderer built.');

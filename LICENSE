@@ -1,0 +1,100 @@
+Live Voice Noncommercial License 1.0
+
+Copyright (c) 2026 kylefu8. All rights reserved except as expressly granted below.
+Licensor: kylefu8 (https://github.com/kylefu8)
+
+1. Scope and acceptance
+
+This license applies to the original Live Voice source code, documentation,
+and other materials supplied with this license (the "Software"), only to the
+extent that the Licensor owns or is entitled to license the relevant rights.
+By exercising rights granted under this license, you accept its conditions.
+Third-party components are governed by their own licenses, not this license.
+
+2. Noncommercial permission
+
+Subject to these conditions, the Licensor grants you a worldwide, royalty-free,
+non-exclusive copyright license to use, reproduce, study, modify, and distribute
+the Software and works based on it solely for Noncommercial Purposes.
+
+"Noncommercial Purposes" means purposes not intended for or directed toward
+commercial advantage or monetary compensation. Personal study, hobby projects,
+private entertainment, and experimentation without an intended commercial
+application are examples. The identity or nonprofit status of a user does not
+by itself determine whether a use is noncommercial.
+
+3. Commercial authorization required
+
+All Commercial Use requires the Licensor's prior, separate written authorization.
+"Commercial Use" includes use, modification, integration, deployment, or
+distribution of the Software or works based on it for commercial advantage
+or monetary compensation, including:
+
+- selling or commercially licensing copies, modified versions, or products
+  incorporating the Software;
+- operating paid, subscription-funded, advertisement-funded, or commercially
+  sponsored services incorporating or materially relying on the Software;
+- incorporating the Software into paid client work or commercial deliverables;
+- using it in an organization's internal operations for commercial business
+  purposes, even if the Software is not sold or exposed to customers; and
+- developing or evaluating a derivative work with an intended commercial
+  application, rather than for independent noncommercial study.
+
+No general exemption is granted for commercial activities carried out by an
+educational, charitable, government, or other nonprofit organization. Software
+being free of charge, a deployment being private, or a derivative's source code
+being published does not by itself make a commercial purpose noncommercial.
+
+Commercial scope, duration, fees, and other terms must be agreed with the
+Licensor separately. No fee schedule, payment mechanism, or commercial license
+is created by this document. The Licensor may grant separate free or paid
+commercial authorization. A donation or payment alone is not authorization.
+
+4. Notices and redistribution
+
+For any permitted redistribution of source or binary copies, you must provide
+this license and retain the original copyright and attribution notices.
+Modified copies must prominently state that they have been modified and must
+not be presented as an official release by the Licensor.
+
+You may not remove these conditions from the Licensor's portions of the
+Software or grant recipients broader rights in those portions than you have.
+This does not restrict your rights in independently created material that does
+not incorporate protected material from the Software.
+
+5. Reserved and independent rights
+
+All rights not expressly granted are reserved. No rights to trademarks, names,
+logos as marks of endorsement, or patents are granted by implication.
+Applicable statutory exceptions, fair use, and other rights that do not require
+the Licensor's permission are not limited by this license. Third-party license
+obligations remain applicable to the relevant third-party components.
+
+6. Breach and termination
+
+Your permission under this license terminates if you breach its conditions.
+You must then stop the unauthorized activity and stop exercising rights that
+depend on this license, unless the Licensor reinstates permission in writing.
+Termination does not expand the Licensor's rights in third-party components
+or cancel a recipient's otherwise valid independent license.
+
+7. Disclaimer and limitation of liability
+
+TO THE EXTENT PERMITTED BY APPLICABLE LAW, THE SOFTWARE IS PROVIDED "AS IS",
+WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE, AND NONINFRINGEMENT. TO THE SAME EXTENT,
+THE LICENSOR IS NOT LIABLE FOR ANY CLAIM, DAMAGES, OR OTHER LIABILITY ARISING
+FROM THE SOFTWARE OR ITS USE, WHETHER IN CONTRACT, TORT, OR OTHERWISE.
+
+8. Separate agreements and versions
+
+A separate written agreement controls only the parties, materials, purposes,
+and rights it expressly covers. Neither access to the repository nor approval
+of an issue or contribution is, by itself, commercial authorization.
+A later license version does not automatically replace this version for a
+copy already received under it, or revoke rights validly granted under a
+separate agreement.
+
+This is a custom source-available license, not an OSI-approved open source
+license and not the PolyForm, GPL, AGPL, MIT, or Apache license. The English
+text above is authoritative; explanatory summaries are not additional grants.

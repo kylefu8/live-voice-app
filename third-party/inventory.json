@@ -1,0 +1,4685 @@
+[
+  {
+    "id": "@babel/code-frame@7.29.7",
+    "ecosystem": "npm",
+    "license": "MIT",
+    "source": "https://registry.npmjs.org/@babel/code-frame/-/code-frame-7.29.7.tgz"
+  },
+  {
+    "id": "@babel/compat-data@7.29.7",
+    "ecosystem": "npm",
+    "license": "MIT",
+    "source": "https://registry.npmjs.org/@babel/compat-data/-/compat-data-7.29.7.tgz"
+  },
+  {
+    "id": "@babel/core@7.29.7",
+    "ecosystem": "npm",
+    "license": "MIT",
+    "source": "https://registry.npmjs.org/@babel/core/-/core-7.29.7.tgz"
+  },
+  {
+    "id": "@babel/generator@7.29.8",
+    "ecosystem": "npm",
+    "license": "MIT",
+    "source": "https://registry.npmjs.org/@babel/generator/-/generator-7.29.8.tgz"
+  },
+  {
+    "id": "@babel/helper-annotate-as-pure@7.29.7",
+    "ecosystem": "npm",
+    "license": "MIT",
+    "source": "https://registry.npmjs.org/@babel/helper-annotate-as-pure/-/helper-annotate-as-pure-7.29.7.tgz"
+  },
+  {
+    "id": "@babel/helper-compilation-targets@7.29.7",
+    "ecosystem": "npm",
+    "license": "MIT",
+    "source": "https://registry.npmjs.org/@babel/helper-compilation-targets/-/helper-compilation-targets-7.29.7.tgz"
+  },
+  {
+    "id": "@babel/helper-create-class-features-plugin@7.29.7",
+    "ecosystem": "npm",
+    "license": "MIT",
+    "source": "https://registry.npmjs.org/@babel/helper-create-class-features-plugin/-/helper-create-class-features-plugin-7.29.7.tgz"
+  },
+  {
+    "id": "@babel/helper-create-regexp-features-plugin@7.29.7",
+    "ecosystem": "npm",
+    "license": "MIT",
+    "source": "https://registry.npmjs.org/@babel/helper-create-regexp-features-plugin/-/helper-create-regexp-features-plugin-7.29.7.tgz"
+  },
+  {
+    "id": "@babel/helper-define-polyfill-provider@0.6.8",
+    "ecosystem": "npm",
+    "license": "MIT",
+    "source": "https://registry.npmjs.org/@babel/helper-define-polyfill-provider/-/helper-define-polyfill-provider-0.6.8.tgz"
+  },
+  {
+    "id": "@babel/helper-globals@7.29.7",
+    "ecosystem": "npm",
+    "license": "MIT",
+    "source": "https://registry.npmjs.org/@babel/helper-globals/-/helper-globals-7.29.7.tgz"
+  },
+  {
+    "id": "@babel/helper-member-expression-to-functions@7.29.7",
+    "ecosystem": "npm",
+    "license": "MIT",
+    "source": "https://registry.npmjs.org/@babel/helper-member-expression-to-functions/-/helper-member-expression-to-functions-7.29.7.tgz"
+  },
+  {
+    "id": "@babel/helper-module-imports@7.29.7",
+    "ecosystem": "npm",
+    "license": "MIT",
+    "source": "https://registry.npmjs.org/@babel/helper-module-imports/-/helper-module-imports-7.29.7.tgz"
+  },
+  {
+    "id": "@babel/helper-module-transforms@7.29.7",
+    "ecosystem": "npm",
+    "license": "MIT",
+    "source": "https://registry.npmjs.org/@babel/helper-module-transforms/-/helper-module-transforms-7.29.7.tgz"
+  },
+  {
+    "id": "@babel/helper-optimise-call-expression@7.29.7",
+    "ecosystem": "npm",
+    "license": "MIT",
+    "source": "https://registry.npmjs.org/@babel/helper-optimise-call-expression/-/helper-optimise-call-expression-7.29.7.tgz"
+  },
+  {
+    "id": "@babel/helper-plugin-utils@7.29.7",
+    "ecosystem": "npm",
+    "license": "MIT",
+    "source": "https://registry.npmjs.org/@babel/helper-plugin-utils/-/helper-plugin-utils-7.29.7.tgz"
+  },
+  {
+    "id": "@babel/helper-remap-async-to-generator@7.29.7",
+    "ecosystem": "npm",
+    "license": "MIT",
+    "source": "https://registry.npmjs.org/@babel/helper-remap-async-to-generator/-/helper-remap-async-to-generator-7.29.7.tgz"
+  },
+  {
+    "id": "@babel/helper-replace-supers@7.29.7",
+    "ecosystem": "npm",
+    "license": "MIT",
+    "source": "https://registry.npmjs.org/@babel/helper-replace-supers/-/helper-replace-supers-7.29.7.tgz"
+  },
+  {
+    "id": "@babel/helper-skip-transparent-expression-wrappers@7.29.7",
+    "ecosystem": "npm",
+    "license": "MIT",
+    "source": "https://registry.npmjs.org/@babel/helper-skip-transparent-expression-wrappers/-/helper-skip-transparent-expression-wrappers-7.29.7.tgz"
+  },
+  {
+    "id": "@babel/helper-string-parser@7.29.7",
+    "ecosystem": "npm",
+    "license": "MIT",
+    "source": "https://registry.npmjs.org/@babel/helper-string-parser/-/helper-string-parser-7.29.7.tgz"
+  },
+  {
+    "id": "@babel/helper-validator-identifier@7.29.7",
+    "ecosystem": "npm",
+    "license": "MIT",
+    "source": "https://registry.npmjs.org/@babel/helper-validator-identifier/-/helper-validator-identifier-7.29.7.tgz"
+  },
+  {
+    "id": "@babel/helper-validator-option@7.29.7",
+    "ecosystem": "npm",
+    "license": "MIT",
+    "source": "https://registry.npmjs.org/@babel/helper-validator-option/-/helper-validator-option-7.29.7.tgz"
+  },
+  {
+    "id": "@babel/helper-wrap-function@7.29.7",
+    "ecosystem": "npm",
+    "license": "MIT",
+    "source": "https://registry.npmjs.org/@babel/helper-wrap-function/-/helper-wrap-function-7.29.7.tgz"
+  },
+  {
+    "id": "@babel/helpers@7.29.7",
+    "ecosystem": "npm",
+    "license": "MIT",
+    "source": "https://registry.npmjs.org/@babel/helpers/-/helpers-7.29.7.tgz"
+  },
+  {
+    "id": "@babel/parser@7.29.9",
+    "ecosystem": "npm",
+    "license": "MIT",
+    "source": "https://registry.npmjs.org/@babel/parser/-/parser-7.29.9.tgz"
+  },
+  {
+    "id": "@babel/plugin-proposal-export-default-from@7.29.7",
+    "ecosystem": "npm",
+    "license": "MIT",
+    "source": "https://registry.npmjs.org/@babel/plugin-proposal-export-default-from/-/plugin-proposal-export-default-from-7.29.7.tgz"
+  },
+  {
+    "id": "@babel/plugin-syntax-async-generators@7.8.4",
+    "ecosystem": "npm",
+    "license": "MIT",
+    "source": "https://registry.npmjs.org/@babel/plugin-syntax-async-generators/-/plugin-syntax-async-generators-7.8.4.tgz"
+  },
+  {
+    "id": "@babel/plugin-syntax-bigint@7.8.3",
+    "ecosystem": "npm",
+    "license": "MIT",
+    "source": "https://registry.npmjs.org/@babel/plugin-syntax-bigint/-/plugin-syntax-bigint-7.8.3.tgz"
+  },
+  {
+    "id": "@babel/plugin-syntax-class-properties@7.12.13",
+    "ecosystem": "npm",
+    "license": "MIT",
+    "source": "https://registry.npmjs.org/@babel/plugin-syntax-class-properties/-/plugin-syntax-class-properties-7.12.13.tgz"
+  },
+  {
+    "id": "@babel/plugin-syntax-class-static-block@7.14.5",
+    "ecosystem": "npm",
+    "license": "MIT",
+    "source": "https://registry.npmjs.org/@babel/plugin-syntax-class-static-block/-/plugin-syntax-class-static-block-7.14.5.tgz"
+  },
+  {
+    "id": "@babel/plugin-syntax-dynamic-import@7.8.3",
+    "ecosystem": "npm",
+    "license": "MIT",
+    "source": "https://registry.npmjs.org/@babel/plugin-syntax-dynamic-import/-/plugin-syntax-dynamic-import-7.8.3.tgz"
+  },
+  {
+    "id": "@babel/plugin-syntax-export-default-from@7.29.7",
+    "ecosystem": "npm",
+    "license": "MIT",
+    "source": "https://registry.npmjs.org/@babel/plugin-syntax-export-default-from/-/plugin-syntax-export-default-from-7.29.7.tgz"
+  },
+  {
+    "id": "@babel/plugin-syntax-flow@7.29.7",
+    "ecosystem": "npm",
+    "license": "MIT",
+    "source": "https://registry.npmjs.org/@babel/plugin-syntax-flow/-/plugin-syntax-flow-7.29.7.tgz"
+  },
+  {
+    "id": "@babel/plugin-syntax-import-attributes@7.29.7",
+    "ecosystem": "npm",
+    "license": "MIT",
+    "source": "https://registry.npmjs.org/@babel/plugin-syntax-import-attributes/-/plugin-syntax-import-attributes-7.29.7.tgz"
+  },
+  {
+    "id": "@babel/plugin-syntax-import-meta@7.10.4",
+    "ecosystem": "npm",
+    "license": "MIT",
+    "source": "https://registry.npmjs.org/@babel/plugin-syntax-import-meta/-/plugin-syntax-import-meta-7.10.4.tgz"
+  },
+  {
+    "id": "@babel/plugin-syntax-json-strings@7.8.3",
+    "ecosystem": "npm",
+    "license": "MIT",
+    "source": "https://registry.npmjs.org/@babel/plugin-syntax-json-strings/-/plugin-syntax-json-strings-7.8.3.tgz"
+  },
+  {
+    "id": "@babel/plugin-syntax-jsx@7.29.7",
+    "ecosystem": "npm",
+    "license": "MIT",
+    "source": "https://registry.npmjs.org/@babel/plugin-syntax-jsx/-/plugin-syntax-jsx-7.29.7.tgz"
+  },
+  {
+    "id": "@babel/plugin-syntax-logical-assignment-operators@7.10.4",
+    "ecosystem": "npm",
+    "license": "MIT",
+    "source": "https://registry.npmjs.org/@babel/plugin-syntax-logical-assignment-operators/-/plugin-syntax-logical-assignment-operators-7.10.4.tgz"
+  },
+  {
+    "id": "@babel/plugin-syntax-nullish-coalescing-operator@7.8.3",
+    "ecosystem": "npm",
+    "license": "MIT",
+    "source": "https://registry.npmjs.org/@babel/plugin-syntax-nullish-coalescing-operator/-/plugin-syntax-nullish-coalescing-operator-7.8.3.tgz"
+  },
+  {
+    "id": "@babel/plugin-syntax-numeric-separator@7.10.4",
+    "ecosystem": "npm",
+    "license": "MIT",
+    "source": "https://registry.npmjs.org/@babel/plugin-syntax-numeric-separator/-/plugin-syntax-numeric-separator-7.10.4.tgz"
+  },
+  {
+    "id": "@babel/plugin-syntax-object-rest-spread@7.8.3",
+    "ecosystem": "npm",
+    "license": "MIT",
+    "source": "https://registry.npmjs.org/@babel/plugin-syntax-object-rest-spread/-/plugin-syntax-object-rest-spread-7.8.3.tgz"
+  },
+  {
+    "id": "@babel/plugin-syntax-optional-catch-binding@7.8.3",
+    "ecosystem": "npm",
+    "license": "MIT",
+    "source": "https://registry.npmjs.org/@babel/plugin-syntax-optional-catch-binding/-/plugin-syntax-optional-catch-binding-7.8.3.tgz"
+  },
+  {
+    "id": "@babel/plugin-syntax-optional-chaining@7.8.3",
+    "ecosystem": "npm",
+    "license": "MIT",
+    "source": "https://registry.npmjs.org/@babel/plugin-syntax-optional-chaining/-/plugin-syntax-optional-chaining-7.8.3.tgz"
+  },
+  {
+    "id": "@babel/plugin-syntax-private-property-in-object@7.14.5",
+    "ecosystem": "npm",
+    "license": "MIT",
+    "source": "https://registry.npmjs.org/@babel/plugin-syntax-private-property-in-object/-/plugin-syntax-private-property-in-object-7.14.5.tgz"
+  },
+  {
+    "id": "@babel/plugin-syntax-top-level-await@7.14.5",
+    "ecosystem": "npm",
+    "license": "MIT",
+    "source": "https://registry.npmjs.org/@babel/plugin-syntax-top-level-await/-/plugin-syntax-top-level-await-7.14.5.tgz"
+  },
+  {
+    "id": "@babel/plugin-syntax-typescript@7.29.7",
+    "ecosystem": "npm",
+    "license": "MIT",
+    "source": "https://registry.npmjs.org/@babel/plugin-syntax-typescript/-/plugin-syntax-typescript-7.29.7.tgz"
+  },
+  {
+    "id": "@babel/plugin-transform-async-generator-functions@7.29.7",
+    "ecosystem": "npm",
+    "license": "MIT",
+    "source": "https://registry.npmjs.org/@babel/plugin-transform-async-generator-functions/-/plugin-transform-async-generator-functions-7.29.7.tgz"
+  },
+  {
+    "id": "@babel/plugin-transform-async-to-generator@7.29.7",
+    "ecosystem": "npm",
+    "license": "MIT",
+    "source": "https://registry.npmjs.org/@babel/plugin-transform-async-to-generator/-/plugin-transform-async-to-generator-7.29.7.tgz"
+  },
+  {
+    "id": "@babel/plugin-transform-block-scoping@7.29.7",
+    "ecosystem": "npm",
+    "license": "MIT",
+    "source": "https://registry.npmjs.org/@babel/plugin-transform-block-scoping/-/plugin-transform-block-scoping-7.29.7.tgz"
+  },
+  {
+    "id": "@babel/plugin-transform-class-properties@7.29.7",
+    "ecosystem": "npm",
+    "license": "MIT",
+    "source": "https://registry.npmjs.org/@babel/plugin-transform-class-properties/-/plugin-transform-class-properties-7.29.7.tgz"
+  },
+  {
+    "id": "@babel/plugin-transform-classes@7.29.7",
+    "ecosystem": "npm",
+    "license": "MIT",
+    "source": "https://registry.npmjs.org/@babel/plugin-transform-classes/-/plugin-transform-classes-7.29.7.tgz"
+  },
+  {
+    "id": "@babel/plugin-transform-destructuring@7.29.7",
+    "ecosystem": "npm",
+    "license": "MIT",
+    "source": "https://registry.npmjs.org/@babel/plugin-transform-destructuring/-/plugin-transform-destructuring-7.29.7.tgz"
+  },
+  {
+    "id": "@babel/plugin-transform-flow-strip-types@7.29.7",
+    "ecosystem": "npm",
+    "license": "MIT",
+    "source": "https://registry.npmjs.org/@babel/plugin-transform-flow-strip-types/-/plugin-transform-flow-strip-types-7.29.7.tgz"
+  },
+  {
+    "id": "@babel/plugin-transform-for-of@7.29.7",
+    "ecosystem": "npm",
+    "license": "MIT",
+    "source": "https://registry.npmjs.org/@babel/plugin-transform-for-of/-/plugin-transform-for-of-7.29.7.tgz"
+  },
+  {
+    "id": "@babel/plugin-transform-modules-commonjs@7.29.7",
+    "ecosystem": "npm",
+    "license": "MIT",
+    "source": "https://registry.npmjs.org/@babel/plugin-transform-modules-commonjs/-/plugin-transform-modules-commonjs-7.29.7.tgz"
+  },
+  {
+    "id": "@babel/plugin-transform-named-capturing-groups-regex@7.29.7",
+    "ecosystem": "npm",
+    "license": "MIT",
+    "source": "https://registry.npmjs.org/@babel/plugin-transform-named-capturing-groups-regex/-/plugin-transform-named-capturing-groups-regex-7.29.7.tgz"
+  },
+  {
+    "id": "@babel/plugin-transform-nullish-coalescing-operator@7.29.7",
+    "ecosystem": "npm",
+    "license": "MIT",
+    "source": "https://registry.npmjs.org/@babel/plugin-transform-nullish-coalescing-operator/-/plugin-transform-nullish-coalescing-operator-7.29.7.tgz"
+  },
+  {
+    "id": "@babel/plugin-transform-optional-catch-binding@7.29.7",
+    "ecosystem": "npm",
+    "license": "MIT",
+    "source": "https://registry.npmjs.org/@babel/plugin-transform-optional-catch-binding/-/plugin-transform-optional-catch-binding-7.29.7.tgz"
+  },
+  {
+    "id": "@babel/plugin-transform-optional-chaining@7.29.7",
+    "ecosystem": "npm",
+    "license": "MIT",
+    "source": "https://registry.npmjs.org/@babel/plugin-transform-optional-chaining/-/plugin-transform-optional-chaining-7.29.7.tgz"
+  },
+  {
+    "id": "@babel/plugin-transform-private-methods@7.29.7",
+    "ecosystem": "npm",
+    "license": "MIT",
+    "source": "https://registry.npmjs.org/@babel/plugin-transform-private-methods/-/plugin-transform-private-methods-7.29.7.tgz"
+  },
+  {
+    "id": "@babel/plugin-transform-private-property-in-object@7.29.7",
+    "ecosystem": "npm",
+    "license": "MIT",
+    "source": "https://registry.npmjs.org/@babel/plugin-transform-private-property-in-object/-/plugin-transform-private-property-in-object-7.29.7.tgz"
+  },
+  {
+    "id": "@babel/plugin-transform-react-display-name@7.29.7",
+    "ecosystem": "npm",
+    "license": "MIT",
+    "source": "https://registry.npmjs.org/@babel/plugin-transform-react-display-name/-/plugin-transform-react-display-name-7.29.7.tgz"
+  },
+  {
+    "id": "@babel/plugin-transform-react-jsx@7.29.7",
+    "ecosystem": "npm",
+    "license": "MIT",
+    "source": "https://registry.npmjs.org/@babel/plugin-transform-react-jsx/-/plugin-transform-react-jsx-7.29.7.tgz"
+  },
+  {
+    "id": "@babel/plugin-transform-react-jsx-self@7.29.7",
+    "ecosystem": "npm",
+    "license": "MIT",
+    "source": "https://registry.npmjs.org/@babel/plugin-transform-react-jsx-self/-/plugin-transform-react-jsx-self-7.29.7.tgz"
+  },
+  {
+    "id": "@babel/plugin-transform-react-jsx-source@7.29.7",
+    "ecosystem": "npm",
+    "license": "MIT",
+    "source": "https://registry.npmjs.org/@babel/plugin-transform-react-jsx-source/-/plugin-transform-react-jsx-source-7.29.7.tgz"
+  },
+  {
+    "id": "@babel/plugin-transform-regenerator@7.29.8",
+    "ecosystem": "npm",
+    "license": "MIT",
+    "source": "https://registry.npmjs.org/@babel/plugin-transform-regenerator/-/plugin-transform-regenerator-7.29.8.tgz"
+  },
+  {
+    "id": "@babel/plugin-transform-runtime@7.29.7",
+    "ecosystem": "npm",
+    "license": "MIT",
+    "source": "https://registry.npmjs.org/@babel/plugin-transform-runtime/-/plugin-transform-runtime-7.29.7.tgz"
+  },
+  {
+    "id": "babel-plugin-polyfill-corejs3@0.13.0",
+    "ecosystem": "npm",
+    "license": "MIT",
+    "source": "https://registry.npmjs.org/babel-plugin-polyfill-corejs3/-/babel-plugin-polyfill-corejs3-0.13.0.tgz"
+  },
+  {
+    "id": "@babel/plugin-transform-typescript@7.29.9",
+    "ecosystem": "npm",
+    "license": "MIT",
+    "source": "https://registry.npmjs.org/@babel/plugin-transform-typescript/-/plugin-transform-typescript-7.29.9.tgz"
+  },
+  {
+    "id": "@babel/plugin-transform-unicode-regex@7.29.7",
+    "ecosystem": "npm",
+    "license": "MIT",
+    "source": "https://registry.npmjs.org/@babel/plugin-transform-unicode-regex/-/plugin-transform-unicode-regex-7.29.7.tgz"
+  },
+  {
+    "id": "@babel/runtime@7.29.7",
+    "ecosystem": "npm",
+    "license": "MIT",
+    "source": "https://registry.npmjs.org/@babel/runtime/-/runtime-7.29.7.tgz"
+  },
+  {
+    "id": "@babel/template@7.29.7",
+    "ecosystem": "npm",
+    "license": "MIT",
+    "source": "https://registry.npmjs.org/@babel/template/-/template-7.29.7.tgz"
+  },
+  {
+    "id": "@babel/traverse@7.29.8",
+    "ecosystem": "npm",
+    "license": "MIT",
+    "source": "https://registry.npmjs.org/@babel/traverse/-/traverse-7.29.8.tgz"
+  },
+  {
+    "id": "@babel/types@7.29.8",
+    "ecosystem": "npm",
+    "license": "MIT",
+    "source": "https://registry.npmjs.org/@babel/types/-/types-7.29.8.tgz"
+  },
+  {
+    "id": "@hapi/hoek@9.3.0",
+    "ecosystem": "npm",
+    "license": "BSD-3-Clause",
+    "source": "https://registry.npmjs.org/@hapi/hoek/-/hoek-9.3.0.tgz"
+  },
+  {
+    "id": "@hapi/topo@5.1.0",
+    "ecosystem": "npm",
+    "license": "BSD-3-Clause",
+    "source": "https://registry.npmjs.org/@hapi/topo/-/topo-5.1.0.tgz"
+  },
+  {
+    "id": "@isaacs/ttlcache@1.4.1",
+    "ecosystem": "npm",
+    "license": "ISC",
+    "source": "https://registry.npmjs.org/@isaacs/ttlcache/-/ttlcache-1.4.1.tgz"
+  },
+  {
+    "id": "@istanbuljs/load-nyc-config@1.1.0",
+    "ecosystem": "npm",
+    "license": "ISC",
+    "source": "https://registry.npmjs.org/@istanbuljs/load-nyc-config/-/load-nyc-config-1.1.0.tgz"
+  },
+  {
+    "id": "find-up@4.1.0",
+    "ecosystem": "npm",
+    "license": "MIT",
+    "source": "https://registry.npmjs.org/find-up/-/find-up-4.1.0.tgz"
+  },
+  {
+    "id": "locate-path@5.0.0",
+    "ecosystem": "npm",
+    "license": "MIT",
+    "source": "https://registry.npmjs.org/locate-path/-/locate-path-5.0.0.tgz"
+  },
+  {
+    "id": "p-limit@2.3.0",
+    "ecosystem": "npm",
+    "license": "MIT",
+    "source": "https://registry.npmjs.org/p-limit/-/p-limit-2.3.0.tgz"
+  },
+  {
+    "id": "p-locate@4.1.0",
+    "ecosystem": "npm",
+    "license": "MIT",
+    "source": "https://registry.npmjs.org/p-locate/-/p-locate-4.1.0.tgz"
+  },
+  {
+    "id": "@istanbuljs/schema@0.1.6",
+    "ecosystem": "npm",
+    "license": "MIT",
+    "source": "https://registry.npmjs.org/@istanbuljs/schema/-/schema-0.1.6.tgz"
+  },
+  {
+    "id": "@jest/create-cache-key-function@29.7.0",
+    "ecosystem": "npm",
+    "license": "MIT",
+    "source": "https://registry.npmjs.org/@jest/create-cache-key-function/-/create-cache-key-function-29.7.0.tgz"
+  },
+  {
+    "id": "@jest/environment@29.7.0",
+    "ecosystem": "npm",
+    "license": "MIT",
+    "source": "https://registry.npmjs.org/@jest/environment/-/environment-29.7.0.tgz"
+  },
+  {
+    "id": "@jest/fake-timers@29.7.0",
+    "ecosystem": "npm",
+    "license": "MIT",
+    "source": "https://registry.npmjs.org/@jest/fake-timers/-/fake-timers-29.7.0.tgz"
+  },
+  {
+    "id": "@jest/schemas@29.6.3",
+    "ecosystem": "npm",
+    "license": "MIT",
+    "source": "https://registry.npmjs.org/@jest/schemas/-/schemas-29.6.3.tgz"
+  },
+  {
+    "id": "@jest/transform@29.7.0",
+    "ecosystem": "npm",
+    "license": "MIT",
+    "source": "https://registry.npmjs.org/@jest/transform/-/transform-29.7.0.tgz"
+  },
+  {
+    "id": "@jest/types@29.6.3",
+    "ecosystem": "npm",
+    "license": "MIT",
+    "source": "https://registry.npmjs.org/@jest/types/-/types-29.6.3.tgz"
+  },
+  {
+    "id": "@jridgewell/gen-mapping@0.3.13",
+    "ecosystem": "npm",
+    "license": "MIT",
+    "source": "https://registry.npmjs.org/@jridgewell/gen-mapping/-/gen-mapping-0.3.13.tgz"
+  },
+  {
+    "id": "@jridgewell/remapping@2.3.5",
+    "ecosystem": "npm",
+    "license": "MIT",
+    "source": "https://registry.npmjs.org/@jridgewell/remapping/-/remapping-2.3.5.tgz"
+  },
+  {
+    "id": "@jridgewell/resolve-uri@3.1.2",
+    "ecosystem": "npm",
+    "license": "MIT",
+    "source": "https://registry.npmjs.org/@jridgewell/resolve-uri/-/resolve-uri-3.1.2.tgz"
+  },
+  {
+    "id": "@jridgewell/source-map@0.3.11",
+    "ecosystem": "npm",
+    "license": "MIT",
+    "source": "https://registry.npmjs.org/@jridgewell/source-map/-/source-map-0.3.11.tgz"
+  },
+  {
+    "id": "@jridgewell/sourcemap-codec@1.6.0",
+    "ecosystem": "npm",
+    "license": "MIT",
+    "source": "https://registry.npmjs.org/@jridgewell/sourcemap-codec/-/sourcemap-codec-1.6.0.tgz"
+  },
+  {
+    "id": "@jridgewell/trace-mapping@0.3.31",
+    "ecosystem": "npm",
+    "license": "MIT",
+    "source": "https://registry.npmjs.org/@jridgewell/trace-mapping/-/trace-mapping-0.3.31.tgz"
+  },
+  {
+    "id": "@nodable/entities@3.0.0",
+    "ecosystem": "npm",
+    "license": "MIT",
+    "source": "https://registry.npmjs.org/@nodable/entities/-/entities-3.0.0.tgz"
+  },
+  {
+    "id": "@nodelib/fs.scandir@2.1.5",
+    "ecosystem": "npm",
+    "license": "MIT",
+    "source": "https://registry.npmjs.org/@nodelib/fs.scandir/-/fs.scandir-2.1.5.tgz"
+  },
+  {
+    "id": "@nodelib/fs.stat@2.0.5",
+    "ecosystem": "npm",
+    "license": "MIT",
+    "source": "https://registry.npmjs.org/@nodelib/fs.stat/-/fs.stat-2.0.5.tgz"
+  },
+  {
+    "id": "@nodelib/fs.walk@1.2.8",
+    "ecosystem": "npm",
+    "license": "MIT",
+    "source": "https://registry.npmjs.org/@nodelib/fs.walk/-/fs.walk-1.2.8.tgz"
+  },
+  {
+    "id": "@react-native-async-storage/async-storage@3.1.1",
+    "ecosystem": "npm",
+    "license": "MIT",
+    "source": "https://registry.npmjs.org/@react-native-async-storage/async-storage/-/async-storage-3.1.1.tgz"
+  },
+  {
+    "id": "@react-native-community/cli@20.2.0",
+    "ecosystem": "npm",
+    "license": "MIT",
+    "source": "https://registry.npmjs.org/@react-native-community/cli/-/cli-20.2.0.tgz"
+  },
+  {
+    "id": "@react-native-community/cli-clean@20.2.0",
+    "ecosystem": "npm",
+    "license": "MIT",
+    "source": "https://registry.npmjs.org/@react-native-community/cli-clean/-/cli-clean-20.2.0.tgz"
+  },
+  {
+    "id": "@react-native-community/cli-config@20.2.0",
+    "ecosystem": "npm",
+    "license": "MIT",
+    "source": "https://registry.npmjs.org/@react-native-community/cli-config/-/cli-config-20.2.0.tgz"
+  },
+  {
+    "id": "@react-native-community/cli-config-android@20.2.0",
+    "ecosystem": "npm",
+    "license": "MIT",
+    "source": "https://registry.npmjs.org/@react-native-community/cli-config-android/-/cli-config-android-20.2.0.tgz"
+  },
+  {
+    "id": "@react-native-community/cli-config-apple@20.2.0",
+    "ecosystem": "npm",
+    "license": "MIT",
+    "source": "https://registry.npmjs.org/@react-native-community/cli-config-apple/-/cli-config-apple-20.2.0.tgz"
+  },
+  {
+    "id": "@react-native-community/cli-doctor@20.2.0",
+    "ecosystem": "npm",
+    "license": "MIT",
+    "source": "https://registry.npmjs.org/@react-native-community/cli-doctor/-/cli-doctor-20.2.0.tgz"
+  },
+  {
+    "id": "semver@7.8.5",
+    "ecosystem": "npm",
+    "license": "ISC",
+    "source": "https://registry.npmjs.org/semver/-/semver-7.8.5.tgz"
+  },
+  {
+    "id": "@react-native-community/cli-platform-android@20.2.0",
+    "ecosystem": "npm",
+    "license": "MIT",
+    "source": "https://registry.npmjs.org/@react-native-community/cli-platform-android/-/cli-platform-android-20.2.0.tgz"
+  },
+  {
+    "id": "@react-native-community/cli-platform-apple@20.2.0",
+    "ecosystem": "npm",
+    "license": "MIT",
+    "source": "https://registry.npmjs.org/@react-native-community/cli-platform-apple/-/cli-platform-apple-20.2.0.tgz"
+  },
+  {
+    "id": "@react-native-community/cli-platform-ios@20.2.0",
+    "ecosystem": "npm",
+    "license": "MIT",
+    "source": "https://registry.npmjs.org/@react-native-community/cli-platform-ios/-/cli-platform-ios-20.2.0.tgz"
+  },
+  {
+    "id": "@react-native-community/cli-server-api@20.2.0",
+    "ecosystem": "npm",
+    "license": "MIT",
+    "source": "https://registry.npmjs.org/@react-native-community/cli-server-api/-/cli-server-api-20.2.0.tgz"
+  },
+  {
+    "id": "@react-native-community/cli-tools@20.2.0",
+    "ecosystem": "npm",
+    "license": "MIT",
+    "source": "https://registry.npmjs.org/@react-native-community/cli-tools/-/cli-tools-20.2.0.tgz"
+  },
+  {
+    "id": "@react-native-community/cli-types@20.2.0",
+    "ecosystem": "npm",
+    "license": "MIT",
+    "source": "https://registry.npmjs.org/@react-native-community/cli-types/-/cli-types-20.2.0.tgz"
+  },
+  {
+    "id": "@react-native/assets-registry@0.86.0",
+    "ecosystem": "npm",
+    "license": "MIT",
+    "source": "https://registry.npmjs.org/@react-native/assets-registry/-/assets-registry-0.86.0.tgz"
+  },
+  {
+    "id": "@react-native/babel-plugin-codegen@0.86.0",
+    "ecosystem": "npm",
+    "license": "MIT",
+    "source": "https://registry.npmjs.org/@react-native/babel-plugin-codegen/-/babel-plugin-codegen-0.86.0.tgz"
+  },
+  {
+    "id": "@react-native/babel-preset@0.86.0",
+    "ecosystem": "npm",
+    "license": "MIT",
+    "source": "https://registry.npmjs.org/@react-native/babel-preset/-/babel-preset-0.86.0.tgz"
+  },
+  {
+    "id": "@react-native/codegen@0.86.0",
+    "ecosystem": "npm",
+    "license": "MIT",
+    "source": "https://registry.npmjs.org/@react-native/codegen/-/codegen-0.86.0.tgz"
+  },
+  {
+    "id": "@react-native/community-cli-plugin@0.86.0",
+    "ecosystem": "npm",
+    "license": "MIT",
+    "source": "https://registry.npmjs.org/@react-native/community-cli-plugin/-/community-cli-plugin-0.86.0.tgz"
+  },
+  {
+    "id": "accepts@2.0.0",
+    "ecosystem": "npm",
+    "license": "MIT",
+    "source": "https://registry.npmjs.org/accepts/-/accepts-2.0.0.tgz"
+  },
+  {
+    "id": "ci-info@2.0.0",
+    "ecosystem": "npm",
+    "license": "MIT",
+    "source": "https://registry.npmjs.org/ci-info/-/ci-info-2.0.0.tgz"
+  },
+  {
+    "id": "hermes-estree@0.35.0",
+    "ecosystem": "npm",
+    "license": "MIT",
+    "source": "https://registry.npmjs.org/hermes-estree/-/hermes-estree-0.35.0.tgz"
+  },
+  {
+    "id": "hermes-parser@0.35.0",
+    "ecosystem": "npm",
+    "license": "MIT",
+    "source": "https://registry.npmjs.org/hermes-parser/-/hermes-parser-0.35.0.tgz"
+  },
+  {
+    "id": "metro@0.84.6",
+    "ecosystem": "npm",
+    "license": "MIT",
+    "source": "https://registry.npmjs.org/metro/-/metro-0.84.6.tgz"
+  },
+  {
+    "id": "metro-babel-transformer@0.84.6",
+    "ecosystem": "npm",
+    "license": "MIT",
+    "source": "https://registry.npmjs.org/metro-babel-transformer/-/metro-babel-transformer-0.84.6.tgz"
+  },
+  {
+    "id": "metro-cache@0.84.6",
+    "ecosystem": "npm",
+    "license": "MIT",
+    "source": "https://registry.npmjs.org/metro-cache/-/metro-cache-0.84.6.tgz"
+  },
+  {
+    "id": "metro-cache-key@0.84.6",
+    "ecosystem": "npm",
+    "license": "MIT",
+    "source": "https://registry.npmjs.org/metro-cache-key/-/metro-cache-key-0.84.6.tgz"
+  },
+  {
+    "id": "metro-config@0.84.6",
+    "ecosystem": "npm",
+    "license": "MIT",
+    "source": "https://registry.npmjs.org/metro-config/-/metro-config-0.84.6.tgz"
+  },
+  {
+    "id": "metro-core@0.84.6",
+    "ecosystem": "npm",
+    "license": "MIT",
+    "source": "https://registry.npmjs.org/metro-core/-/metro-core-0.84.6.tgz"
+  },
+  {
+    "id": "metro-file-map@0.84.6",
+    "ecosystem": "npm",
+    "license": "MIT",
+    "source": "https://registry.npmjs.org/metro-file-map/-/metro-file-map-0.84.6.tgz"
+  },
+  {
+    "id": "metro-minify-terser@0.84.6",
+    "ecosystem": "npm",
+    "license": "MIT",
+    "source": "https://registry.npmjs.org/metro-minify-terser/-/metro-minify-terser-0.84.6.tgz"
+  },
+  {
+    "id": "metro-resolver@0.84.6",
+    "ecosystem": "npm",
+    "license": "MIT",
+    "source": "https://registry.npmjs.org/metro-resolver/-/metro-resolver-0.84.6.tgz"
+  },
+  {
+    "id": "metro-runtime@0.84.6",
+    "ecosystem": "npm",
+    "license": "MIT",
+    "source": "https://registry.npmjs.org/metro-runtime/-/metro-runtime-0.84.6.tgz"
+  },
+  {
+    "id": "metro-source-map@0.84.6",
+    "ecosystem": "npm",
+    "license": "MIT",
+    "source": "https://registry.npmjs.org/metro-source-map/-/metro-source-map-0.84.6.tgz"
+  },
+  {
+    "id": "metro-symbolicate@0.84.6",
+    "ecosystem": "npm",
+    "license": "MIT",
+    "source": "https://registry.npmjs.org/metro-symbolicate/-/metro-symbolicate-0.84.6.tgz"
+  },
+  {
+    "id": "metro-transform-plugins@0.84.6",
+    "ecosystem": "npm",
+    "license": "MIT",
+    "source": "https://registry.npmjs.org/metro-transform-plugins/-/metro-transform-plugins-0.84.6.tgz"
+  },
+  {
+    "id": "metro-transform-worker@0.84.6",
+    "ecosystem": "npm",
+    "license": "MIT",
+    "source": "https://registry.npmjs.org/metro-transform-worker/-/metro-transform-worker-0.84.6.tgz"
+  },
+  {
+    "id": "mime-types@3.0.2",
+    "ecosystem": "npm",
+    "license": "MIT",
+    "source": "https://registry.npmjs.org/mime-types/-/mime-types-3.0.2.tgz"
+  },
+  {
+    "id": "negotiator@1.1.0",
+    "ecosystem": "npm",
+    "license": "MIT",
+    "source": "https://registry.npmjs.org/negotiator/-/negotiator-1.1.0.tgz"
+  },
+  {
+    "id": "ob1@0.84.6",
+    "ecosystem": "npm",
+    "license": "MIT",
+    "source": "https://registry.npmjs.org/ob1/-/ob1-0.84.6.tgz"
+  },
+  {
+    "id": "source-map@0.5.7",
+    "ecosystem": "npm",
+    "license": "BSD-3-Clause",
+    "source": "https://registry.npmjs.org/source-map/-/source-map-0.5.7.tgz"
+  },
+  {
+    "id": "ws@7.5.13",
+    "ecosystem": "npm",
+    "license": "MIT",
+    "source": "https://registry.npmjs.org/ws/-/ws-7.5.13.tgz"
+  },
+  {
+    "id": "@react-native/debugger-frontend@0.86.0",
+    "ecosystem": "npm",
+    "license": "BSD-3-Clause",
+    "source": "https://registry.npmjs.org/@react-native/debugger-frontend/-/debugger-frontend-0.86.0.tgz"
+  },
+  {
+    "id": "@react-native/debugger-shell@0.86.0",
+    "ecosystem": "npm",
+    "license": "MIT",
+    "source": "https://registry.npmjs.org/@react-native/debugger-shell/-/debugger-shell-0.86.0.tgz"
+  },
+  {
+    "id": "@react-native/dev-middleware@0.86.0",
+    "ecosystem": "npm",
+    "license": "MIT",
+    "source": "https://registry.npmjs.org/@react-native/dev-middleware/-/dev-middleware-0.86.0.tgz"
+  },
+  {
+    "id": "is-wsl@2.2.0",
+    "ecosystem": "npm",
+    "license": "MIT",
+    "source": "https://registry.npmjs.org/is-wsl/-/is-wsl-2.2.0.tgz"
+  },
+  {
+    "id": "open@7.4.2",
+    "ecosystem": "npm",
+    "license": "MIT",
+    "source": "https://registry.npmjs.org/open/-/open-7.4.2.tgz"
+  },
+  {
+    "id": "@react-native/gradle-plugin@0.86.0",
+    "ecosystem": "npm",
+    "license": "MIT",
+    "source": "https://registry.npmjs.org/@react-native/gradle-plugin/-/gradle-plugin-0.86.0.tgz"
+  },
+  {
+    "id": "@react-native/jest-preset@0.86.0",
+    "ecosystem": "npm",
+    "license": "MIT",
+    "source": "https://registry.npmjs.org/@react-native/jest-preset/-/jest-preset-0.86.0.tgz"
+  },
+  {
+    "id": "@react-native/js-polyfills@0.86.0",
+    "ecosystem": "npm",
+    "license": "MIT",
+    "source": "https://registry.npmjs.org/@react-native/js-polyfills/-/js-polyfills-0.86.0.tgz"
+  },
+  {
+    "id": "@react-native/metro-babel-transformer@0.86.0",
+    "ecosystem": "npm",
+    "license": "MIT",
+    "source": "https://registry.npmjs.org/@react-native/metro-babel-transformer/-/metro-babel-transformer-0.86.0.tgz"
+  },
+  {
+    "id": "@react-native/metro-config@0.86.0",
+    "ecosystem": "npm",
+    "license": "MIT",
+    "source": "https://registry.npmjs.org/@react-native/metro-config/-/metro-config-0.86.0.tgz"
+  },
+  {
+    "id": "@react-native/normalize-colors@0.86.0",
+    "ecosystem": "npm",
+    "license": "MIT",
+    "source": "https://registry.npmjs.org/@react-native/normalize-colors/-/normalize-colors-0.86.0.tgz"
+  },
+  {
+    "id": "@react-native/virtualized-lists@0.86.0",
+    "ecosystem": "npm",
+    "license": "MIT",
+    "source": "https://registry.npmjs.org/@react-native/virtualized-lists/-/virtualized-lists-0.86.0.tgz"
+  },
+  {
+    "id": "@sideway/address@4.1.5",
+    "ecosystem": "npm",
+    "license": "BSD-3-Clause",
+    "source": "https://registry.npmjs.org/@sideway/address/-/address-4.1.5.tgz"
+  },
+  {
+    "id": "@sideway/formula@3.0.1",
+    "ecosystem": "npm",
+    "license": "BSD-3-Clause",
+    "source": "https://registry.npmjs.org/@sideway/formula/-/formula-3.0.1.tgz"
+  },
+  {
+    "id": "@sideway/pinpoint@2.0.0",
+    "ecosystem": "npm",
+    "license": "BSD-3-Clause",
+    "source": "https://registry.npmjs.org/@sideway/pinpoint/-/pinpoint-2.0.0.tgz"
+  },
+  {
+    "id": "@sinclair/typebox@0.27.12",
+    "ecosystem": "npm",
+    "license": "MIT",
+    "source": "https://registry.npmjs.org/@sinclair/typebox/-/typebox-0.27.12.tgz"
+  },
+  {
+    "id": "@sinonjs/commons@3.0.1",
+    "ecosystem": "npm",
+    "license": "BSD-3-Clause",
+    "source": "https://registry.npmjs.org/@sinonjs/commons/-/commons-3.0.1.tgz"
+  },
+  {
+    "id": "@sinonjs/fake-timers@10.3.0",
+    "ecosystem": "npm",
+    "license": "BSD-3-Clause",
+    "source": "https://registry.npmjs.org/@sinonjs/fake-timers/-/fake-timers-10.3.0.tgz"
+  },
+  {
+    "id": "@types/babel__core@7.20.5",
+    "ecosystem": "npm",
+    "license": "MIT",
+    "source": "https://registry.npmjs.org/@types/babel__core/-/babel__core-7.20.5.tgz"
+  },
+  {
+    "id": "@types/babel__generator@7.27.0",
+    "ecosystem": "npm",
+    "license": "MIT",
+    "source": "https://registry.npmjs.org/@types/babel__generator/-/babel__generator-7.27.0.tgz"
+  },
+  {
+    "id": "@types/babel__template@7.4.4",
+    "ecosystem": "npm",
+    "license": "MIT",
+    "source": "https://registry.npmjs.org/@types/babel__template/-/babel__template-7.4.4.tgz"
+  },
+  {
+    "id": "@types/babel__traverse@7.28.0",
+    "ecosystem": "npm",
+    "license": "MIT",
+    "source": "https://registry.npmjs.org/@types/babel__traverse/-/babel__traverse-7.28.0.tgz"
+  },
+  {
+    "id": "@types/graceful-fs@4.1.9",
+    "ecosystem": "npm",
+    "license": "MIT",
+    "source": "https://registry.npmjs.org/@types/graceful-fs/-/graceful-fs-4.1.9.tgz"
+  },
+  {
+    "id": "@types/istanbul-lib-coverage@2.0.6",
+    "ecosystem": "npm",
+    "license": "MIT",
+    "source": "https://registry.npmjs.org/@types/istanbul-lib-coverage/-/istanbul-lib-coverage-2.0.6.tgz"
+  },
+  {
+    "id": "@types/istanbul-lib-report@3.0.3",
+    "ecosystem": "npm",
+    "license": "MIT",
+    "source": "https://registry.npmjs.org/@types/istanbul-lib-report/-/istanbul-lib-report-3.0.3.tgz"
+  },
+  {
+    "id": "@types/istanbul-reports@3.0.4",
+    "ecosystem": "npm",
+    "license": "MIT",
+    "source": "https://registry.npmjs.org/@types/istanbul-reports/-/istanbul-reports-3.0.4.tgz"
+  },
+  {
+    "id": "@types/node@26.6.2",
+    "ecosystem": "npm",
+    "license": "MIT",
+    "source": "https://registry.npmjs.org/@types/node/-/node-26.6.2.tgz"
+  },
+  {
+    "id": "@types/react@19.3.0",
+    "ecosystem": "npm",
+    "license": "MIT",
+    "source": "https://registry.npmjs.org/@types/react/-/react-19.3.0.tgz"
+  },
+  {
+    "id": "@types/stack-utils@2.0.3",
+    "ecosystem": "npm",
+    "license": "MIT",
+    "source": "https://registry.npmjs.org/@types/stack-utils/-/stack-utils-2.0.3.tgz"
+  },
+  {
+    "id": "@types/yargs@17.0.35",
+    "ecosystem": "npm",
+    "license": "MIT",
+    "source": "https://registry.npmjs.org/@types/yargs/-/yargs-17.0.35.tgz"
+  },
+  {
+    "id": "@types/yargs-parser@21.0.3",
+    "ecosystem": "npm",
+    "license": "MIT",
+    "source": "https://registry.npmjs.org/@types/yargs-parser/-/yargs-parser-21.0.3.tgz"
+  },
+  {
+    "id": "@vscode/sudo-prompt@9.3.2",
+    "ecosystem": "npm",
+    "license": "MIT",
+    "source": "https://registry.npmjs.org/@vscode/sudo-prompt/-/sudo-prompt-9.3.2.tgz"
+  },
+  {
+    "id": "abort-controller@3.0.0",
+    "ecosystem": "npm",
+    "license": "MIT",
+    "source": "https://registry.npmjs.org/abort-controller/-/abort-controller-3.0.0.tgz"
+  },
+  {
+    "id": "accepts@1.3.8",
+    "ecosystem": "npm",
+    "license": "MIT",
+    "source": "https://registry.npmjs.org/accepts/-/accepts-1.3.8.tgz"
+  },
+  {
+    "id": "negotiator@0.6.3",
+    "ecosystem": "npm",
+    "license": "MIT",
+    "source": "https://registry.npmjs.org/negotiator/-/negotiator-0.6.3.tgz"
+  },
+  {
+    "id": "acorn@8.18.0",
+    "ecosystem": "npm",
+    "license": "MIT",
+    "source": "https://registry.npmjs.org/acorn/-/acorn-8.18.0.tgz"
+  },
+  {
+    "id": "agent-base@7.1.4",
+    "ecosystem": "npm",
+    "license": "MIT",
+    "source": "https://registry.npmjs.org/agent-base/-/agent-base-7.1.4.tgz"
+  },
+  {
+    "id": "anser@1.4.10",
+    "ecosystem": "npm",
+    "license": "MIT",
+    "source": "https://registry.npmjs.org/anser/-/anser-1.4.10.tgz"
+  },
+  {
+    "id": "ansi-fragments@0.2.1",
+    "ecosystem": "npm",
+    "license": "MIT",
+    "source": "https://registry.npmjs.org/ansi-fragments/-/ansi-fragments-0.2.1.tgz"
+  },
+  {
+    "id": "ansi-regex@4.1.1",
+    "ecosystem": "npm",
+    "license": "MIT",
+    "source": "https://registry.npmjs.org/ansi-regex/-/ansi-regex-4.1.1.tgz"
+  },
+  {
+    "id": "strip-ansi@5.2.0",
+    "ecosystem": "npm",
+    "license": "MIT",
+    "source": "https://registry.npmjs.org/strip-ansi/-/strip-ansi-5.2.0.tgz"
+  },
+  {
+    "id": "ansi-regex@5.0.1",
+    "ecosystem": "npm",
+    "license": "MIT",
+    "source": "https://registry.npmjs.org/ansi-regex/-/ansi-regex-5.0.1.tgz"
+  },
+  {
+    "id": "ansi-styles@4.3.0",
+    "ecosystem": "npm",
+    "license": "MIT",
+    "source": "https://registry.npmjs.org/ansi-styles/-/ansi-styles-4.3.0.tgz"
+  },
+  {
+    "id": "anymatch@3.1.3",
+    "ecosystem": "npm",
+    "license": "ISC",
+    "source": "https://registry.npmjs.org/anymatch/-/anymatch-3.1.3.tgz"
+  },
+  {
+    "id": "anynum@1.0.1",
+    "ecosystem": "npm",
+    "license": "MIT",
+    "source": "https://registry.npmjs.org/anynum/-/anynum-1.0.1.tgz"
+  },
+  {
+    "id": "appdirsjs@1.2.8",
+    "ecosystem": "npm",
+    "license": "MIT",
+    "source": "https://registry.npmjs.org/appdirsjs/-/appdirsjs-1.2.8.tgz"
+  },
+  {
+    "id": "argparse@1.0.10",
+    "ecosystem": "npm",
+    "license": "MIT",
+    "source": "https://registry.npmjs.org/argparse/-/argparse-1.0.10.tgz"
+  },
+  {
+    "id": "asap@2.0.6",
+    "ecosystem": "npm",
+    "license": "MIT",
+    "source": "https://registry.npmjs.org/asap/-/asap-2.0.6.tgz"
+  },
+  {
+    "id": "astral-regex@1.0.0",
+    "ecosystem": "npm",
+    "license": "MIT",
+    "source": "https://registry.npmjs.org/astral-regex/-/astral-regex-1.0.0.tgz"
+  },
+  {
+    "id": "async-limiter@1.0.1",
+    "ecosystem": "npm",
+    "license": "MIT",
+    "source": "https://registry.npmjs.org/async-limiter/-/async-limiter-1.0.1.tgz"
+  },
+  {
+    "id": "babel-jest@29.7.0",
+    "ecosystem": "npm",
+    "license": "MIT",
+    "source": "https://registry.npmjs.org/babel-jest/-/babel-jest-29.7.0.tgz"
+  },
+  {
+    "id": "babel-plugin-istanbul@6.1.1",
+    "ecosystem": "npm",
+    "license": "BSD-3-Clause",
+    "source": "https://registry.npmjs.org/babel-plugin-istanbul/-/babel-plugin-istanbul-6.1.1.tgz"
+  },
+  {
+    "id": "babel-plugin-jest-hoist@29.6.3",
+    "ecosystem": "npm",
+    "license": "MIT",
+    "source": "https://registry.npmjs.org/babel-plugin-jest-hoist/-/babel-plugin-jest-hoist-29.6.3.tgz"
+  },
+  {
+    "id": "babel-plugin-polyfill-corejs2@0.4.17",
+    "ecosystem": "npm",
+    "license": "MIT",
+    "source": "https://registry.npmjs.org/babel-plugin-polyfill-corejs2/-/babel-plugin-polyfill-corejs2-0.4.17.tgz"
+  },
+  {
+    "id": "babel-plugin-polyfill-regenerator@0.6.8",
+    "ecosystem": "npm",
+    "license": "MIT",
+    "source": "https://registry.npmjs.org/babel-plugin-polyfill-regenerator/-/babel-plugin-polyfill-regenerator-0.6.8.tgz"
+  },
+  {
+    "id": "babel-plugin-syntax-hermes-parser@0.36.0",
+    "ecosystem": "npm",
+    "license": "MIT",
+    "source": "https://registry.npmjs.org/babel-plugin-syntax-hermes-parser/-/babel-plugin-syntax-hermes-parser-0.36.0.tgz"
+  },
+  {
+    "id": "babel-plugin-transform-flow-enums@0.0.2",
+    "ecosystem": "npm",
+    "license": "MIT",
+    "source": "https://registry.npmjs.org/babel-plugin-transform-flow-enums/-/babel-plugin-transform-flow-enums-0.0.2.tgz"
+  },
+  {
+    "id": "babel-preset-current-node-syntax@1.2.0",
+    "ecosystem": "npm",
+    "license": "MIT",
+    "source": "https://registry.npmjs.org/babel-preset-current-node-syntax/-/babel-preset-current-node-syntax-1.2.0.tgz"
+  },
+  {
+    "id": "babel-preset-jest@29.6.3",
+    "ecosystem": "npm",
+    "license": "MIT",
+    "source": "https://registry.npmjs.org/babel-preset-jest/-/babel-preset-jest-29.6.3.tgz"
+  },
+  {
+    "id": "base64-js@1.5.1",
+    "ecosystem": "npm",
+    "license": "MIT",
+    "source": "https://registry.npmjs.org/base64-js/-/base64-js-1.5.1.tgz"
+  },
+  {
+    "id": "baseline-browser-mapping@2.11.25",
+    "ecosystem": "npm",
+    "license": "Apache-2.0",
+    "source": "https://registry.npmjs.org/baseline-browser-mapping/-/baseline-browser-mapping-2.11.25.tgz"
+  },
+  {
+    "id": "bl@4.1.0",
+    "ecosystem": "npm",
+    "license": "MIT",
+    "source": "https://registry.npmjs.org/bl/-/bl-4.1.0.tgz"
+  },
+  {
+    "id": "body-parser@2.3.0",
+    "ecosystem": "npm",
+    "license": "MIT",
+    "source": "https://registry.npmjs.org/body-parser/-/body-parser-2.3.0.tgz"
+  },
+  {
+    "id": "braces@3.0.3",
+    "ecosystem": "npm",
+    "license": "MIT",
+    "source": "https://registry.npmjs.org/braces/-/braces-3.0.3.tgz"
+  },
+  {
+    "id": "browserslist@4.29.0",
+    "ecosystem": "npm",
+    "license": "MIT",
+    "source": "https://registry.npmjs.org/browserslist/-/browserslist-4.29.0.tgz"
+  },
+  {
+    "id": "bser@2.1.1",
+    "ecosystem": "npm",
+    "license": "Apache-2.0",
+    "source": "https://registry.npmjs.org/bser/-/bser-2.1.1.tgz"
+  },
+  {
+    "id": "buffer@5.7.1",
+    "ecosystem": "npm",
+    "license": "MIT",
+    "source": "https://registry.npmjs.org/buffer/-/buffer-5.7.1.tgz"
+  },
+  {
+    "id": "buffer-from@1.1.2",
+    "ecosystem": "npm",
+    "license": "MIT",
+    "source": "https://registry.npmjs.org/buffer-from/-/buffer-from-1.1.2.tgz"
+  },
+  {
+    "id": "bytes@3.1.2",
+    "ecosystem": "npm",
+    "license": "MIT",
+    "source": "https://registry.npmjs.org/bytes/-/bytes-3.1.2.tgz"
+  },
+  {
+    "id": "call-bind-apply-helpers@1.0.2",
+    "ecosystem": "npm",
+    "license": "MIT",
+    "source": "https://registry.npmjs.org/call-bind-apply-helpers/-/call-bind-apply-helpers-1.0.2.tgz"
+  },
+  {
+    "id": "call-bound@1.0.4",
+    "ecosystem": "npm",
+    "license": "MIT",
+    "source": "https://registry.npmjs.org/call-bound/-/call-bound-1.0.4.tgz"
+  },
+  {
+    "id": "callsites@3.1.0",
+    "ecosystem": "npm",
+    "license": "MIT",
+    "source": "https://registry.npmjs.org/callsites/-/callsites-3.1.0.tgz"
+  },
+  {
+    "id": "camelcase@5.3.1",
+    "ecosystem": "npm",
+    "license": "MIT",
+    "source": "https://registry.npmjs.org/camelcase/-/camelcase-5.3.1.tgz"
+  },
+  {
+    "id": "caniuse-lite@1.0.30001810",
+    "ecosystem": "npm",
+    "license": "CC-BY-4.0",
+    "source": "https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.30001810.tgz"
+  },
+  {
+    "id": "chalk@4.1.2",
+    "ecosystem": "npm",
+    "license": "MIT",
+    "source": "https://registry.npmjs.org/chalk/-/chalk-4.1.2.tgz"
+  },
+  {
+    "id": "chrome-launcher@0.15.2",
+    "ecosystem": "npm",
+    "license": "Apache-2.0",
+    "source": "https://registry.npmjs.org/chrome-launcher/-/chrome-launcher-0.15.2.tgz"
+  },
+  {
+    "id": "chromium-edge-launcher@0.3.0",
+    "ecosystem": "npm",
+    "license": "Apache-2.0",
+    "source": "https://registry.npmjs.org/chromium-edge-launcher/-/chromium-edge-launcher-0.3.0.tgz"
+  },
+  {
+    "id": "ci-info@3.9.0",
+    "ecosystem": "npm",
+    "license": "MIT",
+    "source": "https://registry.npmjs.org/ci-info/-/ci-info-3.9.0.tgz"
+  },
+  {
+    "id": "cli-cursor@3.1.0",
+    "ecosystem": "npm",
+    "license": "MIT",
+    "source": "https://registry.npmjs.org/cli-cursor/-/cli-cursor-3.1.0.tgz"
+  },
+  {
+    "id": "cli-spinners@2.9.2",
+    "ecosystem": "npm",
+    "license": "MIT",
+    "source": "https://registry.npmjs.org/cli-spinners/-/cli-spinners-2.9.2.tgz"
+  },
+  {
+    "id": "cliui@8.0.1",
+    "ecosystem": "npm",
+    "license": "ISC",
+    "source": "https://registry.npmjs.org/cliui/-/cliui-8.0.1.tgz"
+  },
+  {
+    "id": "clone@1.0.4",
+    "ecosystem": "npm",
+    "license": "MIT",
+    "source": "https://registry.npmjs.org/clone/-/clone-1.0.4.tgz"
+  },
+  {
+    "id": "color-convert@2.0.1",
+    "ecosystem": "npm",
+    "license": "MIT",
+    "source": "https://registry.npmjs.org/color-convert/-/color-convert-2.0.1.tgz"
+  },
+  {
+    "id": "color-name@1.1.4",
+    "ecosystem": "npm",
+    "license": "MIT",
+    "source": "https://registry.npmjs.org/color-name/-/color-name-1.1.4.tgz"
+  },
+  {
+    "id": "colorette@1.4.0",
+    "ecosystem": "npm",
+    "license": "MIT",
+    "source": "https://registry.npmjs.org/colorette/-/colorette-1.4.0.tgz"
+  },
+  {
+    "id": "command-exists@1.2.9",
+    "ecosystem": "npm",
+    "license": "MIT",
+    "source": "https://registry.npmjs.org/command-exists/-/command-exists-1.2.9.tgz"
+  },
+  {
+    "id": "commander@9.5.0",
+    "ecosystem": "npm",
+    "license": "MIT",
+    "source": "https://registry.npmjs.org/commander/-/commander-9.5.0.tgz"
+  },
+  {
+    "id": "compressible@2.0.18",
+    "ecosystem": "npm",
+    "license": "MIT",
+    "source": "https://registry.npmjs.org/compressible/-/compressible-2.0.18.tgz"
+  },
+  {
+    "id": "compression@1.8.2",
+    "ecosystem": "npm",
+    "license": "MIT",
+    "source": "https://registry.npmjs.org/compression/-/compression-1.8.2.tgz"
+  },
+  {
+    "id": "debug@2.6.9",
+    "ecosystem": "npm",
+    "license": "MIT",
+    "source": "https://registry.npmjs.org/debug/-/debug-2.6.9.tgz"
+  },
+  {
+    "id": "ms@2.0.0",
+    "ecosystem": "npm",
+    "license": "MIT",
+    "source": "https://registry.npmjs.org/ms/-/ms-2.0.0.tgz"
+  },
+  {
+    "id": "concat-map@0.0.1",
+    "ecosystem": "npm",
+    "license": "MIT",
+    "source": "https://registry.npmjs.org/concat-map/-/concat-map-0.0.1.tgz"
+  },
+  {
+    "id": "connect@3.7.0",
+    "ecosystem": "npm",
+    "license": "MIT",
+    "source": "https://registry.npmjs.org/connect/-/connect-3.7.0.tgz"
+  },
+  {
+    "id": "content-type@2.1.0",
+    "ecosystem": "npm",
+    "license": "MIT",
+    "source": "https://registry.npmjs.org/content-type/-/content-type-2.1.0.tgz"
+  },
+  {
+    "id": "convert-source-map@2.0.0",
+    "ecosystem": "npm",
+    "license": "MIT",
+    "source": "https://registry.npmjs.org/convert-source-map/-/convert-source-map-2.0.0.tgz"
+  },
+  {
+    "id": "core-js-compat@3.50.0",
+    "ecosystem": "npm",
+    "license": "MIT",
+    "source": "https://registry.npmjs.org/core-js-compat/-/core-js-compat-3.50.0.tgz"
+  },
+  {
+    "id": "cosmiconfig@9.0.2",
+    "ecosystem": "npm",
+    "license": "MIT",
+    "source": "https://registry.npmjs.org/cosmiconfig/-/cosmiconfig-9.0.2.tgz"
+  },
+  {
+    "id": "argparse@2.0.1",
+    "ecosystem": "npm",
+    "license": "Python-2.0",
+    "source": "https://registry.npmjs.org/argparse/-/argparse-2.0.1.tgz"
+  },
+  {
+    "id": "js-yaml@4.3.2",
+    "ecosystem": "npm",
+    "license": "MIT",
+    "source": "https://registry.npmjs.org/js-yaml/-/js-yaml-4.3.2.tgz"
+  },
+  {
+    "id": "cross-spawn@7.0.6",
+    "ecosystem": "npm",
+    "license": "MIT",
+    "source": "https://registry.npmjs.org/cross-spawn/-/cross-spawn-7.0.6.tgz"
+  },
+  {
+    "id": "csstype@3.2.3",
+    "ecosystem": "npm",
+    "license": "MIT",
+    "source": "https://registry.npmjs.org/csstype/-/csstype-3.2.3.tgz"
+  },
+  {
+    "id": "dayjs@1.11.23",
+    "ecosystem": "npm",
+    "license": "MIT",
+    "source": "https://registry.npmjs.org/dayjs/-/dayjs-1.11.23.tgz"
+  },
+  {
+    "id": "debug@4.4.3",
+    "ecosystem": "npm",
+    "license": "MIT",
+    "source": "https://registry.npmjs.org/debug/-/debug-4.4.3.tgz"
+  },
+  {
+    "id": "decamelize@1.2.0",
+    "ecosystem": "npm",
+    "license": "MIT",
+    "source": "https://registry.npmjs.org/decamelize/-/decamelize-1.2.0.tgz"
+  },
+  {
+    "id": "deepmerge@4.3.1",
+    "ecosystem": "npm",
+    "license": "MIT",
+    "source": "https://registry.npmjs.org/deepmerge/-/deepmerge-4.3.1.tgz"
+  },
+  {
+    "id": "defaults@1.0.4",
+    "ecosystem": "npm",
+    "license": "MIT",
+    "source": "https://registry.npmjs.org/defaults/-/defaults-1.0.4.tgz"
+  },
+  {
+    "id": "depd@2.0.0",
+    "ecosystem": "npm",
+    "license": "MIT",
+    "source": "https://registry.npmjs.org/depd/-/depd-2.0.0.tgz"
+  },
+  {
+    "id": "destroy@1.2.0",
+    "ecosystem": "npm",
+    "license": "MIT",
+    "source": "https://registry.npmjs.org/destroy/-/destroy-1.2.0.tgz"
+  },
+  {
+    "id": "dunder-proto@1.0.1",
+    "ecosystem": "npm",
+    "license": "MIT",
+    "source": "https://registry.npmjs.org/dunder-proto/-/dunder-proto-1.0.1.tgz"
+  },
+  {
+    "id": "ee-first@1.1.1",
+    "ecosystem": "npm",
+    "license": "MIT",
+    "source": "https://registry.npmjs.org/ee-first/-/ee-first-1.1.1.tgz"
+  },
+  {
+    "id": "electron-to-chromium@1.5.433",
+    "ecosystem": "npm",
+    "license": "ISC",
+    "source": "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.5.433.tgz"
+  },
+  {
+    "id": "emoji-regex@8.0.0",
+    "ecosystem": "npm",
+    "license": "MIT",
+    "source": "https://registry.npmjs.org/emoji-regex/-/emoji-regex-8.0.0.tgz"
+  },
+  {
+    "id": "encodeurl@1.0.2",
+    "ecosystem": "npm",
+    "license": "MIT",
+    "source": "https://registry.npmjs.org/encodeurl/-/encodeurl-1.0.2.tgz"
+  },
+  {
+    "id": "env-paths@2.2.1",
+    "ecosystem": "npm",
+    "license": "MIT",
+    "source": "https://registry.npmjs.org/env-paths/-/env-paths-2.2.1.tgz"
+  },
+  {
+    "id": "envinfo@7.21.0",
+    "ecosystem": "npm",
+    "license": "MIT",
+    "source": "https://registry.npmjs.org/envinfo/-/envinfo-7.21.0.tgz"
+  },
+  {
+    "id": "error-ex@1.3.4",
+    "ecosystem": "npm",
+    "license": "MIT",
+    "source": "https://registry.npmjs.org/error-ex/-/error-ex-1.3.4.tgz"
+  },
+  {
+    "id": "error-stack-parser@2.1.4",
+    "ecosystem": "npm",
+    "license": "MIT",
+    "source": "https://registry.npmjs.org/error-stack-parser/-/error-stack-parser-2.1.4.tgz"
+  },
+  {
+    "id": "errorhandler@1.5.2",
+    "ecosystem": "npm",
+    "license": "MIT",
+    "source": "https://registry.npmjs.org/errorhandler/-/errorhandler-1.5.2.tgz"
+  },
+  {
+    "id": "es-define-property@1.0.1",
+    "ecosystem": "npm",
+    "license": "MIT",
+    "source": "https://registry.npmjs.org/es-define-property/-/es-define-property-1.0.1.tgz"
+  },
+  {
+    "id": "es-errors@1.3.0",
+    "ecosystem": "npm",
+    "license": "MIT",
+    "source": "https://registry.npmjs.org/es-errors/-/es-errors-1.3.0.tgz"
+  },
+  {
+    "id": "es-object-atoms@1.1.2",
+    "ecosystem": "npm",
+    "license": "MIT",
+    "source": "https://registry.npmjs.org/es-object-atoms/-/es-object-atoms-1.1.2.tgz"
+  },
+  {
+    "id": "escalade@3.2.0",
+    "ecosystem": "npm",
+    "license": "MIT",
+    "source": "https://registry.npmjs.org/escalade/-/escalade-3.2.0.tgz"
+  },
+  {
+    "id": "escape-html@1.0.3",
+    "ecosystem": "npm",
+    "license": "MIT",
+    "source": "https://registry.npmjs.org/escape-html/-/escape-html-1.0.3.tgz"
+  },
+  {
+    "id": "escape-string-regexp@4.0.0",
+    "ecosystem": "npm",
+    "license": "MIT",
+    "source": "https://registry.npmjs.org/escape-string-regexp/-/escape-string-regexp-4.0.0.tgz"
+  },
+  {
+    "id": "esprima@4.0.1",
+    "ecosystem": "npm",
+    "license": "BSD-2-Clause",
+    "source": "https://registry.npmjs.org/esprima/-/esprima-4.0.1.tgz"
+  },
+  {
+    "id": "etag@1.8.1",
+    "ecosystem": "npm",
+    "license": "MIT",
+    "source": "https://registry.npmjs.org/etag/-/etag-1.8.1.tgz"
+  },
+  {
+    "id": "event-target-shim@5.0.1",
+    "ecosystem": "npm",
+    "license": "MIT",
+    "source": "https://registry.npmjs.org/event-target-shim/-/event-target-shim-5.0.1.tgz"
+  },
+  {
+    "id": "execa@5.1.1",
+    "ecosystem": "npm",
+    "license": "MIT",
+    "source": "https://registry.npmjs.org/execa/-/execa-5.1.1.tgz"
+  },
+  {
+    "id": "exponential-backoff@3.1.3",
+    "ecosystem": "npm",
+    "license": "Apache-2.0",
+    "source": "https://registry.npmjs.org/exponential-backoff/-/exponential-backoff-3.1.3.tgz"
+  },
+  {
+    "id": "fast-glob@3.3.3",
+    "ecosystem": "npm",
+    "license": "MIT",
+    "source": "https://registry.npmjs.org/fast-glob/-/fast-glob-3.3.3.tgz"
+  },
+  {
+    "id": "glob-parent@5.1.2",
+    "ecosystem": "npm",
+    "license": "ISC",
+    "source": "https://registry.npmjs.org/glob-parent/-/glob-parent-5.1.2.tgz"
+  },
+  {
+    "id": "fast-json-stable-stringify@2.1.0",
+    "ecosystem": "npm",
+    "license": "MIT",
+    "source": "https://registry.npmjs.org/fast-json-stable-stringify/-/fast-json-stable-stringify-2.1.0.tgz"
+  },
+  {
+    "id": "fast-xml-builder@1.3.1",
+    "ecosystem": "npm",
+    "license": "MIT",
+    "source": "https://registry.npmjs.org/fast-xml-builder/-/fast-xml-builder-1.3.1.tgz"
+  },
+  {
+    "id": "fast-xml-parser@5.11.1",
+    "ecosystem": "npm",
+    "license": "MIT",
+    "source": "https://registry.npmjs.org/fast-xml-parser/-/fast-xml-parser-5.11.1.tgz"
+  },
+  {
+    "id": "fastq@1.20.3",
+    "ecosystem": "npm",
+    "license": "ISC",
+    "source": "https://registry.npmjs.org/fastq/-/fastq-1.20.3.tgz"
+  },
+  {
+    "id": "fb-dotslash@0.5.8",
+    "ecosystem": "npm",
+    "license": "(MIT OR Apache-2.0)",
+    "source": "https://registry.npmjs.org/fb-dotslash/-/fb-dotslash-0.5.8.tgz"
+  },
+  {
+    "id": "fb-watchman@2.0.2",
+    "ecosystem": "npm",
+    "license": "Apache-2.0",
+    "source": "https://registry.npmjs.org/fb-watchman/-/fb-watchman-2.0.2.tgz"
+  },
+  {
+    "id": "fill-range@7.1.1",
+    "ecosystem": "npm",
+    "license": "MIT",
+    "source": "https://registry.npmjs.org/fill-range/-/fill-range-7.1.1.tgz"
+  },
+  {
+    "id": "finalhandler@1.1.2",
+    "ecosystem": "npm",
+    "license": "MIT",
+    "source": "https://registry.npmjs.org/finalhandler/-/finalhandler-1.1.2.tgz"
+  },
+  {
+    "id": "on-finished@2.3.0",
+    "ecosystem": "npm",
+    "license": "MIT",
+    "source": "https://registry.npmjs.org/on-finished/-/on-finished-2.3.0.tgz"
+  },
+  {
+    "id": "find-up@5.0.0",
+    "ecosystem": "npm",
+    "license": "MIT",
+    "source": "https://registry.npmjs.org/find-up/-/find-up-5.0.0.tgz"
+  },
+  {
+    "id": "flow-enums-runtime@0.0.6",
+    "ecosystem": "npm",
+    "license": "MIT",
+    "source": "https://registry.npmjs.org/flow-enums-runtime/-/flow-enums-runtime-0.0.6.tgz"
+  },
+  {
+    "id": "fresh@0.5.2",
+    "ecosystem": "npm",
+    "license": "MIT",
+    "source": "https://registry.npmjs.org/fresh/-/fresh-0.5.2.tgz"
+  },
+  {
+    "id": "fs-extra@8.1.0",
+    "ecosystem": "npm",
+    "license": "MIT",
+    "source": "https://registry.npmjs.org/fs-extra/-/fs-extra-8.1.0.tgz"
+  },
+  {
+    "id": "fs.realpath@1.0.0",
+    "ecosystem": "npm",
+    "license": "ISC",
+    "source": "https://registry.npmjs.org/fs.realpath/-/fs.realpath-1.0.0.tgz"
+  },
+  {
+    "id": "function-bind@1.1.2",
+    "ecosystem": "npm",
+    "license": "MIT",
+    "source": "https://registry.npmjs.org/function-bind/-/function-bind-1.1.2.tgz"
+  },
+  {
+    "id": "gensync@1.0.0-beta.2",
+    "ecosystem": "npm",
+    "license": "MIT",
+    "source": "https://registry.npmjs.org/gensync/-/gensync-1.0.0-beta.2.tgz"
+  },
+  {
+    "id": "get-caller-file@2.0.5",
+    "ecosystem": "npm",
+    "license": "ISC",
+    "source": "https://registry.npmjs.org/get-caller-file/-/get-caller-file-2.0.5.tgz"
+  },
+  {
+    "id": "get-intrinsic@1.3.0",
+    "ecosystem": "npm",
+    "license": "MIT",
+    "source": "https://registry.npmjs.org/get-intrinsic/-/get-intrinsic-1.3.0.tgz"
+  },
+  {
+    "id": "get-package-type@0.1.0",
+    "ecosystem": "npm",
+    "license": "MIT",
+    "source": "https://registry.npmjs.org/get-package-type/-/get-package-type-0.1.0.tgz"
+  },
+  {
+    "id": "get-proto@1.0.1",
+    "ecosystem": "npm",
+    "license": "MIT",
+    "source": "https://registry.npmjs.org/get-proto/-/get-proto-1.0.1.tgz"
+  },
+  {
+    "id": "get-stream@6.0.1",
+    "ecosystem": "npm",
+    "license": "MIT",
+    "source": "https://registry.npmjs.org/get-stream/-/get-stream-6.0.1.tgz"
+  },
+  {
+    "id": "glob@7.2.3",
+    "ecosystem": "npm",
+    "license": "ISC",
+    "source": "https://registry.npmjs.org/glob/-/glob-7.2.3.tgz"
+  },
+  {
+    "id": "balanced-match@1.0.2",
+    "ecosystem": "npm",
+    "license": "MIT",
+    "source": "https://registry.npmjs.org/balanced-match/-/balanced-match-1.0.2.tgz"
+  },
+  {
+    "id": "brace-expansion@1.1.21",
+    "ecosystem": "npm",
+    "license": "MIT",
+    "source": "https://registry.npmjs.org/brace-expansion/-/brace-expansion-1.1.21.tgz"
+  },
+  {
+    "id": "minimatch@3.1.5",
+    "ecosystem": "npm",
+    "license": "ISC",
+    "source": "https://registry.npmjs.org/minimatch/-/minimatch-3.1.5.tgz"
+  },
+  {
+    "id": "gopd@1.2.0",
+    "ecosystem": "npm",
+    "license": "MIT",
+    "source": "https://registry.npmjs.org/gopd/-/gopd-1.2.0.tgz"
+  },
+  {
+    "id": "graceful-fs@4.2.11",
+    "ecosystem": "npm",
+    "license": "ISC",
+    "source": "https://registry.npmjs.org/graceful-fs/-/graceful-fs-4.2.11.tgz"
+  },
+  {
+    "id": "has-flag@4.0.0",
+    "ecosystem": "npm",
+    "license": "MIT",
+    "source": "https://registry.npmjs.org/has-flag/-/has-flag-4.0.0.tgz"
+  },
+  {
+    "id": "has-symbols@1.1.0",
+    "ecosystem": "npm",
+    "license": "MIT",
+    "source": "https://registry.npmjs.org/has-symbols/-/has-symbols-1.1.0.tgz"
+  },
+  {
+    "id": "hasown@2.0.4",
+    "ecosystem": "npm",
+    "license": "MIT",
+    "source": "https://registry.npmjs.org/hasown/-/hasown-2.0.4.tgz"
+  },
+  {
+    "id": "hermes-compiler@250829098.0.14",
+    "ecosystem": "npm",
+    "license": "MIT",
+    "source": "https://registry.npmjs.org/hermes-compiler/-/hermes-compiler-250829098.0.14.tgz"
+  },
+  {
+    "id": "hermes-estree@0.36.0",
+    "ecosystem": "npm",
+    "license": "MIT",
+    "source": "https://registry.npmjs.org/hermes-estree/-/hermes-estree-0.36.0.tgz"
+  },
+  {
+    "id": "hermes-parser@0.36.0",
+    "ecosystem": "npm",
+    "license": "MIT",
+    "source": "https://registry.npmjs.org/hermes-parser/-/hermes-parser-0.36.0.tgz"
+  },
+  {
+    "id": "http-errors@2.0.1",
+    "ecosystem": "npm",
+    "license": "MIT",
+    "source": "https://registry.npmjs.org/http-errors/-/http-errors-2.0.1.tgz"
+  },
+  {
+    "id": "statuses@2.0.2",
+    "ecosystem": "npm",
+    "license": "MIT",
+    "source": "https://registry.npmjs.org/statuses/-/statuses-2.0.2.tgz"
+  },
+  {
+    "id": "https-proxy-agent@7.0.6",
+    "ecosystem": "npm",
+    "license": "MIT",
+    "source": "https://registry.npmjs.org/https-proxy-agent/-/https-proxy-agent-7.0.6.tgz"
+  },
+  {
+    "id": "human-signals@2.1.0",
+    "ecosystem": "npm",
+    "license": "Apache-2.0",
+    "source": "https://registry.npmjs.org/human-signals/-/human-signals-2.1.0.tgz"
+  },
+  {
+    "id": "iconv-lite@0.7.3",
+    "ecosystem": "npm",
+    "license": "MIT",
+    "source": "https://registry.npmjs.org/iconv-lite/-/iconv-lite-0.7.3.tgz"
+  },
+  {
+    "id": "idb@8.0.3",
+    "ecosystem": "npm",
+    "license": "ISC",
+    "source": "https://registry.npmjs.org/idb/-/idb-8.0.3.tgz"
+  },
+  {
+    "id": "ieee754@1.2.1",
+    "ecosystem": "npm",
+    "license": "BSD-3-Clause",
+    "source": "https://registry.npmjs.org/ieee754/-/ieee754-1.2.1.tgz"
+  },
+  {
+    "id": "import-fresh@3.3.1",
+    "ecosystem": "npm",
+    "license": "MIT",
+    "source": "https://registry.npmjs.org/import-fresh/-/import-fresh-3.3.1.tgz"
+  },
+  {
+    "id": "resolve-from@4.0.0",
+    "ecosystem": "npm",
+    "license": "MIT",
+    "source": "https://registry.npmjs.org/resolve-from/-/resolve-from-4.0.0.tgz"
+  },
+  {
+    "id": "imurmurhash@0.1.4",
+    "ecosystem": "npm",
+    "license": "MIT",
+    "source": "https://registry.npmjs.org/imurmurhash/-/imurmurhash-0.1.4.tgz"
+  },
+  {
+    "id": "inflight@1.0.6",
+    "ecosystem": "npm",
+    "license": "ISC",
+    "source": "https://registry.npmjs.org/inflight/-/inflight-1.0.6.tgz"
+  },
+  {
+    "id": "inherits@2.0.4",
+    "ecosystem": "npm",
+    "license": "ISC",
+    "source": "https://registry.npmjs.org/inherits/-/inherits-2.0.4.tgz"
+  },
+  {
+    "id": "invariant@2.2.4",
+    "ecosystem": "npm",
+    "license": "MIT",
+    "source": "https://registry.npmjs.org/invariant/-/invariant-2.2.4.tgz"
+  },
+  {
+    "id": "is-arrayish@0.2.1",
+    "ecosystem": "npm",
+    "license": "MIT",
+    "source": "https://registry.npmjs.org/is-arrayish/-/is-arrayish-0.2.1.tgz"
+  },
+  {
+    "id": "is-core-module@2.17.0",
+    "ecosystem": "npm",
+    "license": "MIT",
+    "source": "https://registry.npmjs.org/is-core-module/-/is-core-module-2.17.0.tgz"
+  },
+  {
+    "id": "is-docker@2.2.1",
+    "ecosystem": "npm",
+    "license": "MIT",
+    "source": "https://registry.npmjs.org/is-docker/-/is-docker-2.2.1.tgz"
+  },
+  {
+    "id": "is-extglob@2.1.1",
+    "ecosystem": "npm",
+    "license": "MIT",
+    "source": "https://registry.npmjs.org/is-extglob/-/is-extglob-2.1.1.tgz"
+  },
+  {
+    "id": "is-fullwidth-code-point@2.0.0",
+    "ecosystem": "npm",
+    "license": "MIT",
+    "source": "https://registry.npmjs.org/is-fullwidth-code-point/-/is-fullwidth-code-point-2.0.0.tgz"
+  },
+  {
+    "id": "is-glob@4.0.3",
+    "ecosystem": "npm",
+    "license": "MIT",
+    "source": "https://registry.npmjs.org/is-glob/-/is-glob-4.0.3.tgz"
+  },
+  {
+    "id": "is-interactive@1.0.0",
+    "ecosystem": "npm",
+    "license": "MIT",
+    "source": "https://registry.npmjs.org/is-interactive/-/is-interactive-1.0.0.tgz"
+  },
+  {
+    "id": "is-number@7.0.0",
+    "ecosystem": "npm",
+    "license": "MIT",
+    "source": "https://registry.npmjs.org/is-number/-/is-number-7.0.0.tgz"
+  },
+  {
+    "id": "is-stream@2.0.1",
+    "ecosystem": "npm",
+    "license": "MIT",
+    "source": "https://registry.npmjs.org/is-stream/-/is-stream-2.0.1.tgz"
+  },
+  {
+    "id": "is-unicode-supported@0.1.0",
+    "ecosystem": "npm",
+    "license": "MIT",
+    "source": "https://registry.npmjs.org/is-unicode-supported/-/is-unicode-supported-0.1.0.tgz"
+  },
+  {
+    "id": "is-unsafe@2.0.2",
+    "ecosystem": "npm",
+    "license": "MIT",
+    "source": "https://registry.npmjs.org/is-unsafe/-/is-unsafe-2.0.2.tgz"
+  },
+  {
+    "id": "is-wsl@1.1.0",
+    "ecosystem": "npm",
+    "license": "MIT",
+    "source": "https://registry.npmjs.org/is-wsl/-/is-wsl-1.1.0.tgz"
+  },
+  {
+    "id": "isexe@2.0.0",
+    "ecosystem": "npm",
+    "license": "ISC",
+    "source": "https://registry.npmjs.org/isexe/-/isexe-2.0.0.tgz"
+  },
+  {
+    "id": "istanbul-lib-coverage@3.2.2",
+    "ecosystem": "npm",
+    "license": "BSD-3-Clause",
+    "source": "https://registry.npmjs.org/istanbul-lib-coverage/-/istanbul-lib-coverage-3.2.2.tgz"
+  },
+  {
+    "id": "istanbul-lib-instrument@5.2.1",
+    "ecosystem": "npm",
+    "license": "BSD-3-Clause",
+    "source": "https://registry.npmjs.org/istanbul-lib-instrument/-/istanbul-lib-instrument-5.2.1.tgz"
+  },
+  {
+    "id": "jest-environment-node@29.7.0",
+    "ecosystem": "npm",
+    "license": "MIT",
+    "source": "https://registry.npmjs.org/jest-environment-node/-/jest-environment-node-29.7.0.tgz"
+  },
+  {
+    "id": "jest-get-type@29.6.3",
+    "ecosystem": "npm",
+    "license": "MIT",
+    "source": "https://registry.npmjs.org/jest-get-type/-/jest-get-type-29.6.3.tgz"
+  },
+  {
+    "id": "jest-haste-map@29.7.0",
+    "ecosystem": "npm",
+    "license": "MIT",
+    "source": "https://registry.npmjs.org/jest-haste-map/-/jest-haste-map-29.7.0.tgz"
+  },
+  {
+    "id": "jest-message-util@29.7.0",
+    "ecosystem": "npm",
+    "license": "MIT",
+    "source": "https://registry.npmjs.org/jest-message-util/-/jest-message-util-29.7.0.tgz"
+  },
+  {
+    "id": "jest-mock@29.7.0",
+    "ecosystem": "npm",
+    "license": "MIT",
+    "source": "https://registry.npmjs.org/jest-mock/-/jest-mock-29.7.0.tgz"
+  },
+  {
+    "id": "jest-regex-util@29.6.3",
+    "ecosystem": "npm",
+    "license": "MIT",
+    "source": "https://registry.npmjs.org/jest-regex-util/-/jest-regex-util-29.6.3.tgz"
+  },
+  {
+    "id": "jest-util@29.7.0",
+    "ecosystem": "npm",
+    "license": "MIT",
+    "source": "https://registry.npmjs.org/jest-util/-/jest-util-29.7.0.tgz"
+  },
+  {
+    "id": "jest-validate@29.7.0",
+    "ecosystem": "npm",
+    "license": "MIT",
+    "source": "https://registry.npmjs.org/jest-validate/-/jest-validate-29.7.0.tgz"
+  },
+  {
+    "id": "camelcase@6.3.0",
+    "ecosystem": "npm",
+    "license": "MIT",
+    "source": "https://registry.npmjs.org/camelcase/-/camelcase-6.3.0.tgz"
+  },
+  {
+    "id": "jest-worker@29.7.0",
+    "ecosystem": "npm",
+    "license": "MIT",
+    "source": "https://registry.npmjs.org/jest-worker/-/jest-worker-29.7.0.tgz"
+  },
+  {
+    "id": "supports-color@8.1.1",
+    "ecosystem": "npm",
+    "license": "MIT",
+    "source": "https://registry.npmjs.org/supports-color/-/supports-color-8.1.1.tgz"
+  },
+  {
+    "id": "joi@17.13.8",
+    "ecosystem": "npm",
+    "license": "BSD-3-Clause",
+    "source": "https://registry.npmjs.org/joi/-/joi-17.13.8.tgz"
+  },
+  {
+    "id": "js-tokens@4.0.0",
+    "ecosystem": "npm",
+    "license": "MIT",
+    "source": "https://registry.npmjs.org/js-tokens/-/js-tokens-4.0.0.tgz"
+  },
+  {
+    "id": "js-yaml@3.15.2",
+    "ecosystem": "npm",
+    "license": "MIT",
+    "source": "https://registry.npmjs.org/js-yaml/-/js-yaml-3.15.2.tgz"
+  },
+  {
+    "id": "jsc-safe-url@0.2.4",
+    "ecosystem": "npm",
+    "license": "0BSD",
+    "source": "https://registry.npmjs.org/jsc-safe-url/-/jsc-safe-url-0.2.4.tgz"
+  },
+  {
+    "id": "jsesc@3.1.0",
+    "ecosystem": "npm",
+    "license": "MIT",
+    "source": "https://registry.npmjs.org/jsesc/-/jsesc-3.1.0.tgz"
+  },
+  {
+    "id": "json-parse-even-better-errors@2.3.1",
+    "ecosystem": "npm",
+    "license": "MIT",
+    "source": "https://registry.npmjs.org/json-parse-even-better-errors/-/json-parse-even-better-errors-2.3.1.tgz"
+  },
+  {
+    "id": "json5@2.2.3",
+    "ecosystem": "npm",
+    "license": "MIT",
+    "source": "https://registry.npmjs.org/json5/-/json5-2.2.3.tgz"
+  },
+  {
+    "id": "jsonfile@4.0.0",
+    "ecosystem": "npm",
+    "license": "MIT",
+    "source": "https://registry.npmjs.org/jsonfile/-/jsonfile-4.0.0.tgz"
+  },
+  {
+    "id": "kleur@3.0.3",
+    "ecosystem": "npm",
+    "license": "MIT",
+    "source": "https://registry.npmjs.org/kleur/-/kleur-3.0.3.tgz"
+  },
+  {
+    "id": "launch-editor@2.14.1",
+    "ecosystem": "npm",
+    "license": "MIT",
+    "source": "https://registry.npmjs.org/launch-editor/-/launch-editor-2.14.1.tgz"
+  },
+  {
+    "id": "leven@3.1.0",
+    "ecosystem": "npm",
+    "license": "MIT",
+    "source": "https://registry.npmjs.org/leven/-/leven-3.1.0.tgz"
+  },
+  {
+    "id": "lighthouse-logger@1.4.2",
+    "ecosystem": "npm",
+    "license": "Apache-2.0",
+    "source": "https://registry.npmjs.org/lighthouse-logger/-/lighthouse-logger-1.4.2.tgz"
+  },
+  {
+    "id": "lines-and-columns@1.2.4",
+    "ecosystem": "npm",
+    "license": "MIT",
+    "source": "https://registry.npmjs.org/lines-and-columns/-/lines-and-columns-1.2.4.tgz"
+  },
+  {
+    "id": "locate-path@6.0.0",
+    "ecosystem": "npm",
+    "license": "MIT",
+    "source": "https://registry.npmjs.org/locate-path/-/locate-path-6.0.0.tgz"
+  },
+  {
+    "id": "lodash.debounce@4.0.8",
+    "ecosystem": "npm",
+    "license": "MIT",
+    "source": "https://registry.npmjs.org/lodash.debounce/-/lodash.debounce-4.0.8.tgz"
+  },
+  {
+    "id": "lodash.throttle@4.1.1",
+    "ecosystem": "npm",
+    "license": "MIT",
+    "source": "https://registry.npmjs.org/lodash.throttle/-/lodash.throttle-4.1.1.tgz"
+  },
+  {
+    "id": "log-symbols@4.1.0",
+    "ecosystem": "npm",
+    "license": "MIT",
+    "source": "https://registry.npmjs.org/log-symbols/-/log-symbols-4.1.0.tgz"
+  },
+  {
+    "id": "logkitty@0.7.1",
+    "ecosystem": "npm",
+    "license": "MIT",
+    "source": "https://registry.npmjs.org/logkitty/-/logkitty-0.7.1.tgz"
+  },
+  {
+    "id": "cliui@6.0.0",
+    "ecosystem": "npm",
+    "license": "ISC",
+    "source": "https://registry.npmjs.org/cliui/-/cliui-6.0.0.tgz"
+  },
+  {
+    "id": "wrap-ansi@6.2.0",
+    "ecosystem": "npm",
+    "license": "MIT",
+    "source": "https://registry.npmjs.org/wrap-ansi/-/wrap-ansi-6.2.0.tgz"
+  },
+  {
+    "id": "y18n@4.0.3",
+    "ecosystem": "npm",
+    "license": "ISC",
+    "source": "https://registry.npmjs.org/y18n/-/y18n-4.0.3.tgz"
+  },
+  {
+    "id": "yargs@15.4.1",
+    "ecosystem": "npm",
+    "license": "MIT",
+    "source": "https://registry.npmjs.org/yargs/-/yargs-15.4.1.tgz"
+  },
+  {
+    "id": "yargs-parser@18.1.3",
+    "ecosystem": "npm",
+    "license": "ISC",
+    "source": "https://registry.npmjs.org/yargs-parser/-/yargs-parser-18.1.3.tgz"
+  },
+  {
+    "id": "loose-envify@1.4.0",
+    "ecosystem": "npm",
+    "license": "MIT",
+    "source": "https://registry.npmjs.org/loose-envify/-/loose-envify-1.4.0.tgz"
+  },
+  {
+    "id": "lru-cache@5.1.1",
+    "ecosystem": "npm",
+    "license": "ISC",
+    "source": "https://registry.npmjs.org/lru-cache/-/lru-cache-5.1.1.tgz"
+  },
+  {
+    "id": "makeerror@1.0.12",
+    "ecosystem": "npm",
+    "license": "BSD-3-Clause",
+    "source": "https://registry.npmjs.org/makeerror/-/makeerror-1.0.12.tgz"
+  },
+  {
+    "id": "marky@1.3.0",
+    "ecosystem": "npm",
+    "license": "Apache-2.0",
+    "source": "https://registry.npmjs.org/marky/-/marky-1.3.0.tgz"
+  },
+  {
+    "id": "math-intrinsics@1.1.0",
+    "ecosystem": "npm",
+    "license": "MIT",
+    "source": "https://registry.npmjs.org/math-intrinsics/-/math-intrinsics-1.1.0.tgz"
+  },
+  {
+    "id": "media-typer@1.1.1",
+    "ecosystem": "npm",
+    "license": "MIT",
+    "source": "https://registry.npmjs.org/media-typer/-/media-typer-1.1.1.tgz"
+  },
+  {
+    "id": "memoize-one@5.2.1",
+    "ecosystem": "npm",
+    "license": "MIT",
+    "source": "https://registry.npmjs.org/memoize-one/-/memoize-one-5.2.1.tgz"
+  },
+  {
+    "id": "merge-stream@2.0.0",
+    "ecosystem": "npm",
+    "license": "MIT",
+    "source": "https://registry.npmjs.org/merge-stream/-/merge-stream-2.0.0.tgz"
+  },
+  {
+    "id": "merge2@1.4.1",
+    "ecosystem": "npm",
+    "license": "MIT",
+    "source": "https://registry.npmjs.org/merge2/-/merge2-1.4.1.tgz"
+  },
+  {
+    "id": "micromatch@4.0.8",
+    "ecosystem": "npm",
+    "license": "MIT",
+    "source": "https://registry.npmjs.org/micromatch/-/micromatch-4.0.8.tgz"
+  },
+  {
+    "id": "mime@2.6.0",
+    "ecosystem": "npm",
+    "license": "MIT",
+    "source": "https://registry.npmjs.org/mime/-/mime-2.6.0.tgz"
+  },
+  {
+    "id": "mime-db@1.54.0",
+    "ecosystem": "npm",
+    "license": "MIT",
+    "source": "https://registry.npmjs.org/mime-db/-/mime-db-1.54.0.tgz"
+  },
+  {
+    "id": "mime-types@2.1.35",
+    "ecosystem": "npm",
+    "license": "MIT",
+    "source": "https://registry.npmjs.org/mime-types/-/mime-types-2.1.35.tgz"
+  },
+  {
+    "id": "mime-db@1.52.0",
+    "ecosystem": "npm",
+    "license": "MIT",
+    "source": "https://registry.npmjs.org/mime-db/-/mime-db-1.52.0.tgz"
+  },
+  {
+    "id": "mimic-fn@2.1.0",
+    "ecosystem": "npm",
+    "license": "MIT",
+    "source": "https://registry.npmjs.org/mimic-fn/-/mimic-fn-2.1.0.tgz"
+  },
+  {
+    "id": "mkdirp@1.0.4",
+    "ecosystem": "npm",
+    "license": "MIT",
+    "source": "https://registry.npmjs.org/mkdirp/-/mkdirp-1.0.4.tgz"
+  },
+  {
+    "id": "ms@2.1.3",
+    "ecosystem": "npm",
+    "license": "MIT",
+    "source": "https://registry.npmjs.org/ms/-/ms-2.1.3.tgz"
+  },
+  {
+    "id": "negotiator@0.6.4",
+    "ecosystem": "npm",
+    "license": "MIT",
+    "source": "https://registry.npmjs.org/negotiator/-/negotiator-0.6.4.tgz"
+  },
+  {
+    "id": "nocache@3.0.4",
+    "ecosystem": "npm",
+    "license": "MIT",
+    "source": "https://registry.npmjs.org/nocache/-/nocache-3.0.4.tgz"
+  },
+  {
+    "id": "node-int64@0.4.0",
+    "ecosystem": "npm",
+    "license": "MIT",
+    "source": "https://registry.npmjs.org/node-int64/-/node-int64-0.4.0.tgz"
+  },
+  {
+    "id": "node-releases@2.0.56",
+    "ecosystem": "npm",
+    "license": "MIT",
+    "source": "https://registry.npmjs.org/node-releases/-/node-releases-2.0.56.tgz"
+  },
+  {
+    "id": "node-stream-zip@1.16.0",
+    "ecosystem": "npm",
+    "license": "MIT",
+    "source": "https://registry.npmjs.org/node-stream-zip/-/node-stream-zip-1.16.0.tgz"
+  },
+  {
+    "id": "normalize-path@3.0.0",
+    "ecosystem": "npm",
+    "license": "MIT",
+    "source": "https://registry.npmjs.org/normalize-path/-/normalize-path-3.0.0.tgz"
+  },
+  {
+    "id": "npm-run-path@4.0.1",
+    "ecosystem": "npm",
+    "license": "MIT",
+    "source": "https://registry.npmjs.org/npm-run-path/-/npm-run-path-4.0.1.tgz"
+  },
+  {
+    "id": "nullthrows@1.1.1",
+    "ecosystem": "npm",
+    "license": "MIT",
+    "source": "https://registry.npmjs.org/nullthrows/-/nullthrows-1.1.1.tgz"
+  },
+  {
+    "id": "object-inspect@1.13.4",
+    "ecosystem": "npm",
+    "license": "MIT",
+    "source": "https://registry.npmjs.org/object-inspect/-/object-inspect-1.13.4.tgz"
+  },
+  {
+    "id": "on-finished@2.4.1",
+    "ecosystem": "npm",
+    "license": "MIT",
+    "source": "https://registry.npmjs.org/on-finished/-/on-finished-2.4.1.tgz"
+  },
+  {
+    "id": "on-headers@1.1.0",
+    "ecosystem": "npm",
+    "license": "MIT",
+    "source": "https://registry.npmjs.org/on-headers/-/on-headers-1.1.0.tgz"
+  },
+  {
+    "id": "once@1.4.0",
+    "ecosystem": "npm",
+    "license": "ISC",
+    "source": "https://registry.npmjs.org/once/-/once-1.4.0.tgz"
+  },
+  {
+    "id": "onetime@5.1.2",
+    "ecosystem": "npm",
+    "license": "MIT",
+    "source": "https://registry.npmjs.org/onetime/-/onetime-5.1.2.tgz"
+  },
+  {
+    "id": "open@6.4.0",
+    "ecosystem": "npm",
+    "license": "MIT",
+    "source": "https://registry.npmjs.org/open/-/open-6.4.0.tgz"
+  },
+  {
+    "id": "ora@5.4.1",
+    "ecosystem": "npm",
+    "license": "MIT",
+    "source": "https://registry.npmjs.org/ora/-/ora-5.4.1.tgz"
+  },
+  {
+    "id": "p-limit@3.1.0",
+    "ecosystem": "npm",
+    "license": "MIT",
+    "source": "https://registry.npmjs.org/p-limit/-/p-limit-3.1.0.tgz"
+  },
+  {
+    "id": "p-locate@5.0.0",
+    "ecosystem": "npm",
+    "license": "MIT",
+    "source": "https://registry.npmjs.org/p-locate/-/p-locate-5.0.0.tgz"
+  },
+  {
+    "id": "p-try@2.2.0",
+    "ecosystem": "npm",
+    "license": "MIT",
+    "source": "https://registry.npmjs.org/p-try/-/p-try-2.2.0.tgz"
+  },
+  {
+    "id": "parent-module@1.0.1",
+    "ecosystem": "npm",
+    "license": "MIT",
+    "source": "https://registry.npmjs.org/parent-module/-/parent-module-1.0.1.tgz"
+  },
+  {
+    "id": "parse-json@5.2.0",
+    "ecosystem": "npm",
+    "license": "MIT",
+    "source": "https://registry.npmjs.org/parse-json/-/parse-json-5.2.0.tgz"
+  },
+  {
+    "id": "parseurl@1.3.3",
+    "ecosystem": "npm",
+    "license": "MIT",
+    "source": "https://registry.npmjs.org/parseurl/-/parseurl-1.3.3.tgz"
+  },
+  {
+    "id": "path-exists@4.0.0",
+    "ecosystem": "npm",
+    "license": "MIT",
+    "source": "https://registry.npmjs.org/path-exists/-/path-exists-4.0.0.tgz"
+  },
+  {
+    "id": "path-expression-matcher@1.6.2",
+    "ecosystem": "npm",
+    "license": "MIT",
+    "source": "https://registry.npmjs.org/path-expression-matcher/-/path-expression-matcher-1.6.2.tgz"
+  },
+  {
+    "id": "path-is-absolute@1.0.1",
+    "ecosystem": "npm",
+    "license": "MIT",
+    "source": "https://registry.npmjs.org/path-is-absolute/-/path-is-absolute-1.0.1.tgz"
+  },
+  {
+    "id": "path-key@3.1.1",
+    "ecosystem": "npm",
+    "license": "MIT",
+    "source": "https://registry.npmjs.org/path-key/-/path-key-3.1.1.tgz"
+  },
+  {
+    "id": "path-parse@1.0.7",
+    "ecosystem": "npm",
+    "license": "MIT",
+    "source": "https://registry.npmjs.org/path-parse/-/path-parse-1.0.7.tgz"
+  },
+  {
+    "id": "picocolors@1.1.1",
+    "ecosystem": "npm",
+    "license": "ISC",
+    "source": "https://registry.npmjs.org/picocolors/-/picocolors-1.1.1.tgz"
+  },
+  {
+    "id": "picomatch@2.3.2",
+    "ecosystem": "npm",
+    "license": "MIT",
+    "source": "https://registry.npmjs.org/picomatch/-/picomatch-2.3.2.tgz"
+  },
+  {
+    "id": "pirates@4.0.7",
+    "ecosystem": "npm",
+    "license": "MIT",
+    "source": "https://registry.npmjs.org/pirates/-/pirates-4.0.7.tgz"
+  },
+  {
+    "id": "pretty-format@29.7.0",
+    "ecosystem": "npm",
+    "license": "MIT",
+    "source": "https://registry.npmjs.org/pretty-format/-/pretty-format-29.7.0.tgz"
+  },
+  {
+    "id": "ansi-styles@5.2.0",
+    "ecosystem": "npm",
+    "license": "MIT",
+    "source": "https://registry.npmjs.org/ansi-styles/-/ansi-styles-5.2.0.tgz"
+  },
+  {
+    "id": "promise@8.3.0",
+    "ecosystem": "npm",
+    "license": "MIT",
+    "source": "https://registry.npmjs.org/promise/-/promise-8.3.0.tgz"
+  },
+  {
+    "id": "prompts@2.4.2",
+    "ecosystem": "npm",
+    "license": "MIT",
+    "source": "https://registry.npmjs.org/prompts/-/prompts-2.4.2.tgz"
+  },
+  {
+    "id": "qs@6.16.0",
+    "ecosystem": "npm",
+    "license": "BSD-3-Clause",
+    "source": "https://registry.npmjs.org/qs/-/qs-6.16.0.tgz"
+  },
+  {
+    "id": "queue-microtask@1.2.3",
+    "ecosystem": "npm",
+    "license": "MIT",
+    "source": "https://registry.npmjs.org/queue-microtask/-/queue-microtask-1.2.3.tgz"
+  },
+  {
+    "id": "range-parser@1.2.1",
+    "ecosystem": "npm",
+    "license": "MIT",
+    "source": "https://registry.npmjs.org/range-parser/-/range-parser-1.2.1.tgz"
+  },
+  {
+    "id": "raw-body@3.0.2",
+    "ecosystem": "npm",
+    "license": "MIT",
+    "source": "https://registry.npmjs.org/raw-body/-/raw-body-3.0.2.tgz"
+  },
+  {
+    "id": "react@19.2.3",
+    "ecosystem": "npm",
+    "license": "MIT",
+    "source": "https://registry.npmjs.org/react/-/react-19.2.3.tgz"
+  },
+  {
+    "id": "react-devtools-core@6.1.5",
+    "ecosystem": "npm",
+    "license": "MIT",
+    "source": "https://registry.npmjs.org/react-devtools-core/-/react-devtools-core-6.1.5.tgz"
+  },
+  {
+    "id": "react-is@18.3.1",
+    "ecosystem": "npm",
+    "license": "MIT",
+    "source": "https://registry.npmjs.org/react-is/-/react-is-18.3.1.tgz"
+  },
+  {
+    "id": "react-native@0.86.0",
+    "ecosystem": "npm",
+    "license": "MIT",
+    "source": "https://registry.npmjs.org/react-native/-/react-native-0.86.0.tgz"
+  },
+  {
+    "id": "react-native-keychain@10.0.0",
+    "ecosystem": "npm",
+    "license": "MIT",
+    "source": "https://registry.npmjs.org/react-native-keychain/-/react-native-keychain-10.0.0.tgz"
+  },
+  {
+    "id": "react-native-safe-area-context@5.10.0",
+    "ecosystem": "npm",
+    "license": "MIT",
+    "source": "https://registry.npmjs.org/react-native-safe-area-context/-/react-native-safe-area-context-5.10.0.tgz"
+  },
+  {
+    "id": "react-native-webrtc@124.0.8",
+    "ecosystem": "npm",
+    "license": "MIT",
+    "source": "https://registry.npmjs.org/react-native-webrtc/-/react-native-webrtc-124.0.8.tgz"
+  },
+  {
+    "id": "debug@4.3.4",
+    "ecosystem": "npm",
+    "license": "MIT",
+    "source": "https://registry.npmjs.org/debug/-/debug-4.3.4.tgz"
+  },
+  {
+    "id": "ms@2.1.2",
+    "ecosystem": "npm",
+    "license": "MIT",
+    "source": "https://registry.npmjs.org/ms/-/ms-2.1.2.tgz"
+  },
+  {
+    "id": "commander@12.1.0",
+    "ecosystem": "npm",
+    "license": "MIT",
+    "source": "https://registry.npmjs.org/commander/-/commander-12.1.0.tgz"
+  },
+  {
+    "id": "react-refresh@0.14.2",
+    "ecosystem": "npm",
+    "license": "MIT",
+    "source": "https://registry.npmjs.org/react-refresh/-/react-refresh-0.14.2.tgz"
+  },
+  {
+    "id": "readable-stream@3.6.2",
+    "ecosystem": "npm",
+    "license": "MIT",
+    "source": "https://registry.npmjs.org/readable-stream/-/readable-stream-3.6.2.tgz"
+  },
+  {
+    "id": "regenerate@1.4.2",
+    "ecosystem": "npm",
+    "license": "MIT",
+    "source": "https://registry.npmjs.org/regenerate/-/regenerate-1.4.2.tgz"
+  },
+  {
+    "id": "regenerate-unicode-properties@10.2.2",
+    "ecosystem": "npm",
+    "license": "MIT",
+    "source": "https://registry.npmjs.org/regenerate-unicode-properties/-/regenerate-unicode-properties-10.2.2.tgz"
+  },
+  {
+    "id": "regenerator-runtime@0.13.11",
+    "ecosystem": "npm",
+    "license": "MIT",
+    "source": "https://registry.npmjs.org/regenerator-runtime/-/regenerator-runtime-0.13.11.tgz"
+  },
+  {
+    "id": "regexpu-core@6.4.0",
+    "ecosystem": "npm",
+    "license": "MIT",
+    "source": "https://registry.npmjs.org/regexpu-core/-/regexpu-core-6.4.0.tgz"
+  },
+  {
+    "id": "regjsgen@0.8.0",
+    "ecosystem": "npm",
+    "license": "MIT",
+    "source": "https://registry.npmjs.org/regjsgen/-/regjsgen-0.8.0.tgz"
+  },
+  {
+    "id": "regjsparser@0.13.3",
+    "ecosystem": "npm",
+    "license": "BSD-2-Clause",
+    "source": "https://registry.npmjs.org/regjsparser/-/regjsparser-0.13.3.tgz"
+  },
+  {
+    "id": "require-directory@2.1.1",
+    "ecosystem": "npm",
+    "license": "MIT",
+    "source": "https://registry.npmjs.org/require-directory/-/require-directory-2.1.1.tgz"
+  },
+  {
+    "id": "require-main-filename@2.0.0",
+    "ecosystem": "npm",
+    "license": "ISC",
+    "source": "https://registry.npmjs.org/require-main-filename/-/require-main-filename-2.0.0.tgz"
+  },
+  {
+    "id": "resolve@1.22.12",
+    "ecosystem": "npm",
+    "license": "MIT",
+    "source": "https://registry.npmjs.org/resolve/-/resolve-1.22.12.tgz"
+  },
+  {
+    "id": "resolve-from@5.0.0",
+    "ecosystem": "npm",
+    "license": "MIT",
+    "source": "https://registry.npmjs.org/resolve-from/-/resolve-from-5.0.0.tgz"
+  },
+  {
+    "id": "restore-cursor@3.1.0",
+    "ecosystem": "npm",
+    "license": "MIT",
+    "source": "https://registry.npmjs.org/restore-cursor/-/restore-cursor-3.1.0.tgz"
+  },
+  {
+    "id": "reusify@1.1.0",
+    "ecosystem": "npm",
+    "license": "MIT",
+    "source": "https://registry.npmjs.org/reusify/-/reusify-1.1.0.tgz"
+  },
+  {
+    "id": "run-parallel@1.2.0",
+    "ecosystem": "npm",
+    "license": "MIT",
+    "source": "https://registry.npmjs.org/run-parallel/-/run-parallel-1.2.0.tgz"
+  },
+  {
+    "id": "safe-buffer@5.2.1",
+    "ecosystem": "npm",
+    "license": "MIT",
+    "source": "https://registry.npmjs.org/safe-buffer/-/safe-buffer-5.2.1.tgz"
+  },
+  {
+    "id": "safer-buffer@2.1.2",
+    "ecosystem": "npm",
+    "license": "MIT",
+    "source": "https://registry.npmjs.org/safer-buffer/-/safer-buffer-2.1.2.tgz"
+  },
+  {
+    "id": "scheduler@0.27.0",
+    "ecosystem": "npm",
+    "license": "MIT",
+    "source": "https://registry.npmjs.org/scheduler/-/scheduler-0.27.0.tgz"
+  },
+  {
+    "id": "semver@6.3.1",
+    "ecosystem": "npm",
+    "license": "ISC",
+    "source": "https://registry.npmjs.org/semver/-/semver-6.3.1.tgz"
+  },
+  {
+    "id": "send@0.19.2",
+    "ecosystem": "npm",
+    "license": "MIT",
+    "source": "https://registry.npmjs.org/send/-/send-0.19.2.tgz"
+  },
+  {
+    "id": "encodeurl@2.0.0",
+    "ecosystem": "npm",
+    "license": "MIT",
+    "source": "https://registry.npmjs.org/encodeurl/-/encodeurl-2.0.0.tgz"
+  },
+  {
+    "id": "mime@1.6.0",
+    "ecosystem": "npm",
+    "license": "MIT",
+    "source": "https://registry.npmjs.org/mime/-/mime-1.6.0.tgz"
+  },
+  {
+    "id": "serialize-error@2.1.0",
+    "ecosystem": "npm",
+    "license": "MIT",
+    "source": "https://registry.npmjs.org/serialize-error/-/serialize-error-2.1.0.tgz"
+  },
+  {
+    "id": "serve-static@1.16.3",
+    "ecosystem": "npm",
+    "license": "MIT",
+    "source": "https://registry.npmjs.org/serve-static/-/serve-static-1.16.3.tgz"
+  },
+  {
+    "id": "set-blocking@2.0.0",
+    "ecosystem": "npm",
+    "license": "ISC",
+    "source": "https://registry.npmjs.org/set-blocking/-/set-blocking-2.0.0.tgz"
+  },
+  {
+    "id": "setprototypeof@1.2.0",
+    "ecosystem": "npm",
+    "license": "ISC",
+    "source": "https://registry.npmjs.org/setprototypeof/-/setprototypeof-1.2.0.tgz"
+  },
+  {
+    "id": "shebang-command@2.0.0",
+    "ecosystem": "npm",
+    "license": "MIT",
+    "source": "https://registry.npmjs.org/shebang-command/-/shebang-command-2.0.0.tgz"
+  },
+  {
+    "id": "shebang-regex@3.0.0",
+    "ecosystem": "npm",
+    "license": "MIT",
+    "source": "https://registry.npmjs.org/shebang-regex/-/shebang-regex-3.0.0.tgz"
+  },
+  {
+    "id": "shell-quote@1.10.0",
+    "ecosystem": "npm",
+    "license": "MIT",
+    "source": "https://registry.npmjs.org/shell-quote/-/shell-quote-1.10.0.tgz"
+  },
+  {
+    "id": "side-channel@1.1.1",
+    "ecosystem": "npm",
+    "license": "MIT",
+    "source": "https://registry.npmjs.org/side-channel/-/side-channel-1.1.1.tgz"
+  },
+  {
+    "id": "side-channel-list@1.0.1",
+    "ecosystem": "npm",
+    "license": "MIT",
+    "source": "https://registry.npmjs.org/side-channel-list/-/side-channel-list-1.0.1.tgz"
+  },
+  {
+    "id": "side-channel-map@1.0.1",
+    "ecosystem": "npm",
+    "license": "MIT",
+    "source": "https://registry.npmjs.org/side-channel-map/-/side-channel-map-1.0.1.tgz"
+  },
+  {
+    "id": "side-channel-weakmap@1.0.2",
+    "ecosystem": "npm",
+    "license": "MIT",
+    "source": "https://registry.npmjs.org/side-channel-weakmap/-/side-channel-weakmap-1.0.2.tgz"
+  },
+  {
+    "id": "signal-exit@3.0.7",
+    "ecosystem": "npm",
+    "license": "ISC",
+    "source": "https://registry.npmjs.org/signal-exit/-/signal-exit-3.0.7.tgz"
+  },
+  {
+    "id": "sisteransi@1.0.5",
+    "ecosystem": "npm",
+    "license": "MIT",
+    "source": "https://registry.npmjs.org/sisteransi/-/sisteransi-1.0.5.tgz"
+  },
+  {
+    "id": "slash@3.0.0",
+    "ecosystem": "npm",
+    "license": "MIT",
+    "source": "https://registry.npmjs.org/slash/-/slash-3.0.0.tgz"
+  },
+  {
+    "id": "slice-ansi@2.1.0",
+    "ecosystem": "npm",
+    "license": "MIT",
+    "source": "https://registry.npmjs.org/slice-ansi/-/slice-ansi-2.1.0.tgz"
+  },
+  {
+    "id": "ansi-styles@3.2.1",
+    "ecosystem": "npm",
+    "license": "MIT",
+    "source": "https://registry.npmjs.org/ansi-styles/-/ansi-styles-3.2.1.tgz"
+  },
+  {
+    "id": "color-convert@1.9.3",
+    "ecosystem": "npm",
+    "license": "MIT",
+    "source": "https://registry.npmjs.org/color-convert/-/color-convert-1.9.3.tgz"
+  },
+  {
+    "id": "color-name@1.1.3",
+    "ecosystem": "npm",
+    "license": "MIT",
+    "source": "https://registry.npmjs.org/color-name/-/color-name-1.1.3.tgz"
+  },
+  {
+    "id": "source-map@0.6.1",
+    "ecosystem": "npm",
+    "license": "BSD-3-Clause",
+    "source": "https://registry.npmjs.org/source-map/-/source-map-0.6.1.tgz"
+  },
+  {
+    "id": "sprintf-js@1.0.3",
+    "ecosystem": "npm",
+    "license": "BSD-3-Clause",
+    "source": "https://registry.npmjs.org/sprintf-js/-/sprintf-js-1.0.3.tgz"
+  },
+  {
+    "id": "stack-utils@2.0.6",
+    "ecosystem": "npm",
+    "license": "MIT",
+    "source": "https://registry.npmjs.org/stack-utils/-/stack-utils-2.0.6.tgz"
+  },
+  {
+    "id": "escape-string-regexp@2.0.0",
+    "ecosystem": "npm",
+    "license": "MIT",
+    "source": "https://registry.npmjs.org/escape-string-regexp/-/escape-string-regexp-2.0.0.tgz"
+  },
+  {
+    "id": "stackframe@1.3.4",
+    "ecosystem": "npm",
+    "license": "MIT",
+    "source": "https://registry.npmjs.org/stackframe/-/stackframe-1.3.4.tgz"
+  },
+  {
+    "id": "stacktrace-parser@0.1.11",
+    "ecosystem": "npm",
+    "license": "MIT",
+    "source": "https://registry.npmjs.org/stacktrace-parser/-/stacktrace-parser-0.1.11.tgz"
+  },
+  {
+    "id": "type-fest@0.7.1",
+    "ecosystem": "npm",
+    "license": "(MIT OR CC0-1.0)",
+    "source": "https://registry.npmjs.org/type-fest/-/type-fest-0.7.1.tgz"
+  },
+  {
+    "id": "statuses@1.5.0",
+    "ecosystem": "npm",
+    "license": "MIT",
+    "source": "https://registry.npmjs.org/statuses/-/statuses-1.5.0.tgz"
+  },
+  {
+    "id": "string_decoder@1.3.0",
+    "ecosystem": "npm",
+    "license": "MIT",
+    "source": "https://registry.npmjs.org/string_decoder/-/string_decoder-1.3.0.tgz"
+  },
+  {
+    "id": "string-width@4.2.3",
+    "ecosystem": "npm",
+    "license": "MIT",
+    "source": "https://registry.npmjs.org/string-width/-/string-width-4.2.3.tgz"
+  },
+  {
+    "id": "is-fullwidth-code-point@3.0.0",
+    "ecosystem": "npm",
+    "license": "MIT",
+    "source": "https://registry.npmjs.org/is-fullwidth-code-point/-/is-fullwidth-code-point-3.0.0.tgz"
+  },
+  {
+    "id": "strip-ansi@6.0.1",
+    "ecosystem": "npm",
+    "license": "MIT",
+    "source": "https://registry.npmjs.org/strip-ansi/-/strip-ansi-6.0.1.tgz"
+  },
+  {
+    "id": "strip-final-newline@2.0.0",
+    "ecosystem": "npm",
+    "license": "MIT",
+    "source": "https://registry.npmjs.org/strip-final-newline/-/strip-final-newline-2.0.0.tgz"
+  },
+  {
+    "id": "strnum@2.4.2",
+    "ecosystem": "npm",
+    "license": "MIT",
+    "source": "https://registry.npmjs.org/strnum/-/strnum-2.4.2.tgz"
+  },
+  {
+    "id": "supports-color@7.2.0",
+    "ecosystem": "npm",
+    "license": "MIT",
+    "source": "https://registry.npmjs.org/supports-color/-/supports-color-7.2.0.tgz"
+  },
+  {
+    "id": "supports-preserve-symlinks-flag@1.0.0",
+    "ecosystem": "npm",
+    "license": "MIT",
+    "source": "https://registry.npmjs.org/supports-preserve-symlinks-flag/-/supports-preserve-symlinks-flag-1.0.0.tgz"
+  },
+  {
+    "id": "terser@5.51.2",
+    "ecosystem": "npm",
+    "license": "BSD-2-Clause",
+    "source": "https://registry.npmjs.org/terser/-/terser-5.51.2.tgz"
+  },
+  {
+    "id": "commander@2.20.3",
+    "ecosystem": "npm",
+    "license": "MIT",
+    "source": "https://registry.npmjs.org/commander/-/commander-2.20.3.tgz"
+  },
+  {
+    "id": "source-map-support@0.5.21",
+    "ecosystem": "npm",
+    "license": "MIT",
+    "source": "https://registry.npmjs.org/source-map-support/-/source-map-support-0.5.21.tgz"
+  },
+  {
+    "id": "test-exclude@6.0.0",
+    "ecosystem": "npm",
+    "license": "ISC",
+    "source": "https://registry.npmjs.org/test-exclude/-/test-exclude-6.0.0.tgz"
+  },
+  {
+    "id": "throat@5.0.0",
+    "ecosystem": "npm",
+    "license": "MIT",
+    "source": "https://registry.npmjs.org/throat/-/throat-5.0.0.tgz"
+  },
+  {
+    "id": "tinyglobby@0.2.17",
+    "ecosystem": "npm",
+    "license": "MIT",
+    "source": "https://registry.npmjs.org/tinyglobby/-/tinyglobby-0.2.17.tgz"
+  },
+  {
+    "id": "fdir@6.5.0",
+    "ecosystem": "npm",
+    "license": "MIT",
+    "source": "https://registry.npmjs.org/fdir/-/fdir-6.5.0.tgz"
+  },
+  {
+    "id": "picomatch@4.0.7",
+    "ecosystem": "npm",
+    "license": "MIT",
+    "source": "https://registry.npmjs.org/picomatch/-/picomatch-4.0.7.tgz"
+  },
+  {
+    "id": "tmpl@1.0.5",
+    "ecosystem": "npm",
+    "license": "BSD-3-Clause",
+    "source": "https://registry.npmjs.org/tmpl/-/tmpl-1.0.5.tgz"
+  },
+  {
+    "id": "to-regex-range@5.0.1",
+    "ecosystem": "npm",
+    "license": "MIT",
+    "source": "https://registry.npmjs.org/to-regex-range/-/to-regex-range-5.0.1.tgz"
+  },
+  {
+    "id": "toidentifier@1.0.1",
+    "ecosystem": "npm",
+    "license": "MIT",
+    "source": "https://registry.npmjs.org/toidentifier/-/toidentifier-1.0.1.tgz"
+  },
+  {
+    "id": "type-detect@4.0.8",
+    "ecosystem": "npm",
+    "license": "MIT",
+    "source": "https://registry.npmjs.org/type-detect/-/type-detect-4.0.8.tgz"
+  },
+  {
+    "id": "type-is@2.1.0",
+    "ecosystem": "npm",
+    "license": "MIT",
+    "source": "https://registry.npmjs.org/type-is/-/type-is-2.1.0.tgz"
+  },
+  {
+    "id": "typescript@5.9.3",
+    "ecosystem": "npm",
+    "license": "Apache-2.0",
+    "source": "https://registry.npmjs.org/typescript/-/typescript-5.9.3.tgz"
+  },
+  {
+    "id": "undici-types@8.9.0",
+    "ecosystem": "npm",
+    "license": "MIT",
+    "source": "https://registry.npmjs.org/undici-types/-/undici-types-8.9.0.tgz"
+  },
+  {
+    "id": "unicode-canonical-property-names-ecmascript@2.0.1",
+    "ecosystem": "npm",
+    "license": "MIT",
+    "source": "https://registry.npmjs.org/unicode-canonical-property-names-ecmascript/-/unicode-canonical-property-names-ecmascript-2.0.1.tgz"
+  },
+  {
+    "id": "unicode-match-property-ecmascript@2.0.0",
+    "ecosystem": "npm",
+    "license": "MIT",
+    "source": "https://registry.npmjs.org/unicode-match-property-ecmascript/-/unicode-match-property-ecmascript-2.0.0.tgz"
+  },
+  {
+    "id": "unicode-match-property-value-ecmascript@2.2.1",
+    "ecosystem": "npm",
+    "license": "MIT",
+    "source": "https://registry.npmjs.org/unicode-match-property-value-ecmascript/-/unicode-match-property-value-ecmascript-2.2.1.tgz"
+  },
+  {
+    "id": "unicode-property-aliases-ecmascript@2.2.0",
+    "ecosystem": "npm",
+    "license": "MIT",
+    "source": "https://registry.npmjs.org/unicode-property-aliases-ecmascript/-/unicode-property-aliases-ecmascript-2.2.0.tgz"
+  },
+  {
+    "id": "universalify@0.1.2",
+    "ecosystem": "npm",
+    "license": "MIT",
+    "source": "https://registry.npmjs.org/universalify/-/universalify-0.1.2.tgz"
+  },
+  {
+    "id": "unpipe@1.0.0",
+    "ecosystem": "npm",
+    "license": "MIT",
+    "source": "https://registry.npmjs.org/unpipe/-/unpipe-1.0.0.tgz"
+  },
+  {
+    "id": "update-browserslist-db@1.3.3",
+    "ecosystem": "npm",
+    "license": "MIT",
+    "source": "https://registry.npmjs.org/update-browserslist-db/-/update-browserslist-db-1.3.3.tgz"
+  },
+  {
+    "id": "util-deprecate@1.0.2",
+    "ecosystem": "npm",
+    "license": "MIT",
+    "source": "https://registry.npmjs.org/util-deprecate/-/util-deprecate-1.0.2.tgz"
+  },
+  {
+    "id": "utils-merge@1.0.1",
+    "ecosystem": "npm",
+    "license": "MIT",
+    "source": "https://registry.npmjs.org/utils-merge/-/utils-merge-1.0.1.tgz"
+  },
+  {
+    "id": "vary@1.1.2",
+    "ecosystem": "npm",
+    "license": "MIT",
+    "source": "https://registry.npmjs.org/vary/-/vary-1.1.2.tgz"
+  },
+  {
+    "id": "vlq@1.0.1",
+    "ecosystem": "npm",
+    "license": "MIT",
+    "source": "https://registry.npmjs.org/vlq/-/vlq-1.0.1.tgz"
+  },
+  {
+    "id": "walker@1.0.8",
+    "ecosystem": "npm",
+    "license": "Apache-2.0",
+    "source": "https://registry.npmjs.org/walker/-/walker-1.0.8.tgz"
+  },
+  {
+    "id": "wcwidth@1.0.1",
+    "ecosystem": "npm",
+    "license": "MIT",
+    "source": "https://registry.npmjs.org/wcwidth/-/wcwidth-1.0.1.tgz"
+  },
+  {
+    "id": "whatwg-fetch@3.6.20",
+    "ecosystem": "npm",
+    "license": "MIT",
+    "source": "https://registry.npmjs.org/whatwg-fetch/-/whatwg-fetch-3.6.20.tgz"
+  },
+  {
+    "id": "which@2.0.2",
+    "ecosystem": "npm",
+    "license": "ISC",
+    "source": "https://registry.npmjs.org/which/-/which-2.0.2.tgz"
+  },
+  {
+    "id": "which-module@2.0.1",
+    "ecosystem": "npm",
+    "license": "ISC",
+    "source": "https://registry.npmjs.org/which-module/-/which-module-2.0.1.tgz"
+  },
+  {
+    "id": "wrap-ansi@7.0.0",
+    "ecosystem": "npm",
+    "license": "MIT",
+    "source": "https://registry.npmjs.org/wrap-ansi/-/wrap-ansi-7.0.0.tgz"
+  },
+  {
+    "id": "wrappy@1.0.2",
+    "ecosystem": "npm",
+    "license": "ISC",
+    "source": "https://registry.npmjs.org/wrappy/-/wrappy-1.0.2.tgz"
+  },
+  {
+    "id": "write-file-atomic@4.0.2",
+    "ecosystem": "npm",
+    "license": "ISC",
+    "source": "https://registry.npmjs.org/write-file-atomic/-/write-file-atomic-4.0.2.tgz"
+  },
+  {
+    "id": "ws@6.2.6",
+    "ecosystem": "npm",
+    "license": "MIT",
+    "source": "https://registry.npmjs.org/ws/-/ws-6.2.6.tgz"
+  },
+  {
+    "id": "xml-naming@0.3.0",
+    "ecosystem": "npm",
+    "license": "MIT",
+    "source": "https://registry.npmjs.org/xml-naming/-/xml-naming-0.3.0.tgz"
+  },
+  {
+    "id": "y18n@5.0.8",
+    "ecosystem": "npm",
+    "license": "ISC",
+    "source": "https://registry.npmjs.org/y18n/-/y18n-5.0.8.tgz"
+  },
+  {
+    "id": "yallist@3.1.1",
+    "ecosystem": "npm",
+    "license": "ISC",
+    "source": "https://registry.npmjs.org/yallist/-/yallist-3.1.1.tgz"
+  },
+  {
+    "id": "yaml@2.9.1",
+    "ecosystem": "npm",
+    "license": "ISC",
+    "source": "https://registry.npmjs.org/yaml/-/yaml-2.9.1.tgz"
+  },
+  {
+    "id": "yargs@17.7.3",
+    "ecosystem": "npm",
+    "license": "MIT",
+    "source": "https://registry.npmjs.org/yargs/-/yargs-17.7.3.tgz"
+  },
+  {
+    "id": "yargs-parser@21.1.1",
+    "ecosystem": "npm",
+    "license": "ISC",
+    "source": "https://registry.npmjs.org/yargs-parser/-/yargs-parser-21.1.1.tgz"
+  },
+  {
+    "id": "yocto-queue@0.1.0",
+    "ecosystem": "npm",
+    "license": "MIT",
+    "source": "https://registry.npmjs.org/yocto-queue/-/yocto-queue-0.1.0.tgz"
+  },
+  {
+    "id": "qrcode-generator@2.0.4",
+    "ecosystem": "npm",
+    "license": "MIT",
+    "source": "https://registry.npmjs.org/qrcode-generator/-/qrcode-generator-2.0.4.tgz"
+  },
+  {
+    "id": "ws@8.21.3",
+    "ecosystem": "npm",
+    "license": "MIT",
+    "source": "https://registry.npmjs.org/ws/-/ws-8.21.3.tgz"
+  },
+  {
+    "id": "org.jetbrains.kotlin:kotlin-stdlib:2.2.10",
+    "ecosystem": "maven",
+    "licenses": [
+      {
+        "name": "The Apache License, Version 2.0",
+        "url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+      }
+    ],
+    "source": "https://kotlinlang.org/"
+  },
+  {
+    "id": "org.jetbrains:annotations:23.0.0",
+    "ecosystem": "maven",
+    "licenses": [
+      {
+        "name": "The Apache Software License, Version 2.0",
+        "url": "https://www.apache.org/licenses/LICENSE-2.0.txt"
+      }
+    ],
+    "source": "https://github.com/JetBrains/java-annotations"
+  },
+  {
+    "id": "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.8.0",
+    "ecosystem": "maven",
+    "licenses": [
+      {
+        "name": "The Apache License, Version 2.0",
+        "url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+      }
+    ],
+    "source": "https://kotlinlang.org/"
+  },
+  {
+    "id": "org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.8.0",
+    "ecosystem": "maven",
+    "licenses": [
+      {
+        "name": "The Apache License, Version 2.0",
+        "url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+      }
+    ],
+    "source": "https://kotlinlang.org/"
+  },
+  {
+    "id": "org.jetbrains.kotlin:kotlin-stdlib-common:2.2.10",
+    "ecosystem": "maven",
+    "licenses": [
+      {
+        "name": "The Apache License, Version 2.0",
+        "url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+      }
+    ],
+    "source": "https://kotlinlang.org/"
+  },
+  {
+    "id": "io.github.react-native-async-storage:shared-storage-android:1.0.1",
+    "ecosystem": "maven",
+    "licenses": [
+      {
+        "name": "MIT License",
+        "url": "https://github.com/react-native-async-storage/async-storage/blob/main/LICENSE"
+      }
+    ],
+    "source": "https://github.com/react-native-async-storage/async-storage"
+  },
+  {
+    "id": "androidx.room:room-runtime:2.8.4",
+    "ecosystem": "maven",
+    "licenses": [
+      {
+        "name": "The Apache Software License, Version 2.0",
+        "url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+      }
+    ],
+    "source": "https://developer.android.com/jetpack/androidx/releases/room#2.8.4"
+  },
+  {
+    "id": "androidx.room:room-runtime-android:2.8.4",
+    "ecosystem": "maven",
+    "licenses": [
+      {
+        "name": "The Apache Software License, Version 2.0",
+        "url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+      }
+    ],
+    "source": "https://developer.android.com/jetpack/androidx/releases/room#2.8.4"
+  },
+  {
+    "id": "androidx.annotation:annotation:1.9.1",
+    "ecosystem": "maven",
+    "licenses": [
+      {
+        "name": "The Apache Software License, Version 2.0",
+        "url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+      }
+    ],
+    "source": "https://developer.android.com/jetpack/androidx/releases/annotation#1.9.1"
+  },
+  {
+    "id": "androidx.annotation:annotation-jvm:1.9.1",
+    "ecosystem": "maven",
+    "licenses": [
+      {
+        "name": "The Apache Software License, Version 2.0",
+        "url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+      }
+    ],
+    "source": "https://developer.android.com/jetpack/androidx/releases/annotation#1.9.1"
+  },
+  {
+    "id": "androidx.annotation:annotation-experimental:1.5.0",
+    "ecosystem": "maven",
+    "licenses": [
+      {
+        "name": "The Apache Software License, Version 2.0",
+        "url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+      }
+    ],
+    "source": "https://developer.android.com/jetpack/androidx/releases/annotation#1.5.0"
+  },
+  {
+    "id": "androidx.arch.core:core-runtime:2.2.0",
+    "ecosystem": "maven",
+    "licenses": [
+      {
+        "name": "The Apache Software License, Version 2.0",
+        "url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+      }
+    ],
+    "source": "https://developer.android.com/jetpack/androidx/releases/arch-core#2.2.0"
+  },
+  {
+    "id": "androidx.arch.core:core-common:2.2.0",
+    "ecosystem": "maven",
+    "licenses": [
+      {
+        "name": "The Apache Software License, Version 2.0",
+        "url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+      }
+    ],
+    "source": "https://developer.android.com/jetpack/androidx/releases/arch-core#2.2.0"
+  },
+  {
+    "id": "androidx.collection:collection:1.5.0",
+    "ecosystem": "maven",
+    "licenses": [
+      {
+        "name": "The Apache Software License, Version 2.0",
+        "url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+      }
+    ],
+    "source": "https://developer.android.com/jetpack/androidx/releases/collection#1.5.0"
+  },
+  {
+    "id": "androidx.collection:collection-jvm:1.5.0",
+    "ecosystem": "maven",
+    "licenses": [
+      {
+        "name": "The Apache Software License, Version 2.0",
+        "url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+      }
+    ],
+    "source": "https://developer.android.com/jetpack/androidx/releases/collection#1.5.0"
+  },
+  {
+    "id": "androidx.collection:collection-ktx:1.5.0",
+    "ecosystem": "maven",
+    "licenses": [
+      {
+        "name": "The Apache Software License, Version 2.0",
+        "url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+      }
+    ],
+    "source": "https://developer.android.com/jetpack/androidx/releases/collection#1.5.0"
+  },
+  {
+    "id": "androidx.room:room-common:2.8.4",
+    "ecosystem": "maven",
+    "licenses": [
+      {
+        "name": "The Apache Software License, Version 2.0",
+        "url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+      }
+    ],
+    "source": "https://developer.android.com/jetpack/androidx/releases/room#2.8.4"
+  },
+  {
+    "id": "androidx.room:room-common-jvm:2.8.4",
+    "ecosystem": "maven",
+    "licenses": [
+      {
+        "name": "The Apache Software License, Version 2.0",
+        "url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+      }
+    ],
+    "source": "https://developer.android.com/jetpack/androidx/releases/room#2.8.4"
+  },
+  {
+    "id": "androidx.room:room-ktx:2.8.4",
+    "ecosystem": "maven",
+    "licenses": [
+      {
+        "name": "The Apache Software License, Version 2.0",
+        "url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+      }
+    ],
+    "source": "https://developer.android.com/jetpack/androidx/releases/room#2.8.4"
+  },
+  {
+    "id": "org.jetbrains.kotlinx:kotlinx-coroutines-android:1.10.2",
+    "ecosystem": "maven",
+    "licenses": [
+      {
+        "name": "Apache-2.0",
+        "url": "https://www.apache.org/licenses/LICENSE-2.0.txt"
+      }
+    ],
+    "source": "https://github.com/Kotlin/kotlinx.coroutines"
+  },
+  {
+    "id": "org.jetbrains.kotlinx:kotlinx-coroutines-core:1.10.2",
+    "ecosystem": "maven",
+    "licenses": [
+      {
+        "name": "Apache-2.0",
+        "url": "https://www.apache.org/licenses/LICENSE-2.0.txt"
+      }
+    ],
+    "source": "https://github.com/Kotlin/kotlinx.coroutines"
+  },
+  {
+    "id": "org.jetbrains.kotlinx:kotlinx-coroutines-core-jvm:1.10.2",
+    "ecosystem": "maven",
+    "licenses": [
+      {
+        "name": "Apache-2.0",
+        "url": "https://www.apache.org/licenses/LICENSE-2.0.txt"
+      }
+    ],
+    "source": "https://github.com/Kotlin/kotlinx.coroutines"
+  },
+  {
+    "id": "org.jetbrains.kotlinx:kotlinx-coroutines-bom:1.10.2",
+    "ecosystem": "maven",
+    "licenses": [
+      {
+        "name": "Apache-2.0",
+        "url": "https://www.apache.org/licenses/LICENSE-2.0.txt"
+      }
+    ],
+    "source": "https://github.com/Kotlin/kotlinx.coroutines"
+  },
+  {
+    "id": "androidx.sqlite:sqlite:2.6.2",
+    "ecosystem": "maven",
+    "licenses": [
+      {
+        "name": "The Apache Software License, Version 2.0",
+        "url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+      }
+    ],
+    "source": "https://developer.android.com/jetpack/androidx/releases/sqlite#2.6.2"
+  },
+  {
+    "id": "androidx.sqlite:sqlite-android:2.6.2",
+    "ecosystem": "maven",
+    "licenses": [
+      {
+        "name": "The Apache Software License, Version 2.0",
+        "url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+      }
+    ],
+    "source": "https://developer.android.com/jetpack/androidx/releases/sqlite#2.6.2"
+  },
+  {
+    "id": "androidx.sqlite:sqlite-framework:2.6.2",
+    "ecosystem": "maven",
+    "licenses": [
+      {
+        "name": "The Apache Software License, Version 2.0",
+        "url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+      }
+    ],
+    "source": "https://developer.android.com/jetpack/androidx/releases/sqlite#2.6.2"
+  },
+  {
+    "id": "androidx.sqlite:sqlite-framework-android:2.6.2",
+    "ecosystem": "maven",
+    "licenses": [
+      {
+        "name": "The Apache Software License, Version 2.0",
+        "url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+      }
+    ],
+    "source": "https://developer.android.com/jetpack/androidx/releases/sqlite#2.6.2"
+  },
+  {
+    "id": "androidx.sqlite:sqlite-bundled:2.6.2",
+    "ecosystem": "maven",
+    "licenses": [
+      {
+        "name": "The Apache Software License, Version 2.0",
+        "url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+      }
+    ],
+    "source": "https://developer.android.com/jetpack/androidx/releases/sqlite#2.6.2"
+  },
+  {
+    "id": "androidx.sqlite:sqlite-bundled-android:2.6.2",
+    "ecosystem": "maven",
+    "licenses": [
+      {
+        "name": "The Apache Software License, Version 2.0",
+        "url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+      }
+    ],
+    "source": "https://developer.android.com/jetpack/androidx/releases/sqlite#2.6.2"
+  },
+  {
+    "id": "org.jspecify:jspecify:1.0.0",
+    "ecosystem": "maven",
+    "licenses": [
+      {
+        "name": "The Apache License, Version 2.0",
+        "url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+      }
+    ],
+    "source": "http://jspecify.org/"
+  },
+  {
+    "id": "co.touchlab:kermit:2.0.4",
+    "ecosystem": "maven",
+    "licenses": [
+      {
+        "name": "The Apache Software License, Version 2.0",
+        "url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+      }
+    ],
+    "source": "https://github.com/touchlab/Kermit"
+  },
+  {
+    "id": "co.touchlab:kermit-android:2.0.4",
+    "ecosystem": "maven",
+    "licenses": [
+      {
+        "name": "The Apache Software License, Version 2.0",
+        "url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+      }
+    ],
+    "source": "https://github.com/touchlab/Kermit"
+  },
+  {
+    "id": "co.touchlab:kermit-core:2.0.4",
+    "ecosystem": "maven",
+    "licenses": [
+      {
+        "name": "The Apache Software License, Version 2.0",
+        "url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+      }
+    ],
+    "source": "https://github.com/touchlab/Kermit"
+  },
+  {
+    "id": "co.touchlab:kermit-core-android:2.0.4",
+    "ecosystem": "maven",
+    "licenses": [
+      {
+        "name": "The Apache Software License, Version 2.0",
+        "url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+      }
+    ],
+    "source": "https://github.com/touchlab/Kermit"
+  },
+  {
+    "id": "com.facebook.react:react-android:0.86.0",
+    "ecosystem": "maven",
+    "licenses": [
+      {
+        "name": "MIT License",
+        "url": "https://github.com/facebook/react-native/blob/HEAD/LICENSE"
+      }
+    ],
+    "source": "https://github.com/facebook/react-native"
+  },
+  {
+    "id": "androidx.appcompat:appcompat:1.7.0",
+    "ecosystem": "maven",
+    "licenses": [
+      {
+        "name": "The Apache Software License, Version 2.0",
+        "url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+      }
+    ],
+    "source": "https://developer.android.com/jetpack/androidx/releases/appcompat#1.7.0"
+  },
+  {
+    "id": "androidx.activity:activity:1.8.1",
+    "ecosystem": "maven",
+    "licenses": [
+      {
+        "name": "The Apache Software License, Version 2.0",
+        "url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+      }
+    ],
+    "source": "https://developer.android.com/jetpack/androidx/releases/activity#1.8.1"
+  },
+  {
+    "id": "androidx.core:core:1.13.1",
+    "ecosystem": "maven",
+    "licenses": [
+      {
+        "name": "The Apache Software License, Version 2.0",
+        "url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+      }
+    ],
+    "source": "https://developer.android.com/jetpack/androidx/releases/core#1.13.1"
+  },
+  {
+    "id": "androidx.concurrent:concurrent-futures:1.1.0",
+    "ecosystem": "maven",
+    "licenses": [
+      {
+        "name": "The Apache Software License, Version 2.0",
+        "url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+      }
+    ],
+    "source": "https://developer.android.com/topic/libraries/architecture/index.html"
+  },
+  {
+    "id": "com.google.guava:listenablefuture:1.0",
+    "ecosystem": "maven",
+    "licenses": [
+      {
+        "name": "Apache License 2.0",
+        "url": "https://www.apache.org/licenses/LICENSE-2.0.txt"
+      }
+    ],
+    "source": "",
+    "licenseEvidence": "Inherited from published Maven parent POM"
+  },
+  {
+    "id": "androidx.interpolator:interpolator:1.0.0",
+    "ecosystem": "maven",
+    "licenses": [
+      {
+        "name": "The Apache Software License, Version 2.0",
+        "url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+      }
+    ],
+    "source": "http://developer.android.com/tools/extras/support-library.html"
+  },
+  {
+    "id": "androidx.lifecycle:lifecycle-runtime:2.6.2",
+    "ecosystem": "maven",
+    "licenses": [
+      {
+        "name": "The Apache Software License, Version 2.0",
+        "url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+      }
+    ],
+    "source": "https://developer.android.com/jetpack/androidx/releases/lifecycle#2.6.2"
+  },
+  {
+    "id": "androidx.lifecycle:lifecycle-common:2.6.2",
+    "ecosystem": "maven",
+    "licenses": [
+      {
+        "name": "The Apache Software License, Version 2.0",
+        "url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+      }
+    ],
+    "source": "https://developer.android.com/jetpack/androidx/releases/lifecycle#2.6.2"
+  },
+  {
+    "id": "androidx.lifecycle:lifecycle-livedata:2.6.2",
+    "ecosystem": "maven",
+    "licenses": [
+      {
+        "name": "The Apache Software License, Version 2.0",
+        "url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+      }
+    ],
+    "source": "https://developer.android.com/jetpack/androidx/releases/lifecycle#2.6.2"
+  },
+  {
+    "id": "androidx.lifecycle:lifecycle-livedata-core:2.6.2",
+    "ecosystem": "maven",
+    "licenses": [
+      {
+        "name": "The Apache Software License, Version 2.0",
+        "url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+      }
+    ],
+    "source": "https://developer.android.com/jetpack/androidx/releases/lifecycle#2.6.2"
+  },
+  {
+    "id": "androidx.lifecycle:lifecycle-livedata-core-ktx:2.6.2",
+    "ecosystem": "maven",
+    "licenses": [
+      {
+        "name": "The Apache Software License, Version 2.0",
+        "url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+      }
+    ],
+    "source": "https://developer.android.com/jetpack/androidx/releases/lifecycle#2.6.2"
+  },
+  {
+    "id": "androidx.lifecycle:lifecycle-process:2.6.2",
+    "ecosystem": "maven",
+    "licenses": [
+      {
+        "name": "The Apache Software License, Version 2.0",
+        "url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+      }
+    ],
+    "source": "https://developer.android.com/jetpack/androidx/releases/lifecycle#2.6.2"
+  },
+  {
+    "id": "androidx.startup:startup-runtime:1.1.1",
+    "ecosystem": "maven",
+    "licenses": [
+      {
+        "name": "The Apache Software License, Version 2.0",
+        "url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+      }
+    ],
+    "source": "https://developer.android.com/jetpack/androidx/releases/startup#1.1.1"
+  },
+  {
+    "id": "androidx.tracing:tracing:1.1.0",
+    "ecosystem": "maven",
+    "licenses": [
+      {
+        "name": "The Apache Software License, Version 2.0",
+        "url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+      }
+    ],
+    "source": "https://developer.android.com/jetpack/androidx/releases/tracing#1.1.0"
+  },
+  {
+    "id": "androidx.lifecycle:lifecycle-runtime-ktx:2.6.2",
+    "ecosystem": "maven",
+    "licenses": [
+      {
+        "name": "The Apache Software License, Version 2.0",
+        "url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+      }
+    ],
+    "source": "https://developer.android.com/jetpack/androidx/releases/lifecycle#2.6.2"
+  },
+  {
+    "id": "androidx.lifecycle:lifecycle-viewmodel:2.6.2",
+    "ecosystem": "maven",
+    "licenses": [
+      {
+        "name": "The Apache Software License, Version 2.0",
+        "url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+      }
+    ],
+    "source": "https://developer.android.com/jetpack/androidx/releases/lifecycle#2.6.2"
+  },
+  {
+    "id": "androidx.lifecycle:lifecycle-viewmodel-ktx:2.6.2",
+    "ecosystem": "maven",
+    "licenses": [
+      {
+        "name": "The Apache Software License, Version 2.0",
+        "url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+      }
+    ],
+    "source": "https://developer.android.com/jetpack/androidx/releases/lifecycle#2.6.2"
+  },
+  {
+    "id": "androidx.lifecycle:lifecycle-viewmodel-savedstate:2.6.2",
+    "ecosystem": "maven",
+    "licenses": [
+      {
+        "name": "The Apache Software License, Version 2.0",
+        "url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+      }
+    ],
+    "source": "https://developer.android.com/jetpack/androidx/releases/lifecycle#2.6.2"
+  },
+  {
+    "id": "androidx.core:core-ktx:1.13.1",
+    "ecosystem": "maven",
+    "licenses": [
+      {
+        "name": "The Apache Software License, Version 2.0",
+        "url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+      }
+    ],
+    "source": "https://developer.android.com/jetpack/androidx/releases/core#1.13.1"
+  },
+  {
+    "id": "androidx.savedstate:savedstate:1.2.1",
+    "ecosystem": "maven",
+    "licenses": [
+      {
+        "name": "The Apache Software License, Version 2.0",
+        "url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+      }
+    ],
+    "source": "https://developer.android.com/jetpack/androidx/releases/savedstate#1.2.1"
+  },
+  {
+    "id": "androidx.savedstate:savedstate-ktx:1.2.1",
+    "ecosystem": "maven",
+    "licenses": [
+      {
+        "name": "The Apache Software License, Version 2.0",
+        "url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+      }
+    ],
+    "source": "https://developer.android.com/jetpack/androidx/releases/savedstate#1.2.1"
+  },
+  {
+    "id": "androidx.profileinstaller:profileinstaller:1.3.1",
+    "ecosystem": "maven",
+    "licenses": [
+      {
+        "name": "The Apache Software License, Version 2.0",
+        "url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+      }
+    ],
+    "source": "https://developer.android.com/jetpack/androidx/releases/profileinstaller#1.3.1"
+  },
+  {
+    "id": "androidx.versionedparcelable:versionedparcelable:1.1.1",
+    "ecosystem": "maven",
+    "licenses": [
+      {
+        "name": "The Apache Software License, Version 2.0",
+        "url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+      }
+    ],
+    "source": "http://developer.android.com/tools/extras/support-library.html"
+  },
+  {
+    "id": "androidx.activity:activity-ktx:1.8.1",
+    "ecosystem": "maven",
+    "licenses": [
+      {
+        "name": "The Apache Software License, Version 2.0",
+        "url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+      }
+    ],
+    "source": "https://developer.android.com/jetpack/androidx/releases/activity#1.8.1"
+  },
+  {
+    "id": "androidx.appcompat:appcompat-resources:1.7.0",
+    "ecosystem": "maven",
+    "licenses": [
+      {
+        "name": "The Apache Software License, Version 2.0",
+        "url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+      }
+    ],
+    "source": "https://developer.android.com/jetpack/androidx/releases/appcompat#1.7.0"
+  },
+  {
+    "id": "androidx.vectordrawable:vectordrawable:1.1.0",
+    "ecosystem": "maven",
+    "licenses": [
+      {
+        "name": "The Apache Software License, Version 2.0",
+        "url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+      }
+    ],
+    "source": "https://developer.android.com/jetpack/androidx"
+  },
+  {
+    "id": "androidx.vectordrawable:vectordrawable-animated:1.1.0",
+    "ecosystem": "maven",
+    "licenses": [
+      {
+        "name": "The Apache Software License, Version 2.0",
+        "url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+      }
+    ],
+    "source": "https://developer.android.com/jetpack/androidx"
+  },
+  {
+    "id": "androidx.cursoradapter:cursoradapter:1.0.0",
+    "ecosystem": "maven",
+    "licenses": [
+      {
+        "name": "The Apache Software License, Version 2.0",
+        "url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+      }
+    ],
+    "source": "http://developer.android.com/tools/extras/support-library.html"
+  },
+  {
+    "id": "androidx.drawerlayout:drawerlayout:1.0.0",
+    "ecosystem": "maven",
+    "licenses": [
+      {
+        "name": "The Apache Software License, Version 2.0",
+        "url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+      }
+    ],
+    "source": "http://developer.android.com/tools/extras/support-library.html"
+  },
+  {
+    "id": "androidx.customview:customview:1.0.0",
+    "ecosystem": "maven",
+    "licenses": [
+      {
+        "name": "The Apache Software License, Version 2.0",
+        "url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+      }
+    ],
+    "source": "http://developer.android.com/tools/extras/support-library.html"
+  },
+  {
+    "id": "androidx.emoji2:emoji2:1.3.0",
+    "ecosystem": "maven",
+    "licenses": [
+      {
+        "name": "The Apache Software License, Version 2.0",
+        "url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+      }
+    ],
+    "source": "https://developer.android.com/jetpack/androidx/releases/emoji2#1.3.0"
+  },
+  {
+    "id": "androidx.emoji2:emoji2-views-helper:1.3.0",
+    "ecosystem": "maven",
+    "licenses": [
+      {
+        "name": "The Apache Software License, Version 2.0",
+        "url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+      }
+    ],
+    "source": "https://developer.android.com/jetpack/androidx/releases/emoji2#1.3.0"
+  },
+  {
+    "id": "androidx.fragment:fragment:1.8.6",
+    "ecosystem": "maven",
+    "licenses": [
+      {
+        "name": "The Apache Software License, Version 2.0",
+        "url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+      }
+    ],
+    "source": "https://developer.android.com/jetpack/androidx/releases/fragment#1.8.6"
+  },
+  {
+    "id": "androidx.loader:loader:1.0.0",
+    "ecosystem": "maven",
+    "licenses": [
+      {
+        "name": "The Apache Software License, Version 2.0",
+        "url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+      }
+    ],
+    "source": "http://developer.android.com/tools/extras/support-library.html"
+  },
+  {
+    "id": "androidx.viewpager:viewpager:1.0.0",
+    "ecosystem": "maven",
+    "licenses": [
+      {
+        "name": "The Apache Software License, Version 2.0",
+        "url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+      }
+    ],
+    "source": "http://developer.android.com/tools/extras/support-library.html"
+  },
+  {
+    "id": "androidx.fragment:fragment-ktx:1.8.6",
+    "ecosystem": "maven",
+    "licenses": [
+      {
+        "name": "The Apache Software License, Version 2.0",
+        "url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+      }
+    ],
+    "source": "https://developer.android.com/jetpack/androidx/releases/fragment#1.8.6"
+  },
+  {
+    "id": "androidx.resourceinspection:resourceinspection-annotation:1.0.1",
+    "ecosystem": "maven",
+    "licenses": [
+      {
+        "name": "The Apache Software License, Version 2.0",
+        "url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+      }
+    ],
+    "source": "https://developer.android.com/jetpack/androidx/releases/resourceinspection#1.0.1"
+  },
+  {
+    "id": "androidx.autofill:autofill:1.3.0",
+    "ecosystem": "maven",
+    "licenses": [
+      {
+        "name": "The Apache Software License, Version 2.0",
+        "url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+      }
+    ],
+    "source": "https://developer.android.com/jetpack/androidx/releases/autofill#1.3.0"
+  },
+  {
+    "id": "androidx.swiperefreshlayout:swiperefreshlayout:1.1.0",
+    "ecosystem": "maven",
+    "licenses": [
+      {
+        "name": "The Apache Software License, Version 2.0",
+        "url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+      }
+    ],
+    "source": "https://developer.android.com/jetpack/androidx"
+  },
+  {
+    "id": "androidx.window:window:1.5.1",
+    "ecosystem": "maven",
+    "licenses": [
+      {
+        "name": "The Apache Software License, Version 2.0",
+        "url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+      }
+    ],
+    "source": "https://developer.android.com/jetpack/androidx/releases/window#1.5.1"
+  },
+  {
+    "id": "androidx.window:window-core:1.5.1",
+    "ecosystem": "maven",
+    "licenses": [
+      {
+        "name": "The Apache Software License, Version 2.0",
+        "url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+      }
+    ],
+    "source": "https://developer.android.com/jetpack/androidx/releases/window#1.5.1"
+  },
+  {
+    "id": "androidx.window:window-core-android:1.5.1",
+    "ecosystem": "maven",
+    "licenses": [
+      {
+        "name": "The Apache Software License, Version 2.0",
+        "url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+      }
+    ],
+    "source": "https://developer.android.com/jetpack/androidx/releases/window#1.5.1"
+  },
+  {
+    "id": "com.facebook.fbjni:fbjni:0.7.0",
+    "ecosystem": "maven",
+    "licenses": [
+      {
+        "name": "APACHE-2",
+        "url": "https://github.com/facebookincubator/fbjni/blob/main/LICENSE"
+      }
+    ],
+    "source": "https://github.com/facebookincubator/fbjni"
+  },
+  {
+    "id": "com.facebook.soloader:nativeloader:0.12.1",
+    "ecosystem": "maven",
+    "licenses": [
+      {
+        "name": "Apache-2",
+        "url": "https://github.com/facebook/soloader/blob/main/LICENSE"
+      }
+    ],
+    "source": "https://github.com/facebook/soloader"
+  },
+  {
+    "id": "com.facebook.fresco:fresco:3.6.0",
+    "ecosystem": "maven",
+    "licenses": [
+      {
+        "name": "MIT",
+        "url": "https://github.com/facebook/fresco/blob/main/LICENSE"
+      }
+    ],
+    "source": "https://github.com/facebook/fresco"
+  },
+  {
+    "id": "com.facebook.fresco:soloader:3.6.0",
+    "ecosystem": "maven",
+    "licenses": [
+      {
+        "name": "MIT",
+        "url": "https://github.com/facebook/fresco/blob/main/LICENSE"
+      }
+    ],
+    "source": "https://github.com/facebook/fresco"
+  },
+  {
+    "id": "com.facebook.fresco:fbcore:3.6.0",
+    "ecosystem": "maven",
+    "licenses": [
+      {
+        "name": "MIT",
+        "url": "https://github.com/facebook/fresco/blob/main/LICENSE"
+      }
+    ],
+    "source": "https://github.com/facebook/fresco"
+  },
+  {
+    "id": "com.facebook.soloader:soloader:0.12.1",
+    "ecosystem": "maven",
+    "licenses": [
+      {
+        "name": "Apache-2",
+        "url": "https://github.com/facebook/soloader/blob/main/LICENSE"
+      }
+    ],
+    "source": "https://github.com/facebook/soloader"
+  },
+  {
+    "id": "com.facebook.soloader:annotation:0.12.1",
+    "ecosystem": "maven",
+    "licenses": [
+      {
+        "name": "Apache-2",
+        "url": "https://github.com/facebook/soloader/blob/main/LICENSE"
+      }
+    ],
+    "source": "https://github.com/facebook/soloader"
+  },
+  {
+    "id": "com.facebook.fresco:ui-common:3.6.0",
+    "ecosystem": "maven",
+    "licenses": [
+      {
+        "name": "MIT",
+        "url": "https://github.com/facebook/fresco/blob/main/LICENSE"
+      }
+    ],
+    "source": "https://github.com/facebook/fresco"
+  },
+  {
+    "id": "com.facebook.fresco:ui-core:3.6.0",
+    "ecosystem": "maven",
+    "licenses": [
+      {
+        "name": "MIT",
+        "url": "https://github.com/facebook/fresco/blob/main/LICENSE"
+      }
+    ],
+    "source": "https://github.com/facebook/fresco"
+  },
+  {
+    "id": "com.facebook.fresco:middleware:3.6.0",
+    "ecosystem": "maven",
+    "licenses": [
+      {
+        "name": "MIT",
+        "url": "https://github.com/facebook/fresco/blob/main/LICENSE"
+      }
+    ],
+    "source": "https://github.com/facebook/fresco"
+  },
+  {
+    "id": "com.facebook.fresco:drawee:3.6.0",
+    "ecosystem": "maven",
+    "licenses": [
+      {
+        "name": "MIT",
+        "url": "https://github.com/facebook/fresco/blob/main/LICENSE"
+      }
+    ],
+    "source": "https://github.com/facebook/fresco"
+  },
+  {
+    "id": "com.facebook.fresco:imagepipeline:3.6.0",
+    "ecosystem": "maven",
+    "licenses": [
+      {
+        "name": "MIT",
+        "url": "https://github.com/facebook/fresco/blob/main/LICENSE"
+      }
+    ],
+    "source": "https://github.com/facebook/fresco"
+  },
+  {
+    "id": "com.parse.bolts:bolts-tasks:1.4.0",
+    "ecosystem": "maven",
+    "licenses": [
+      {
+        "name": "BSD License",
+        "url": "https://github.com/BoltsFramework/Bolts-Android/blob/master/LICENSE"
+      }
+    ],
+    "source": "https://github.com/BoltsFramework/Bolts-Android"
+  },
+  {
+    "id": "com.facebook.fresco:urimod:3.6.0",
+    "ecosystem": "maven",
+    "licenses": [
+      {
+        "name": "MIT",
+        "url": "https://github.com/facebook/fresco/blob/main/LICENSE"
+      }
+    ],
+    "source": "https://github.com/facebook/fresco"
+  },
+  {
+    "id": "com.facebook.fresco:vito-source:3.6.0",
+    "ecosystem": "maven",
+    "licenses": [
+      {
+        "name": "MIT",
+        "url": "https://github.com/facebook/fresco/blob/main/LICENSE"
+      }
+    ],
+    "source": "https://github.com/facebook/fresco"
+  },
+  {
+    "id": "com.facebook.fresco:imagepipeline-base:3.6.0",
+    "ecosystem": "maven",
+    "licenses": [
+      {
+        "name": "MIT",
+        "url": "https://github.com/facebook/fresco/blob/main/LICENSE"
+      }
+    ],
+    "source": "https://github.com/facebook/fresco"
+  },
+  {
+    "id": "com.facebook.infer.annotation:infer-annotation:0.18.0",
+    "ecosystem": "maven",
+    "licenses": [
+      {
+        "name": "MIT license",
+        "url": "https://github.com/facebook/infer/blob/master/LICENSE"
+      }
+    ],
+    "source": "http://fbinfer.com/"
+  },
+  {
+    "id": "com.google.code.findbugs:jsr305:3.0.2",
+    "ecosystem": "maven",
+    "licenses": [
+      {
+        "name": "The Apache Software License, Version 2.0",
+        "url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+      }
+    ],
+    "source": "http://findbugs.sourceforge.net/"
+  },
+  {
+    "id": "org.jetbrains.kotlin:kotlin-annotations-jvm:1.3.72",
+    "ecosystem": "maven",
+    "licenses": [
+      {
+        "name": "The Apache License, Version 2.0",
+        "url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+      }
+    ],
+    "source": "https://kotlinlang.org/"
+  },
+  {
+    "id": "com.facebook.fresco:imagepipeline-native:3.6.0",
+    "ecosystem": "maven",
+    "licenses": [
+      {
+        "name": "MIT",
+        "url": "https://github.com/facebook/fresco/blob/main/LICENSE"
+      }
+    ],
+    "source": "https://github.com/facebook/fresco"
+  },
+  {
+    "id": "com.facebook.fresco:memory-type-ashmem:3.6.0",
+    "ecosystem": "maven",
+    "licenses": [
+      {
+        "name": "MIT",
+        "url": "https://github.com/facebook/fresco/blob/main/LICENSE"
+      }
+    ],
+    "source": "https://github.com/facebook/fresco"
+  },
+  {
+    "id": "com.facebook.fresco:memory-type-native:3.6.0",
+    "ecosystem": "maven",
+    "licenses": [
+      {
+        "name": "MIT",
+        "url": "https://github.com/facebook/fresco/blob/main/LICENSE"
+      }
+    ],
+    "source": "https://github.com/facebook/fresco"
+  },
+  {
+    "id": "com.facebook.fresco:memory-type-java:3.6.0",
+    "ecosystem": "maven",
+    "licenses": [
+      {
+        "name": "MIT",
+        "url": "https://github.com/facebook/fresco/blob/main/LICENSE"
+      }
+    ],
+    "source": "https://github.com/facebook/fresco"
+  },
+  {
+    "id": "com.facebook.fresco:nativeimagefilters:3.6.0",
+    "ecosystem": "maven",
+    "licenses": [
+      {
+        "name": "MIT",
+        "url": "https://github.com/facebook/fresco/blob/main/LICENSE"
+      }
+    ],
+    "source": "https://github.com/facebook/fresco"
+  },
+  {
+    "id": "com.facebook.fresco:nativeimagetranscoder:3.6.0",
+    "ecosystem": "maven",
+    "licenses": [
+      {
+        "name": "MIT",
+        "url": "https://github.com/facebook/fresco/blob/main/LICENSE"
+      }
+    ],
+    "source": "https://github.com/facebook/fresco"
+  },
+  {
+    "id": "com.facebook.fresco:imagepipeline-okhttp3:3.6.0",
+    "ecosystem": "maven",
+    "licenses": [
+      {
+        "name": "MIT",
+        "url": "https://github.com/facebook/fresco/blob/main/LICENSE"
+      }
+    ],
+    "source": "https://github.com/facebook/fresco"
+  },
+  {
+    "id": "com.squareup.okhttp3:okhttp:4.9.2",
+    "ecosystem": "maven",
+    "licenses": [
+      {
+        "name": "The Apache Software License, Version 2.0",
+        "url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+      }
+    ],
+    "source": "https://square.github.io/okhttp/"
+  },
+  {
+    "id": "com.squareup.okio:okio:3.4.0",
+    "ecosystem": "maven",
+    "licenses": [
+      {
+        "name": "The Apache Software License, Version 2.0",
+        "url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+      }
+    ],
+    "source": "https://github.com/square/okio/"
+  },
+  {
+    "id": "com.squareup.okio:okio-jvm:3.4.0",
+    "ecosystem": "maven",
+    "licenses": [
+      {
+        "name": "The Apache Software License, Version 2.0",
+        "url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+      }
+    ],
+    "source": "https://github.com/square/okio/"
+  },
+  {
+    "id": "com.facebook.yoga:proguard-annotations:1.19.0",
+    "ecosystem": "maven",
+    "licenses": [
+      {
+        "name": "MIT License",
+        "url": "https://github.com/facebook/yoga/blob/master/LICENSE"
+      }
+    ],
+    "source": "https://github.com/facebook/yoga"
+  },
+  {
+    "id": "com.squareup.okhttp3:okhttp-urlconnection:4.9.2",
+    "ecosystem": "maven",
+    "licenses": [
+      {
+        "name": "The Apache Software License, Version 2.0",
+        "url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+      }
+    ],
+    "source": "https://square.github.io/okhttp/"
+  },
+  {
+    "id": "javax.inject:javax.inject:1",
+    "ecosystem": "maven",
+    "licenses": [
+      {
+        "name": "Apache License 2.0",
+        "url": "https://www.apache.org/licenses/LICENSE-2.0.txt"
+      }
+    ],
+    "source": "",
+    "licenseEvidence": "https://repo.maven.apache.org/maven2/javax/inject/javax.inject/1/javax.inject-1-sources.jar (source headers)"
+  },
+  {
+    "id": "androidx.legacy:legacy-support-v4:1.0.0",
+    "ecosystem": "maven",
+    "licenses": [
+      {
+        "name": "The Apache Software License, Version 2.0",
+        "url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+      }
+    ],
+    "source": "http://developer.android.com/tools/extras/support-library.html"
+  },
+  {
+    "id": "androidx.media:media:1.0.0",
+    "ecosystem": "maven",
+    "licenses": [
+      {
+        "name": "The Apache Software License, Version 2.0",
+        "url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+      }
+    ],
+    "source": "http://developer.android.com/tools/extras/support-library.html"
+  },
+  {
+    "id": "androidx.legacy:legacy-support-core-utils:1.0.0",
+    "ecosystem": "maven",
+    "licenses": [
+      {
+        "name": "The Apache Software License, Version 2.0",
+        "url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+      }
+    ],
+    "source": "http://developer.android.com/tools/extras/support-library.html"
+  },
+  {
+    "id": "androidx.documentfile:documentfile:1.0.0",
+    "ecosystem": "maven",
+    "licenses": [
+      {
+        "name": "The Apache Software License, Version 2.0",
+        "url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+      }
+    ],
+    "source": "http://developer.android.com/tools/extras/support-library.html"
+  },
+  {
+    "id": "androidx.localbroadcastmanager:localbroadcastmanager:1.0.0",
+    "ecosystem": "maven",
+    "licenses": [
+      {
+        "name": "The Apache Software License, Version 2.0",
+        "url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+      }
+    ],
+    "source": "http://developer.android.com/tools/extras/support-library.html"
+  },
+  {
+    "id": "androidx.print:print:1.0.0",
+    "ecosystem": "maven",
+    "licenses": [
+      {
+        "name": "The Apache Software License, Version 2.0",
+        "url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+      }
+    ],
+    "source": "http://developer.android.com/tools/extras/support-library.html"
+  },
+  {
+    "id": "androidx.legacy:legacy-support-core-ui:1.0.0",
+    "ecosystem": "maven",
+    "licenses": [
+      {
+        "name": "The Apache Software License, Version 2.0",
+        "url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+      }
+    ],
+    "source": "http://developer.android.com/tools/extras/support-library.html"
+  },
+  {
+    "id": "androidx.coordinatorlayout:coordinatorlayout:1.0.0",
+    "ecosystem": "maven",
+    "licenses": [
+      {
+        "name": "The Apache Software License, Version 2.0",
+        "url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+      }
+    ],
+    "source": "http://developer.android.com/tools/extras/support-library.html"
+  },
+  {
+    "id": "androidx.slidingpanelayout:slidingpanelayout:1.0.0",
+    "ecosystem": "maven",
+    "licenses": [
+      {
+        "name": "The Apache Software License, Version 2.0",
+        "url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+      }
+    ],
+    "source": "http://developer.android.com/tools/extras/support-library.html"
+  },
+  {
+    "id": "androidx.asynclayoutinflater:asynclayoutinflater:1.0.0",
+    "ecosystem": "maven",
+    "licenses": [
+      {
+        "name": "The Apache Software License, Version 2.0",
+        "url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+      }
+    ],
+    "source": "http://developer.android.com/tools/extras/support-library.html"
+  },
+  {
+    "id": "androidx.biometric:biometric:1.1.0",
+    "ecosystem": "maven",
+    "licenses": [
+      {
+        "name": "The Apache Software License, Version 2.0",
+        "url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+      }
+    ],
+    "source": "https://developer.android.com/jetpack/androidx/releases/biometric#1.1.0"
+  },
+  {
+    "id": "androidx.datastore:datastore-preferences:1.1.1",
+    "ecosystem": "maven",
+    "licenses": [
+      {
+        "name": "The Apache Software License, Version 2.0",
+        "url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+      }
+    ],
+    "source": "https://developer.android.com/jetpack/androidx/releases/datastore#1.1.1"
+  },
+  {
+    "id": "androidx.datastore:datastore-preferences-android:1.1.1",
+    "ecosystem": "maven",
+    "licenses": [
+      {
+        "name": "The Apache Software License, Version 2.0",
+        "url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+      }
+    ],
+    "source": "https://developer.android.com/jetpack/androidx/releases/datastore#1.1.1"
+  },
+  {
+    "id": "androidx.datastore:datastore:1.1.1",
+    "ecosystem": "maven",
+    "licenses": [
+      {
+        "name": "The Apache Software License, Version 2.0",
+        "url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+      }
+    ],
+    "source": "https://developer.android.com/jetpack/androidx/releases/datastore#1.1.1"
+  },
+  {
+    "id": "androidx.datastore:datastore-android:1.1.1",
+    "ecosystem": "maven",
+    "licenses": [
+      {
+        "name": "The Apache Software License, Version 2.0",
+        "url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+      }
+    ],
+    "source": "https://developer.android.com/jetpack/androidx/releases/datastore#1.1.1"
+  },
+  {
+    "id": "androidx.datastore:datastore-core:1.1.1",
+    "ecosystem": "maven",
+    "licenses": [
+      {
+        "name": "The Apache Software License, Version 2.0",
+        "url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+      }
+    ],
+    "source": "https://developer.android.com/jetpack/androidx/releases/datastore#1.1.1"
+  },
+  {
+    "id": "androidx.datastore:datastore-core-android:1.1.1",
+    "ecosystem": "maven",
+    "licenses": [
+      {
+        "name": "The Apache Software License, Version 2.0",
+        "url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+      }
+    ],
+    "source": "https://developer.android.com/jetpack/androidx/releases/datastore#1.1.1"
+  },
+  {
+    "id": "org.jetbrains.kotlin:kotlin-parcelize-runtime:1.9.22",
+    "ecosystem": "maven",
+    "licenses": [
+      {
+        "name": "The Apache License, Version 2.0",
+        "url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+      }
+    ],
+    "source": "https://kotlinlang.org/"
+  },
+  {
+    "id": "org.jetbrains.kotlin:kotlin-android-extensions-runtime:1.9.22",
+    "ecosystem": "maven",
+    "licenses": [
+      {
+        "name": "The Apache License, Version 2.0",
+        "url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+      }
+    ],
+    "source": "https://kotlinlang.org/"
+  },
+  {
+    "id": "androidx.datastore:datastore-core-okio:1.1.1",
+    "ecosystem": "maven",
+    "licenses": [
+      {
+        "name": "The Apache Software License, Version 2.0",
+        "url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+      }
+    ],
+    "source": "https://developer.android.com/jetpack/androidx/releases/datastore#1.1.1"
+  },
+  {
+    "id": "androidx.datastore:datastore-core-okio-jvm:1.1.1",
+    "ecosystem": "maven",
+    "licenses": [
+      {
+        "name": "The Apache Software License, Version 2.0",
+        "url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+      }
+    ],
+    "source": "https://developer.android.com/jetpack/androidx/releases/datastore#1.1.1"
+  },
+  {
+    "id": "androidx.datastore:datastore-preferences-core:1.1.1",
+    "ecosystem": "maven",
+    "licenses": [
+      {
+        "name": "The Apache Software License, Version 2.0",
+        "url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+      }
+    ],
+    "source": "https://developer.android.com/jetpack/androidx/releases/datastore#1.1.1"
+  },
+  {
+    "id": "androidx.datastore:datastore-preferences-core-jvm:1.1.1",
+    "ecosystem": "maven",
+    "licenses": [
+      {
+        "name": "The Apache Software License, Version 2.0",
+        "url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+      }
+    ],
+    "source": "https://developer.android.com/jetpack/androidx/releases/datastore#1.1.1"
+  },
+  {
+    "id": "org.jitsi:webrtc:124.0.0",
+    "ecosystem": "maven",
+    "licenses": [
+      {
+        "name": "The Apache License, Version 2.0",
+        "url": "LICENSE-APACHE"
+      },
+      {
+        "name": "The MIT License",
+        "url": "LICENSE-MIT"
+      }
+    ],
+    "source": "https://github.com/jitsi/webrtc"
+  },
+  {
+    "id": "com.journeyapps:zxing-android-embedded:4.3.0",
+    "ecosystem": "maven",
+    "licenses": [
+      {
+        "name": "The Apache License, Version 2.0",
+        "url": "https://github.com/journeyapps/zxing-android-embedded/blob/master/COPYING"
+      }
+    ],
+    "source": "https://github.com/journeyapps/zxing-android-embedded"
+  },
+  {
+    "id": "com.google.zxing:core:3.4.1",
+    "ecosystem": "maven",
+    "licenses": [
+      {
+        "name": "Apache License 2.0",
+        "url": "https://www.apache.org/licenses/LICENSE-2.0.txt"
+      }
+    ],
+    "source": "",
+    "licenseEvidence": "Inherited from published Maven parent POM"
+  },
+  {
+    "id": "com.facebook.hermes:hermes-android:250829098.0.14",
+    "ecosystem": "maven",
+    "licenses": [
+      {
+        "name": "MIT License",
+        "url": "https://github.com/facebook/hermes/blob/HEAD/LICENSE"
+      }
+    ],
+    "source": "https://github.com/facebook/hermes/tree/static_h"
+  }
+]

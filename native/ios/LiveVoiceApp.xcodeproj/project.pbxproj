@@ -1,0 +1,898 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 54;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00B0E4414D146D9CA557DE8B /* LiveVoiceActivityAttributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEC21F6AAEC07E3AC9283E40 /* LiveVoiceActivityAttributes.swift */; };
+		014752FDA581769453E6B2E2 /* LVHTTPRequestHandler.mm in Sources */ = {isa = PBXBuildFile; fileRef = 1A0901F6BD53DDBCD9CD9C0C /* LVHTTPRequestHandler.mm */; };
+		0C80B921A6F3F58F76C31292 /* libPods-LiveVoiceApp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DCACB8F33CDC322A6C60F78 /* libPods-LiveVoiceApp.a */; };
+		0D9E2BEEE9F62411DCBD8FF5 /* SessionRuntimeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 787C3C54792C563744EE3365 /* SessionRuntimeUITests.swift */; };
+		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
+		18510B68BB16C69C9CC30A6C /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87256C99EF40B482D780DFB3 /* XCTest.framework */; };
+		222B5964832BBC40409A71DD /* VoiceSessionActivityBridge.m in Sources */ = {isa = PBXBuildFile; fileRef = 77D53FBFECB717FCF50DACB3 /* VoiceSessionActivityBridge.m */; };
+		280B2651F39BA51BEA79DA18 /* QrConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = B33AE4A178181AD13F1A9E2D /* QrConfig.swift */; };
+		287D3CEEF71CBAE0A31C82BA /* VoiceRecording.mm in Sources */ = {isa = PBXBuildFile; fileRef = 09CBA6EB4F842E0CC3196B8F /* VoiceRecording.mm */; };
+		3103DC2D97938345CF0E17F5 /* VoiceAudio.mm in Sources */ = {isa = PBXBuildFile; fileRef = 0D0B2993A42043423A9B088E /* VoiceAudio.mm */; };
+		3FD69D0D3B993A38043491DC /* QrConfigBridge.m in Sources */ = {isa = PBXBuildFile; fileRef = 7702C48614FD311235744FB8 /* QrConfigBridge.m */; };
+		42444EB08F615803CC6B3978 /* LiveVoiceAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4C3C6F0F63C712380E4437A /* LiveVoiceAppUITests.swift */; };
+		5E044B625630D54AEF3954F5 /* VoiceSessionActivity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 064D4CBA39C0CAF0ACC24FB2 /* VoiceSessionActivity.swift */; };
+		761780ED2CA45674006654EE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 761780EC2CA45674006654EE /* AppDelegate.swift */; };
+		79ABDD58C182B2B9638564AD /* LiveVoiceActivity.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 4CDFF11B248457266797DCC8 /* LiveVoiceActivity.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		815B09DABA0665DF9CDBDD23 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB81A68108700A75B9A /* PrivacyInfo.xcprivacy */; };
+		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		88F2063FFD12BAA5A08EB234 /* LiveVoiceActivityAttributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEC21F6AAEC07E3AC9283E40 /* LiveVoiceActivityAttributes.swift */; };
+		8E60F8ABF2E9103D0EAF3938 /* SecureConnections.mm in Sources */ = {isa = PBXBuildFile; fileRef = BEB462DD4AA9AE634D06BE02 /* SecureConnections.mm */; };
+		94CDB4270A5BE4129B22B0B9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3BDB0988ED29501358C87985 /* Assets.xcassets */; };
+		957633E7A096B49EBD9C5971 /* LiveVoiceActivityWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC4B3B366E0E733015BCD234 /* LiveVoiceActivityWidget.swift */; };
+		B068BB20F7154215FEB0FED7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 19CA0ACDF2EC16F746696C79 /* Foundation.framework */; };
+		B540E54D30DE9D480ACD67D6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 06E4915C53173AE73F667FCD /* InfoPlist.strings */; };
+		CAD2BA62FD59D9BA4FCB03AD /* LVAudioDevice.mm in Sources */ = {isa = PBXBuildFile; fileRef = C529F4B12CB2DB26BB749CF9 /* LVAudioDevice.mm */; };
+		D56372E9AB4016431476B64D /* LVRecordingEngine.mm in Sources */ = {isa = PBXBuildFile; fileRef = A8CAE2558C6839A644575F23 /* LVRecordingEngine.mm */; };
+		F684E7AEFA02B06E46CED4B5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 19CA0ACDF2EC16F746696C79 /* Foundation.framework */; };
+		FA8954E80CF2B75BEB0AD8C6 /* QrConfigCrypto.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F6B72E74BF462AB3835F38B /* QrConfigCrypto.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5C1544FC0DA0BA52ADC1B665 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 13B07F861A680F5B00A75B9A;
+			remoteInfo = LiveVoiceApp;
+		};
+		79D21908D7B7521407401A9A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D68EC2EEFD2388D3F936633F;
+			remoteInfo = LiveVoiceActivity;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		3C8F1C8E8C0689525560E969 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				79ABDD58C182B2B9638564AD /* LiveVoiceActivity.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		0296D971BF5C4DB7BF13BDB9 /* LiveVoiceApp-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "LiveVoiceApp-Bridging-Header.h"; path = "LiveVoiceApp/LiveVoiceApp-Bridging-Header.h"; sourceTree = "<group>"; };
+		064D4CBA39C0CAF0ACC24FB2 /* VoiceSessionActivity.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = VoiceSessionActivity.swift; path = LiveVoiceApp/VoiceSessionActivity.swift; sourceTree = "<group>"; };
+		09CBA6EB4F842E0CC3196B8F /* VoiceRecording.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = VoiceRecording.mm; path = LiveVoiceApp/VoiceRecording.mm; sourceTree = "<group>"; };
+		0D0B2993A42043423A9B088E /* VoiceAudio.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = VoiceAudio.mm; path = LiveVoiceApp/VoiceAudio.mm; sourceTree = "<group>"; };
+		13B07F961A680F5B00A75B9A /* LiveVoiceApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LiveVoiceApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = LiveVoiceApp/Images.xcassets; sourceTree = "<group>"; };
+		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = LiveVoiceApp/Info.plist; sourceTree = "<group>"; };
+		13B07FB81A68108700A75B9A /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = PrivacyInfo.xcprivacy; path = LiveVoiceApp/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+		19CA0ACDF2EC16F746696C79 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		1A0901F6BD53DDBCD9CD9C0C /* LVHTTPRequestHandler.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = LVHTTPRequestHandler.mm; path = LiveVoiceApp/LVHTTPRequestHandler.mm; sourceTree = "<group>"; };
+		1A69FC877C17D1C736EBCC02 /* LVRecordingEngine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = LVRecordingEngine.h; path = LiveVoiceApp/LVRecordingEngine.h; sourceTree = "<group>"; };
+		3B4392A12AC88292D35C810B /* Pods-LiveVoiceApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LiveVoiceApp.debug.xcconfig"; path = "Target Support Files/Pods-LiveVoiceApp/Pods-LiveVoiceApp.debug.xcconfig"; sourceTree = "<group>"; };
+		3BDB0988ED29501358C87985 /* Assets.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4CDFF11B248457266797DCC8 /* LiveVoiceActivity.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = LiveVoiceActivity.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		5709B34CF0A7D63546082F79 /* Pods-LiveVoiceApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LiveVoiceApp.release.xcconfig"; path = "Target Support Files/Pods-LiveVoiceApp/Pods-LiveVoiceApp.release.xcconfig"; sourceTree = "<group>"; };
+		5DCACB8F33CDC322A6C60F78 /* libPods-LiveVoiceApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LiveVoiceApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5F6B72E74BF462AB3835F38B /* QrConfigCrypto.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = QrConfigCrypto.swift; path = LiveVoiceApp/QrConfigCrypto.swift; sourceTree = "<group>"; };
+		74FEE391FFD7BA262DCC4D5E /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "LiveVoiceApp/zh-Hans.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
+		75E17F4F6B197F72B73A1481 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		761780EC2CA45674006654EE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = LiveVoiceApp/AppDelegate.swift; sourceTree = "<group>"; };
+		7702C48614FD311235744FB8 /* QrConfigBridge.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = QrConfigBridge.m; path = LiveVoiceApp/QrConfigBridge.m; sourceTree = "<group>"; };
+		77D53FBFECB717FCF50DACB3 /* VoiceSessionActivityBridge.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = VoiceSessionActivityBridge.m; path = LiveVoiceApp/VoiceSessionActivityBridge.m; sourceTree = "<group>"; };
+		787C3C54792C563744EE3365 /* SessionRuntimeUITests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SessionRuntimeUITests.swift; sourceTree = "<group>"; };
+		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = LiveVoiceApp/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		87256C99EF40B482D780DFB3 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.0.sdk/System/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		A022A4537AB6D605B1AA5935 /* LiveVoiceAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LiveVoiceAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4C3C6F0F63C712380E4437A /* LiveVoiceAppUITests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = LiveVoiceAppUITests.swift; sourceTree = "<group>"; };
+		A8CAE2558C6839A644575F23 /* LVRecordingEngine.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = LVRecordingEngine.mm; path = LiveVoiceApp/LVRecordingEngine.mm; sourceTree = "<group>"; };
+		AEC21F6AAEC07E3AC9283E40 /* LiveVoiceActivityAttributes.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = LiveVoiceActivityAttributes.swift; sourceTree = "<group>"; };
+		B33AE4A178181AD13F1A9E2D /* QrConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = QrConfig.swift; path = LiveVoiceApp/QrConfig.swift; sourceTree = "<group>"; };
+		B9A72C574DE39540823459EB /* LVAudioDevice.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = LVAudioDevice.h; path = LiveVoiceApp/LVAudioDevice.h; sourceTree = "<group>"; };
+		BEB462DD4AA9AE634D06BE02 /* SecureConnections.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = SecureConnections.mm; path = LiveVoiceApp/SecureConnections.mm; sourceTree = "<group>"; };
+		C529F4B12CB2DB26BB749CF9 /* LVAudioDevice.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = LVAudioDevice.mm; path = LiveVoiceApp/LVAudioDevice.mm; sourceTree = "<group>"; };
+		CD5F7F472AA1068E394223EA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = LiveVoiceApp/en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		EC4B3B366E0E733015BCD234 /* LiveVoiceActivityWidget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = LiveVoiceActivityWidget.swift; sourceTree = "<group>"; };
+		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		13B07F8C1A680F5B00A75B9A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C80B921A6F3F58F76C31292 /* libPods-LiveVoiceApp.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A57FF6E6E5BA58D2E1DE4A6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B068BB20F7154215FEB0FED7 /* Foundation.framework in Frameworks */,
+				18510B68BB16C69C9CC30A6C /* XCTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3102347EA0944F5A720CAE6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F684E7AEFA02B06E46CED4B5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0B802D8C2BCE14B47AAB90E1 /* LiveVoiceActivityShared */ = {
+			isa = PBXGroup;
+			children = (
+				AEC21F6AAEC07E3AC9283E40 /* LiveVoiceActivityAttributes.swift */,
+			);
+			name = LiveVoiceActivityShared;
+			path = LiveVoiceActivityShared;
+			sourceTree = "<group>";
+		};
+		13B07FAE1A68108700A75B9A /* LiveVoiceApp */ = {
+			isa = PBXGroup;
+			children = (
+				13B07FB51A68108700A75B9A /* Images.xcassets */,
+				761780EC2CA45674006654EE /* AppDelegate.swift */,
+				BEB462DD4AA9AE634D06BE02 /* SecureConnections.mm */,
+				0296D971BF5C4DB7BF13BDB9 /* LiveVoiceApp-Bridging-Header.h */,
+				09CBA6EB4F842E0CC3196B8F /* VoiceRecording.mm */,
+				A8CAE2558C6839A644575F23 /* LVRecordingEngine.mm */,
+				1A69FC877C17D1C736EBCC02 /* LVRecordingEngine.h */,
+				C529F4B12CB2DB26BB749CF9 /* LVAudioDevice.mm */,
+				B9A72C574DE39540823459EB /* LVAudioDevice.h */,
+				7702C48614FD311235744FB8 /* QrConfigBridge.m */,
+				5F6B72E74BF462AB3835F38B /* QrConfigCrypto.swift */,
+				B33AE4A178181AD13F1A9E2D /* QrConfig.swift */,
+				0D0B2993A42043423A9B088E /* VoiceAudio.mm */,
+				1A0901F6BD53DDBCD9CD9C0C /* LVHTTPRequestHandler.mm */,
+				06E4915C53173AE73F667FCD /* InfoPlist.strings */,
+				13B07FB61A68108700A75B9A /* Info.plist */,
+				81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */,
+				13B07FB81A68108700A75B9A /* PrivacyInfo.xcprivacy */,
+				064D4CBA39C0CAF0ACC24FB2 /* VoiceSessionActivity.swift */,
+				77D53FBFECB717FCF50DACB3 /* VoiceSessionActivityBridge.m */,
+			);
+			name = LiveVoiceApp;
+			sourceTree = "<group>";
+		};
+		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
+				5DCACB8F33CDC322A6C60F78 /* libPods-LiveVoiceApp.a */,
+				A0679399CB650154F6196CF0 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		69E8BD2C46FA07C684A438C5 /* LiveVoiceActivity */ = {
+			isa = PBXGroup;
+			children = (
+				EC4B3B366E0E733015BCD234 /* LiveVoiceActivityWidget.swift */,
+				75E17F4F6B197F72B73A1481 /* Info.plist */,
+				3BDB0988ED29501358C87985 /* Assets.xcassets */,
+			);
+			name = LiveVoiceActivity;
+			path = LiveVoiceActivity;
+			sourceTree = "<group>";
+		};
+		6C2F8B441F4003512CDE6E50 /* LiveVoiceAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A4C3C6F0F63C712380E4437A /* LiveVoiceAppUITests.swift */,
+				787C3C54792C563744EE3365 /* SessionRuntimeUITests.swift */,
+			);
+			name = LiveVoiceAppUITests;
+			path = LiveVoiceAppUITests;
+			sourceTree = "<group>";
+		};
+		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Libraries;
+			sourceTree = "<group>";
+		};
+		83CBB9F61A601CBA00E9B192 = {
+			isa = PBXGroup;
+			children = (
+				13B07FAE1A68108700A75B9A /* LiveVoiceApp */,
+				832341AE1AAA6A7D00B99B32 /* Libraries */,
+				83CBBA001A601CBA00E9B192 /* Products */,
+				2D16E6871FA4F8E400B85C8A /* Frameworks */,
+				BBD78D7AC51CEA395F1C20DB /* Pods */,
+				6C2F8B441F4003512CDE6E50 /* LiveVoiceAppUITests */,
+				0B802D8C2BCE14B47AAB90E1 /* LiveVoiceActivityShared */,
+				69E8BD2C46FA07C684A438C5 /* LiveVoiceActivity */,
+			);
+			indentWidth = 2;
+			sourceTree = "<group>";
+			tabWidth = 2;
+			usesTabs = 0;
+		};
+		83CBBA001A601CBA00E9B192 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				13B07F961A680F5B00A75B9A /* LiveVoiceApp.app */,
+				A022A4537AB6D605B1AA5935 /* LiveVoiceAppUITests.xctest */,
+				4CDFF11B248457266797DCC8 /* LiveVoiceActivity.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A0679399CB650154F6196CF0 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				19CA0ACDF2EC16F746696C79 /* Foundation.framework */,
+				87256C99EF40B482D780DFB3 /* XCTest.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		BBD78D7AC51CEA395F1C20DB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3B4392A12AC88292D35C810B /* Pods-LiveVoiceApp.debug.xcconfig */,
+				5709B34CF0A7D63546082F79 /* Pods-LiveVoiceApp.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		13B07F861A680F5B00A75B9A /* LiveVoiceApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "LiveVoiceApp" */;
+			buildPhases = (
+				C38B50BA6285516D6DCD4F65 /* [CP] Check Pods Manifest.lock */,
+				13B07F871A680F5B00A75B9A /* Sources */,
+				13B07F8C1A680F5B00A75B9A /* Frameworks */,
+				13B07F8E1A680F5B00A75B9A /* Resources */,
+				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
+				00EEFC60759A1932668264C0 /* [CP] Embed Pods Frameworks */,
+				E235C05ADACE081382539298 /* [CP] Copy Pods Resources */,
+				3C8F1C8E8C0689525560E969 /* Embed App Extensions */,
+				A93462910F304854958FA219 /* Copy publication notices */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D21888E1D18CA64ED990E2C3 /* PBXTargetDependency */,
+			);
+			name = LiveVoiceApp;
+			productName = LiveVoiceApp;
+			productReference = 13B07F961A680F5B00A75B9A /* LiveVoiceApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		77BABC116E6A7BA77D4696C1 /* LiveVoiceAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BB5AC26FF14605793834C1DB /* Build configuration list for PBXNativeTarget "LiveVoiceAppUITests" */;
+			buildPhases = (
+				1276DE1780E4826F1F082DC3 /* Sources */,
+				7A57FF6E6E5BA58D2E1DE4A6 /* Frameworks */,
+				FD24EDD318975DB9F351AB07 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0A4CC66DF1B55AADCB23A73B /* PBXTargetDependency */,
+			);
+			name = LiveVoiceAppUITests;
+			productName = LiveVoiceAppUITests;
+			productReference = A022A4537AB6D605B1AA5935 /* LiveVoiceAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		D68EC2EEFD2388D3F936633F /* LiveVoiceActivity */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB091C3C9FCDED86A3F7FB8D /* Build configuration list for PBXNativeTarget "LiveVoiceActivity" */;
+			buildPhases = (
+				8BCB524E6C4A125A0236527E /* Sources */,
+				F3102347EA0944F5A720CAE6 /* Frameworks */,
+				58685DC581BFEDF92CB96E06 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LiveVoiceActivity;
+			productName = LiveVoiceActivity;
+			productReference = 4CDFF11B248457266797DCC8 /* LiveVoiceActivity.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		83CBB9F71A601CBA00E9B192 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1210;
+				TargetAttributes = {
+					13B07F861A680F5B00A75B9A = {
+						LastSwiftMigration = 1120;
+					};
+					77BABC116E6A7BA77D4696C1 = {
+						TestTargetID = 13B07F861A680F5B00A75B9A;
+					};
+					D68EC2EEFD2388D3F936633F = {
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "LiveVoiceApp" */;
+			compatibilityVersion = "Xcode 12.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				"zh-Hans",
+				Base,
+			);
+			mainGroup = 83CBB9F61A601CBA00E9B192;
+			productRefGroup = 83CBBA001A601CBA00E9B192 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				13B07F861A680F5B00A75B9A /* LiveVoiceApp */,
+				77BABC116E6A7BA77D4696C1 /* LiveVoiceAppUITests */,
+				D68EC2EEFD2388D3F936633F /* LiveVoiceActivity */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		13B07F8E1A680F5B00A75B9A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
+				B540E54D30DE9D480ACD67D6 /* InfoPlist.strings in Resources */,
+				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+				815B09DABA0665DF9CDBDD23 /* PrivacyInfo.xcprivacy in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		58685DC581BFEDF92CB96E06 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94CDB4270A5BE4129B22B0B9 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD24EDD318975DB9F351AB07 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A93462910F304854958FA219 /* Copy publication notices */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = ();
+			inputPaths = ();
+			outputPaths = ();
+			name = "Copy publication notices";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/bin/sh \"$SRCROOT/../scripts/copy-ios-notices.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/.xcode.env.local",
+				"$(SRCROOT)/.xcode.env",
+			);
+			name = "Bundle React Native code and images";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e\n\nWITH_ENVIRONMENT=\"$REACT_NATIVE_PATH/scripts/xcode/with-environment.sh\"\nREACT_NATIVE_XCODE=\"$REACT_NATIVE_PATH/scripts/react-native-xcode.sh\"\n\n/bin/sh -c \"\\\"$WITH_ENVIRONMENT\\\" \\\"$REACT_NATIVE_XCODE\\\"\"\n";
+		};
+		00EEFC60759A1932668264C0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LiveVoiceApp/Pods-LiveVoiceApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LiveVoiceApp/Pods-LiveVoiceApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-LiveVoiceApp/Pods-LiveVoiceApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C38B50BA6285516D6DCD4F65 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LiveVoiceApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E235C05ADACE081382539298 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LiveVoiceApp/Pods-LiveVoiceApp-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LiveVoiceApp/Pods-LiveVoiceApp-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-LiveVoiceApp/Pods-LiveVoiceApp-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1276DE1780E4826F1F082DC3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42444EB08F615803CC6B3978 /* LiveVoiceAppUITests.swift in Sources */,
+				0D9E2BEEE9F62411DCBD8FF5 /* SessionRuntimeUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13B07F871A680F5B00A75B9A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				761780ED2CA45674006654EE /* AppDelegate.swift in Sources */,
+				8E60F8ABF2E9103D0EAF3938 /* SecureConnections.mm in Sources */,
+				287D3CEEF71CBAE0A31C82BA /* VoiceRecording.mm in Sources */,
+				D56372E9AB4016431476B64D /* LVRecordingEngine.mm in Sources */,
+				CAD2BA62FD59D9BA4FCB03AD /* LVAudioDevice.mm in Sources */,
+				3FD69D0D3B993A38043491DC /* QrConfigBridge.m in Sources */,
+				FA8954E80CF2B75BEB0AD8C6 /* QrConfigCrypto.swift in Sources */,
+				280B2651F39BA51BEA79DA18 /* QrConfig.swift in Sources */,
+				3103DC2D97938345CF0E17F5 /* VoiceAudio.mm in Sources */,
+				014752FDA581769453E6B2E2 /* LVHTTPRequestHandler.mm in Sources */,
+				5E044B625630D54AEF3954F5 /* VoiceSessionActivity.swift in Sources */,
+				222B5964832BBC40409A71DD /* VoiceSessionActivityBridge.m in Sources */,
+				88F2063FFD12BAA5A08EB234 /* LiveVoiceActivityAttributes.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8BCB524E6C4A125A0236527E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00B0E4414D146D9CA557DE8B /* LiveVoiceActivityAttributes.swift in Sources */,
+				957633E7A096B49EBD9C5971 /* LiveVoiceActivityWidget.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0A4CC66DF1B55AADCB23A73B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = LiveVoiceApp;
+			target = 13B07F861A680F5B00A75B9A /* LiveVoiceApp */;
+			targetProxy = 5C1544FC0DA0BA52ADC1B665 /* PBXContainerItemProxy */;
+		};
+		D21888E1D18CA64ED990E2C3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = LiveVoiceActivity;
+			target = D68EC2EEFD2388D3F936633F /* LiveVoiceActivity */;
+			targetProxy = 79D21908D7B7521407401A9A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		06E4915C53173AE73F667FCD /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CD5F7F472AA1068E394223EA /* en */,
+				74FEE391FFD7BA262DCC4D5E /* zh-Hans */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		13B07F941A680F5B00A75B9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3B4392A12AC88292D35C810B /* Pods-LiveVoiceApp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 19;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = LiveVoiceApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 0.5.0;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.kylefu.livevoice;
+				PRODUCT_NAME = LiveVoiceApp;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SWIFT_ENABLE_EXPLICIT_MODULES = NO;
+				SWIFT_OBJC_BRIDGING_HEADER = "LiveVoiceApp/LiveVoiceApp-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Debug;
+		};
+		13B07F951A680F5B00A75B9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5709B34CF0A7D63546082F79 /* Pods-LiveVoiceApp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 19;
+				INFOPLIST_FILE = LiveVoiceApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 0.5.0;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.kylefu.livevoice;
+				PRODUCT_NAME = LiveVoiceApp;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SWIFT_ENABLE_EXPLICIT_MODULES = NO;
+				SWIFT_OBJC_BRIDGING_HEADER = "LiveVoiceApp/LiveVoiceApp-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Release;
+		};
+		31C567512D55B1C7794AD01C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 19;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = LiveVoiceActivity/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 0.5.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kylefu.livevoice.activity;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ENABLE_EXPLICIT_MODULES = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		41A838B7DD67CD919809A5BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_STYLE = Automatic;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kylefu.livevoice.uitests;
+				PRODUCT_NAME = LiveVoiceAppUITests;
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LiveVoiceApp;
+			};
+			name = Debug;
+		};
+		6BECD37B3FE81FB043CB053D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_STYLE = Automatic;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kylefu.livevoice.uitests;
+				PRODUCT_NAME = LiveVoiceAppUITests;
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LiveVoiceApp;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		83CBBA201A601CBA00E9B192 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++20";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					/usr/lib/swift,
+					"$(inherited)",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"\"$(SDKROOT)/usr/lib/swift\"",
+					"\"$(TOOLCHAIN_DIR)/usr/lib/swift/$(PLATFORM_NAME)\"",
+					"\"$(inherited)\"",
+				);
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CFLAGS = (
+					"$(inherited)",
+					"-DRCT_REMOVE_LEGACY_ARCH=1",
+				);
+				OTHER_CPLUSPLUSFLAGS = (
+					"$(OTHER_CFLAGS)",
+					"-DFOLLY_NO_CONFIG",
+					"-DFOLLY_MOBILE=1",
+					"-DFOLLY_USE_LIBCPP=1",
+					"-DFOLLY_CFG_NO_COROUTINES=1",
+					"-DFOLLY_HAVE_CLOCK_GETTIME=1",
+					"-DRCT_REMOVE_LEGACY_ARCH=1",
+				);
+				PODFILE_DIR = "$(SRCROOT)";
+				REACT_NATIVE_PATH = "${PODS_ROOT}/../../node_modules/react-native";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) DEBUG";
+				SWIFT_ENABLE_EXPLICIT_MODULES = NO;
+				USE_HERMES = true;
+			};
+			name = Debug;
+		};
+		83CBBA211A601CBA00E9B192 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++20";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					/usr/lib/swift,
+					"$(inherited)",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"\"$(SDKROOT)/usr/lib/swift\"",
+					"\"$(TOOLCHAIN_DIR)/usr/lib/swift/$(PLATFORM_NAME)\"",
+					"\"$(inherited)\"",
+				);
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_CFLAGS = (
+					"$(inherited)",
+					"-DRCT_REMOVE_LEGACY_ARCH=1",
+				);
+				OTHER_CPLUSPLUSFLAGS = (
+					"$(OTHER_CFLAGS)",
+					"-DFOLLY_NO_CONFIG",
+					"-DFOLLY_MOBILE=1",
+					"-DFOLLY_USE_LIBCPP=1",
+					"-DFOLLY_CFG_NO_COROUTINES=1",
+					"-DFOLLY_HAVE_CLOCK_GETTIME=1",
+					"-DRCT_REMOVE_LEGACY_ARCH=1",
+				);
+				PODFILE_DIR = "$(SRCROOT)";
+				REACT_NATIVE_PATH = "${PODS_ROOT}/../../node_modules/react-native";
+				SDKROOT = iphoneos;
+				SWIFT_ENABLE_EXPLICIT_MODULES = NO;
+				USE_HERMES = true;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FB3A6DCAACD528CB83FE1AF0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 19;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = LiveVoiceActivity/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 0.5.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kylefu.livevoice.activity;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ENABLE_EXPLICIT_MODULES = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "LiveVoiceApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13B07F941A680F5B00A75B9A /* Debug */,
+				13B07F951A680F5B00A75B9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "LiveVoiceApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83CBBA201A601CBA00E9B192 /* Debug */,
+				83CBBA211A601CBA00E9B192 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BB5AC26FF14605793834C1DB /* Build configuration list for PBXNativeTarget "LiveVoiceAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6BECD37B3FE81FB043CB053D /* Release */,
+				41A838B7DD67CD919809A5BB /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FB091C3C9FCDED86A3F7FB8D /* Build configuration list for PBXNativeTarget "LiveVoiceActivity" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				31C567512D55B1C7794AD01C /* Release */,
+				FB3A6DCAACD528CB83FE1AF0 /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 83CBB9F71A601CBA00E9B192 /* Project object */;
+}

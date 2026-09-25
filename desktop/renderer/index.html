@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="zh-CN" data-theme="light">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="color-scheme" content="light dark">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self' data:; media-src 'self' blob:; connect-src 'none'; object-src 'none'; base-uri 'none'; form-action 'none'; frame-ancestors 'none'">
+    <title>Live Voice</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <div id="app" class="app-shell" aria-busy="true">
+      <div class="startup-screen">
+        <div class="startup-mark" aria-hidden="true">◎</div>
+        <h1>Live Voice</h1>
+        <p>正在准备本地工作区… / Preparing the local workspace…</p>
+      </div>
+    </div>
+    <audio id="live-audio" autoplay></audio>
+    <script type="module" src="app.mjs"></script>
+  </body>
+</html>

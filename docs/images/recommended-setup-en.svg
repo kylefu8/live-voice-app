@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="620" viewBox="0 0 1200 620" role="img" aria-labelledby="title desc">
+  <title id="title">Live Voice recommended setup</title>
+  <desc id="desc">Deploy GPT-Live-1 and a backend LLM in Foundry; install Windows; configure and test both connections; generate an encrypted QR code; install mobile; scan, enter the passphrase, and test/save; enable the backend and start talking. The phone connects directly to Foundry.</desc>
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#ba6046"/></marker>
+    <marker id="blue-arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#517581"/></marker>
+    <style>
+      text { font-family: 'Segoe UI', 'Microsoft YaHei', 'PingFang SC', sans-serif; fill: #292926; }
+      .small { font-size: 14px; fill: #706b63; }
+      .label { font-size: 14px; font-weight: 700; fill: #a34d37; letter-spacing: 1px; }
+      .step { font-size: 19px; font-weight: 600; }
+      .number { font-size: 15px; font-weight: 700; fill: #fff; text-anchor: middle; }
+    </style>
+  </defs>
+  <rect width="1200" height="620" rx="24" fill="#faf8f3"/>
+  <text x="40" y="52" font-size="30" font-weight="700">Recommended setup</text>
+  <text x="40" y="86" font-size="17" fill="#706b63">Configure on Windows, scan on mobile, then use your phone independently</text>
+
+  <g fill="#fffdf8" stroke="#ded6cb"><rect x="40" y="122" width="330" height="360" rx="18"/><rect x="435" y="122" width="330" height="360" rx="18"/><rect x="830" y="122" width="330" height="360" rx="18"/></g>
+  <text x="64" y="155" class="label">MICROSOFT FOUNDRY</text>
+  <text x="459" y="155" class="label">WINDOWS CLIENT</text>
+  <text x="854" y="155" class="label">ANDROID / iOS CLIENT</text>
+
+  <circle cx="76" cy="194" r="14" fill="#ba6046"/><text x="76" y="199" class="number">1</text>
+  <text x="101" y="201" class="step">Deploy both models</text>
+  <rect x="64" y="230" width="282" height="74" rx="10" fill="#f2e8de"/>
+  <text x="80" y="258" font-size="19" font-weight="600">gpt-live-1</text>
+  <text x="80" y="283" class="small">Real-time voice model</text>
+  <rect x="64" y="318" width="282" height="74" rx="10" fill="#f2e8de"/>
+  <text x="80" y="346" font-size="19" font-weight="600">GPT-5.6 or newer</text>
+  <text x="80" y="371" class="small">Backend LLM, where available</text>
+  <text x="64" y="426" class="small">Get both endpoints and API keys</text>
+  <text x="64" y="450" class="small">and actual model / deployment names</text>
+
+  <circle cx="471" cy="194" r="14" fill="#ba6046"/><text x="471" y="199" class="number">2</text>
+  <text x="496" y="201" class="step">Install Windows</text>
+  <text x="459" y="230" class="small">Download, extract, and open Live Voice</text>
+  <path d="M459 249 H741" stroke="#e8e1d7"/>
+  <circle cx="471" cy="280" r="14" fill="#ba6046"/><text x="471" y="285" class="number">3</text>
+  <text x="496" y="287" class="step">Configure and test</text>
+  <text x="459" y="316" class="small">Settings → Connections → Save and test</text>
+  <path d="M459 335 H741" stroke="#e8e1d7"/>
+  <circle cx="471" cy="366" r="14" fill="#ba6046"/><text x="471" y="371" class="number">4</text>
+  <text x="496" y="373" class="step">Generate encrypted QR</text>
+  <text x="459" y="402" class="small">Select both connections; set a passphrase</text>
+  <text x="459" y="446" class="small">Use the QR and passphrase on your phone</text>
+
+  <circle cx="866" cy="194" r="14" fill="#ba6046"/><text x="866" y="199" class="number">5</text>
+  <text x="891" y="201" class="step">Install mobile</text>
+  <text x="854" y="230" class="small">Android: APK · iOS: sign with Xcode</text>
+  <path d="M854 249 H1136" stroke="#e8e1d7"/>
+  <circle cx="866" cy="280" r="14" fill="#ba6046"/><text x="866" y="285" class="number">6</text>
+  <text x="891" y="287" class="step">Scan to import</text>
+  <text x="854" y="316" class="small">Same passphrase → Review → Test and save</text>
+  <path d="M854 335 H1136" stroke="#e8e1d7"/>
+  <circle cx="866" cy="366" r="14" fill="#ba6046"/><text x="866" y="371" class="number">7</text>
+  <text x="891" y="373" class="step">Start talking</text>
+  <text x="854" y="402" class="small">Enable backend; start and allow microphone</text>
+  <text x="854" y="446" class="small">Connections imported. Ready to talk.</text>
+
+  <path d="M379 292 H424" fill="none" stroke="#ba6046" stroke-width="3" marker-end="url(#arrow)"/>
+  <path d="M774 292 H819" fill="none" stroke="#ba6046" stroke-width="3" marker-end="url(#arrow)"/>
+  <path d="M995 491 V540 H205 V491" fill="none" stroke="#517581" stroke-width="2" stroke-dasharray="6 5" marker-end="url(#blue-arrow)"/>
+  <rect x="348" y="519" width="504" height="40" rx="12" fill="#eaf0f0"/>
+  <text x="600" y="545" text-anchor="middle" font-size="16" fill="#355b65">Phone connects to Foundry; Windows can close</text>
+  <text x="40" y="597" class="small">QR codes transfer encrypted connections only, not preferences, history, or recordings. Model usage is billed by the service.</text>
+</svg>

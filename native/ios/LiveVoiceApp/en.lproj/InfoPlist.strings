@@ -1,0 +1,2 @@
+"NSMicrophoneUsageDescription" = "Live Voice uses the microphone for conversations you start. Both voices are recorded on this device until you delete them.";
+"NSCameraUsageDescription" = "Live Voice uses the camera only to scan connection configuration QR codes.";

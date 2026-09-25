@@ -1,0 +1,21 @@
+{
+  "name": "live-voice-pc-config",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node server.mjs",
+    "test": "node --test tests/*.test.mjs",
+    "vendor": "node scripts/vendor.mjs"
+  },
+  "dependencies": {
+    "qrcode-generator": "2.0.4",
+    "ws": "8.21.3"
+  },
+  "devDependencies": {
+    "jsqr": "1.4.0"
+  },
+  "engines": {
+    "node": ">=22"
+  }
+}

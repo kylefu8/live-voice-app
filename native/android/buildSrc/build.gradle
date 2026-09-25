@@ -1,0 +1,14 @@
+plugins { id 'java' }
+
+repositories {
+    google()
+    mavenCentral()
+}
+
+dependencies {
+    // Use the complete, matching AGP on this classloader. Depending only on
+    // gradle-api splits AGP types and prevents AsyncStorage's KSP task wiring.
+    implementation 'com.android.tools.build:gradle:8.12.0'
+    implementation 'org.ow2.asm:asm:9.8'
+    testImplementation 'junit:junit:4.13.2'
+}

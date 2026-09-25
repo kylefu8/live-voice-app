@@ -1,0 +1,10 @@
+import {build} from 'esbuild';
+import {readdir,mkdir} from 'node:fs/promises';
+import {spawnSync} from 'node:child_process';
+import {fileURLToPath} from 'node:url';
+const root=fileURLToPath(new URL('../',import.meta.url));
+await mkdir(new URL('../.test-build/',import.meta.url),{recursive:true});
+const tests=(await readdir(new URL('../tests/',import.meta.url))).filter(name=>name.endsWith('.test.mjs'));
+for(const name of tests) await build({entryPoints:[`${root}/tests/${name}`],outfile:`${root}/.test-build/${name}`,bundle:true,platform:'node',format:'esm',target:'node24',external:['electron','ws','bufferutil','utf-8-validate'],logLevel:'warning'});
+const result=spawnSync(process.execPath,['--test',...tests.map(name=>`.test-build/${name}`)],{cwd:root,stdio:'inherit'});
+process.exitCode=result.status??1;

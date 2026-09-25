@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="zh-CN" data-theme="light">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+    <meta name="color-scheme" content="light dark">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self' data:; connect-src 'none'; object-src 'none'; base-uri 'none'; form-action 'none'">
+    <title>Live Voice · 交互原型</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="i18n.js" defer></script>
+    <script src="app.js" defer></script>
+  </head>
+  <body>
+    <main class="prototype-shell">
+      <aside class="prototype-intro" aria-label="原型说明" data-i18n-aria="原型说明">
+        <span class="prototype-control" data-i18n="交互原型 · 示例数据">交互原型 · 示例数据</span>
+        <p class="intro-kicker">VOICE COMPANION</p>
+        <h1><span data-i18n="让每次开口，">让每次开口，</span><br><span data-i18n="都像自然聊天。">都像自然聊天。</span></h1>
+        <p class="intro-copy" data-i18n="通用聊天与口语练习共用一套简单的实时交流体验。选择模式，点一下，就可以开始。">通用聊天与口语练习共用一套简单的实时交流体验。选择模式，点一下，就可以开始。</p>
+        <div class="intro-note">
+          <span class="intro-note-icon" aria-hidden="true">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M12 3.5a8.5 8.5 0 0 0-8.5 8.5c0 1.7.5 3.3 1.4 4.6L4 20.5l4.1-1.1A8.5 8.5 0 1 0 12 3.5Z" />
+              <path d="M8.5 12h.01M12 12h.01M15.5 12h.01" />
+            </svg>
+          </span>
+          <span data-i18n="这是可点击的界面演示。它不连接模型，也不访问麦克风或相机。">这是可点击的界面演示。它不连接模型，也不访问麦克风或相机。</span>
+        </div>
+        <div class="intro-points" aria-label="原型范围" data-i18n-aria="原型范围">
+          <div class="intro-point"><span class="point-mark">01</span><span data-i18n="一键进入自然对话">一键进入自然对话</span></div>
+          <div class="intro-point"><span class="point-mark">02</span><span data-i18n="随时插话，语音即时让路">随时插话，语音即时让路</span></div>
+          <div class="intro-point"><span class="point-mark">03</span><span data-i18n="设置、历史与扫码导入集中管理">设置、历史与扫码导入集中管理</span></div>
+        </div>
+      </aside>
+
+      <section class="phone" aria-label="手机预览" data-i18n-aria="手机预览">
+        <div class="phone-statusbar" aria-hidden="true">
+          <span>9:41</span>
+          <span class="statusbar-icons"><span class="statusbar-signal"></span><span class="statusbar-wifi"></span><span class="statusbar-battery"></span></span>
+        </div>
+        <div id="app"></div>
+        <noscript><p class="noscript-note">请启用 JavaScript 查看交互原型。<br>Enable JavaScript to view the interactive prototype.</p></noscript>
+      </section>
+    </main>
+    <div id="toast" class="toast" role="status" aria-live="polite" aria-atomic="true"></div>
+  </body>
+</html>

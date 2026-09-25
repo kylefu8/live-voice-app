@@ -1,0 +1,23 @@
+{
+  "name": "live-voice-desktop",
+  "productName": "Live Voice",
+  "version": "0.2.0-2",
+  "private": true,
+  "description": "Live Voice Windows client",
+  "main": "dist/main.cjs",
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "start": "electron .",
+    "test": "node scripts/test.mjs",
+    "package": "node scripts/package.mjs"
+  },
+  "devDependencies": {
+    "@electron/packager": "20.3.0",
+    "electron": "44.4.3",
+    "esbuild": "0.28.2",
+    "ws": "8.21.3"
+  },
+  "engines": {
+    "node": ">=24"
+  }
+}

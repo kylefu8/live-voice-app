@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "connections": {
+    "voice": {
+      "endpoint": "https://voice.example.test/v1/",
+      "model": "gpt-live-1",
+      "auth": "bearer",
+      "apiKey": "synthetic-voice-key-7f3a"
+    },
+    "backend": {
+      "endpoint": "https://backend.example.test/openai/",
+      "model": "reasoning-mini",
+      "auth": "api-key",
+      "apiKey": "synthetic-backend-key-9c2b"
+    }
+  }
+}

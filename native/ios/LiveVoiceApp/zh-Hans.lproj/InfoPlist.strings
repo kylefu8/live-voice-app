@@ -1,0 +1,2 @@
+"NSMicrophoneUsageDescription" = "Live Voice 使用麦克风进行你主动开始的语音对话。双方声音自动保存在本机，直到你手动删除。";
+"NSCameraUsageDescription" = "Live Voice 仅使用相机扫描连接配置二维码。";
